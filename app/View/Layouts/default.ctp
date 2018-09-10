@@ -262,11 +262,11 @@
             <table class="dotacja">
                 <tr>
                     <td style="text-align:left;"><img src="/uploaded/ue/poig.png" alt=''/></td>
-                    <td class="dot_info"> Dotacje na innowacje – inwestujemy w waszą przyszłość <br/>2015 &copy; feb.b2b / Fabryka e-biznesu.</td>
+                    <td class="dot_info"> Dotacje na innowacje – inwestujemy w waszą przyszłość <br/><?php echo date('Y') ?> &copy; feb.b2b / Fabryka e-biznesu.</td>
                     <td style="text-align:right;"><img src="/uploaded/ue/efrr.png" alt=''/></td>
                 </tr>
             </table>
-            <div class="dot_info_div">Dotacje na innowacje – inwestujemy w waszą przyszłość <br/>2015 &copy; feb.b2b / Fabryka e-biznesu.</div>
+            <div class="dot_info_div">Dotacje na innowacje – inwestujemy w waszą przyszłość <br/><?php echo date('Y') ?> &copy; feb.b2b / Fabryka e-biznesu.</div>
 
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>

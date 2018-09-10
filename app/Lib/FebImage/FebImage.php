@@ -242,12 +242,12 @@ class FebImage {
         return true;
     }
 
-    function imageSize($fileName) {
+    static function imageSize($fileName) {
         $fileName = WWW_ROOT . $fileName;
         return @getimagesize($fileName);
     }
 
-    function cropCords($imageOptions = array(), $srcData = array()) {
+    static function cropCords($imageOptions = array(), $srcData = array()) {
 
         $srcX = $srcY = 0;
 
@@ -317,40 +317,40 @@ class FebImage {
         }
     }
 
-    function image($source = null, $target = null) {
-        self::$res = Asido::image($source, $target);
+    static function image($source = null, $target = null) {
+        self::$res = (new Asido)->image($source, $target);
         return self::$res;
     }
 
-    function save($overwrite_mode = ASIDO_OVERWRITE_ENABLED) {
+    static function save($overwrite_mode = ASIDO_OVERWRITE_ENABLED) {
         return self::$res->save($overwrite_mode);
     }
 
-    function resize($width, $height, $x = null, $y = null, $w = null, $h = null, $mode = ASIDO_RESIZE_PROPORTIONAL) {
-        return Asido::resize(self::$res, $width, $height, $x, $y, $w, $h, $mode);
+    static function resize($width, $height, $x = null, $y = null, $w = null, $h = null, $mode = ASIDO_RESIZE_PROPORTIONAL) {
+        return (new Asido)->resize(self::$res, $width, $height, $x, $y, $w, $h, $mode);
     }
 
-    function width($width) {
+    static function width($width) {
         return Asido::width(self::$res, $width);
     }
 
-    function height($height) {
+    static function height($height) {
         return Asido::height(self::$res, $height);
     }
 
-    function stretch($width, $height) {
+    static function stretch($width, $height) {
         return Asido::stretch(self::$res, $width, $height);
     }
 
-    function fit($width, $height) {
+    static function fit($width, $height) {
         return Asido::fit(self::$res, $width, $height);
     }
 
-    function frame($width, $height, $color = null) {
+    static function frame($width, $height, $color = null) {
         return Asido::frame(self::$res, $width, $height, $color);
     }
 
-    function convert($mime_type) {
+    static function convert($mime_type) {
         return Asido::convert(self::$res, $mime_type);
     }
 
@@ -363,7 +363,7 @@ class FebImage {
         return Asido::grayscale(self::$res);
     }
 
-    function rotate($angle, $color = null) {
+    static function rotate($angle, $color = null) {
         return Asido::rotate(self::$res, $angle, $color);
     }
 
