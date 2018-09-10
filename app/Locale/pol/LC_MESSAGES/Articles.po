@@ -1,0 +1,37 @@
+//Model Articles 
+
+msgid "Content"
+msgstr "Content"
+msgid "Show From"
+msgstr "Show From"
+msgid "Show To"
+msgstr "Show To"
+msgid "Article Category Id"
+msgstr "Article Category Id"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Articles"
+msgstr "Articles"
+
+msgid "New Article"
+msgstr "Dodaj Article"
+
+msgid "List Articles"
+msgstr "Lista Articles"
+
+msgid "Edit Articles"
+msgstr "Edycja Articles"
+
+msgid "Delete Articles"
+msgstr "Usuń Articles"
+
+msgid "Admin Add Article"
+msgstr "Dodawanie Article"
+
+msgid "Admin Edit Article"
+msgstr "Edycja Article"
+
+msgid "Article Data"
+msgstr "Dane Article"
+

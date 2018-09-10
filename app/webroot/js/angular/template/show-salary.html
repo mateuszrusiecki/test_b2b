@@ -1,0 +1,15 @@
+<a ng-if="!salary_visible" ng-click="showSalary()">
+    (Pokaż)
+</a>
+<span  ng-if="salary_visible" >
+    <span ng-show="salary">
+        {{salary}} zł 
+
+        <a ng-click="hideSalary()">
+            (Ukryj)
+        </a>
+    </span>
+    <span ng-hide="salary">
+        zabronione
+    </span>
+</span>

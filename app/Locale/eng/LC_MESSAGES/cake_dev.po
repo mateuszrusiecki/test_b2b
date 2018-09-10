@@ -1,0 +1,54 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Console\Command\TestsuiteShell.php:176
+msgid "Please install PHPUnit framework <info>(http://www.phpunit.de)</info>"
+msgstr ""
+
+#: Console\Command\Task\TestTask.php:293
+msgid "Invalid object type."
+msgstr ""
+
+#: Console\Templates\skel\webroot\test.php:87
+#: webroot\bootstrap_phpunit.php:90
+#: webroot\test.php:87
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: View\Errors\pdo_error.ctp:19
+msgid "Database Error"
+msgstr ""
+
+#: View\Errors\pdo_error.ctp:21
+msgid "Error"
+msgstr ""
+
+#: View\Errors\pdo_error.ctp:26
+msgid "SQL Query"
+msgstr ""
+
+#: View\Errors\pdo_error.ctp:44
+msgid "SQL Query Params"
+msgstr ""
+
+#: View\Errors\pdo_error.ctp:48
+msgid "Notice"
+msgstr ""
+
+#: View\Errors\pdo_error.ctp:49
+msgid "If you want to customize this error message, create %s"
+msgstr ""
+

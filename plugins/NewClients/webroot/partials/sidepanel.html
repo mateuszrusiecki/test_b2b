@@ -1,0 +1,270 @@
+<div class="leftpanel" ng-show="allPanelsVisible && sidebarVisible">
+    <div id="closedstate" class="sbdiv" ng-show="!leftSidebarVisible">
+        <div>
+            <div style="padding: 6px 14px 0 0">
+                <div class="sb-toggler">
+                    <a href="" ng-click="leftSidebarVisible = !leftSidebarVisible"><span
+                            class="arrow-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="openstate" ng-show="leftSidebarVisible" class="sbdiv">
+        <div class="sb-header">
+            <div class="pull-left">
+                <a href="#"><img src="img/logo_feb.png"></a>
+            </div>
+            <div class="pull-left sb-title">
+                <div>PROJEKTY GRAFICZNE</div>
+                <div class="pull-left sb-subtitle">
+                    <a ng-if="routeParams.mode == 'lead_id'" ng-href="#/projects/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/">powrót do listy projektów</a>
+                    <a ng-if="routeParams.mode == 'client_project_id'" ng-href="#/projects/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/">powrót do listy projektów</a>
+                    <a ng-if="!routeParams.mode" href="#/projects/">powrót do listy projektów</a>
+                </div>  
+            </div>
+            <div class="sb-toggler" style="padding: 10px 0">
+                <a href="" ng-click="leftSidebarVisible = !leftSidebarVisible"><span
+                        class="arrow"></span></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="sb-toolbar">
+            <div class="pull-left whoami">
+                <p>
+                    Zalogowany jako: <span class="red bold ">{{whoami}}</span>
+                </p>
+                <p ng-show="currentUser.role == 'manager'">
+                    Projekt: <span class="bold">{{clientName}} |
+                        {{projectName}}</span>
+                </p>
+                <p ng-hide="currentUser.role == 'manager'">
+                    Projekt: <span class="bold">{{projectName}}</span>
+                </p>
+            </div>
+            <div class="pull-right toolbar">
+                
+                <!--
+                <a href="" ng-click="newProject()" ng-show="currentUser.role == 'manager'"><i
+                        class="fa fa-plus-circle green"></i></a> 
+                <a
+                -->
+                <div class="pull-left sb-subtitle">
+                    <a ng-if="routeParams.mode == 'lead_id' && currentUser.role == 'manager'" target="_blank" href="/new_clients/main#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/0/">
+                        <i class="fa fa-plus-circle green"></i>
+                    </a>
+                    <a ng-if="routeParams.mode == 'client_project_id' && currentUser.role == 'manager'" target="_blank" href="/new_clients/main#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/0/">
+                        <i class="fa fa-plus-circle green"></i>
+                    </a>
+                    <a ng-if="!routeParams.mode && currentUser.role == 'manager'" target="_blank" href="#/settings/project/0/">
+                        <i class="fa fa-plus-circle green"></i>
+                    </a>
+                </div>  
+                    
+                <div class="pull-left sb-subtitle">
+                    
+                    <a ng-if="routeParams.mode == 'lead_id' && currentUser.role == 'manager'" target="_blank" href="/new_clients/main#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/{{routeParams.projectId}}/">
+                        <i class="fa fa-gears"></i>
+                    </a>
+                    <a ng-if="routeParams.mode == 'client_project_id' && currentUser.role == 'manager'" target="_blank" href="/new_clients/main#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/{{routeParams.projectId}}/">
+                        <i class="fa fa-gears"></i>
+                    </a>
+                    <a ng-if="!routeParams.mode && currentUser.role == 'manager'" target="_blank" href="#/settings/project/{{routeParams.projectId}}/">
+                        <i class="fa fa-gears"></i>
+                    </a>
+                    <!--
+                        <a ng-if="routeParams.mode == 'lead_id' && currentUser.role == 'manager'" target="_blank" href="#/settings/leadProjectMode/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/">
+                            <i class="fa fa-gears"></i>
+                        </a>
+                        <a ng-if="routeParams.mode == 'client_project_id' && currentUser.role == 'manager'" target="_blank" href="#/settings/leadProjectMode/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/">
+                            <i class="fa fa-gears"></i>
+                        </a>
+                        <a ng-if="!routeParams.mode && currentUser.role == 'manager'" target="_blank" href="#/settings">
+                            <i class="fa fa-gears"></i>
+                        </a>
+                   -->
+                </div>  
+                
+                   <a href="/">
+                        <i class="fa fa-sign-out red"></i>
+                   </a>
+            </div>
+            <div class="pull-right separator"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="projectDetails">
+            <dl class="sidebar">
+                <dt ng-repeat-start="category in project.Category"
+                    class="sb-category"
+                    ng-click="catToggleCollapse(category)">
+                <div class="sb-category-title pull-left">{{category.title}}</div>
+                <div class="sb-arrow pull-right">
+                    <i class="fa"
+                       ng-class="{'fa-angle-down': catCollapsed[category.id] == 1, 'fa-angle-right': catCollapsed[category.id] != 1}"></i>
+                </div>
+                <div class="clearfix"></div>
+                </dt>
+                <dd ng-repeat-end ng-show="catCollapsed[category.id] == 1">
+                    <dl class="sidebar">
+                        <dt ng-repeat-start="view in category.pView"
+                            class="sb-view" ng-class-odd="'odd1'"
+                            ng-class-even="'even1'"
+                            ng-click="viewToggleCollapse(view.category_id, view)">
+                        <div class="sb-view-title pull-left">{{view.name}}</div>
+                        <div class="sb-arrow pull-right">
+                            <i class="fa"
+                               ng-class="{'fa-angle-down': viewCollapsed[view.category_id][view.id] == 1, 'fa-angle-right': viewCollapsed[view.category_id][view.id] != 1}"></i>
+                        </div>
+                        <div ng-show="currentUser.role != 'worker'" class="pull-right sb-acceptance-status-client">
+                            <i class="fa fa-question"
+                               ng-show="view.acceptance_status == 0"
+                               style="padding-left: 2px"></i> <i
+                               class="fa fa-thumbs-up text-success"
+                               ng-show="view.acceptance_status == 1"></i> <i
+                               class="fa fa-thumbs-down text-danger"
+                               ng-show="view.acceptance_status == 2"></i>
+                        </div>
+                        <div ng-show="currentUser.role != 'worker'" class="sb-comments-number pull-right"
+                             style="position: relative">
+                            <i class="fa fa-comments-o feb"><div style="display: inline-block; width: 24px; text-align: right"><span
+                                        class="comment white">{{view.comment_count}}</span></div></i>
+                        </div>
+                        <div class="clearfix"></div>
+                        </dt>
+                        <dd ng-repeat-end
+                            ng-show="viewCollapsed[view.category_id][view.id] == 1">
+                            <dl class="sidebar">
+                                <dt ng-repeat-start="version in view.Version"
+                                    class="sb-version" ng-class="{'active': version.id == $root.currentVersion.id}"
+                                    ng-click="setVersion(version)">
+                                <div class="sb-version-title pull-left">wersja
+                                    {{version.number}}</div>
+                                <div class="sb-arrow pull-right">&nbsp;</div>
+                                <div ng-show="currentUser.role != 'worker'"
+                                     class="pull-right sb-acceptance-status-client">
+                                    <i class="fa fa-thumbs-up"
+                                       ng-class="{'text-success': version.acceptance_status == 1}"
+                                       title="Akceptuję"
+                                       ng-click="toggleAcceptance(1, version)"></i>
+                                    <i class="fa fa-thumbs-down"
+                                       ng-class="{'text-danger': version.acceptance_status == 2}"
+                                       title="Odrzucam"
+                                       ng-click="toggleAcceptance(2, version)"></i>
+                                </div>
+                                <div ng-show="currentUser.role != 'worker'" class="sb-comments-number pull-right"
+                                     style="position: relative">
+                                    <i class="fa fa-comments-o feb"><div style="display: inline-block; width: 24px; text-align: right"><span
+                                                class="comment white">{{version.comment_count}}</span></div></i>
+                                </div>
+                                <div class="sb-visible pull-right">
+                                    <i class="fa fa-eye"
+                                       ng-show="currentUser.role == 'manager'"
+                                       ng-class="{'eyehidden': version.visible == 0, 'eyeshowed': version.visible == 1}"
+                                       ng-click="toggleVersionVisibility(version)"></i>
+                                </div>
+                                <div class="clearfix"></div>
+                                </dt>
+                                <dd ng-repeat-end></dd>
+                            </dl>
+                        </dd>
+                    </dl>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="toppanel-opened sbdiv" ng-show="allPanelsVisible && sidebarVisible" ng-class="{'opened-small' : currentUser.role == 'worker'}">
+    <div class="sb-icon-container sb-tooltip" data-toggle="tooltip"
+         data-placement="left" title="Ukryj narzędzia"
+         ng-click="$root.allPanelsVisible = !$root.allPanelsVisible">
+        <span class="icon-eye sb-icon"></span>
+    </div>
+    <div ng-show="currentUser.role != 'worker'" class="sb-icon-container sb-tooltip" title="Zaznacz obszar"
+         data-placement="left">
+        <span class="fa fa-crop sb-icon"
+              ng-class="{'drawing-mode': drawingMode == true}"
+              ng-click="toggleDrawingMode()"
+              ng-class="{'eyehidden':currentVersion == null}"></span>
+    </div>
+</div>
+<div class="toppanel-closed sbdiv" ng-show="!allPanelsVisible && sidebarVisible">
+    <div class="sb-icon-container sb-tooltip" data-toggle="tooltip"
+         data-placement="left" title="Pokaż narzędzia"
+         ng-click="$root.allPanelsVisible = !$root.allPanelsVisible">
+        <span class="icon-eye sb-icon eyehidden"></span>
+    </div>
+</div>
+<div class="commentpanel"
+     ng-show="allPanelsVisible && commentsPanelVisible && sidebarVisible && currentUser.role != 'worker'">
+    <div class="sbdiv commentpanel-closed" ng-hide="commentsPanelOpened">
+        <div class="sb-icon-container sb-tooltip" title="Pokaż komentarze"
+             data-toggle="tooltip" data-placement="left"
+             ng-click="commentsPanelOpened = !commentsPanelOpened">
+            <span class="fa fa-angle-up sb-icon"></span>
+        </div>
+        <div ng-show="commentsPanelOpened">!</div>
+    </div>
+    <div class="sbdiv commentpanel commentpanel-opened"
+         ng-show="commentsPanelOpened">
+        <div class="commentpanel-header">
+            <div class="pull-left">
+                <i class="fa fa-file-text-o" style="font-size: 1.5em"></i><span
+                    class="commentpanel-title"> &nbsp;&nbsp;Komentarze</span>
+            </div>
+            <div class="pull-right comment-arrow"
+                 ng-click="commentsPanelOpened = !commentsPanelOpened"
+                 style="padding-top: 6px; width: 15px">
+                <a href=""><span class="fa fa-angle-down sb-icon"></span></a>
+            </div>
+            <div class="pull-right separator" style="margin: 0 12px 0 12px"></div>
+            <div class="pull-right"
+                 style="text-align: center; width: 24px; padding-top: 6px"
+                 ng-show="!showAddCommentInput">
+                <a href="" ng-click="toggleShowAddCommentInput()"><i
+                        class="fa fa-plus-circle green"></i></a>
+            </div>
+            <div class="pull-right"
+                 style="text-align: center; padding-top: 0px"
+                 ng-show="showAddCommentInput">
+                <div class="pull-right" style="padding: 6px 2px 0px 5px"><i class="fa fa-times-circle pointer red" ng-click="showAddCommentInput = false"></i></div>
+                <div class="input-icon right pull-right" style="width: 450px">
+                    <i class="fa fa-plus-circle pointer" style="margin-top: 8px" ng-click="addCommentWithoutRegion()"></i>
+                    <input type="text" class="form-control input-sm" name="newComment"
+                           placeholder="Nowy komentarz..." ng-model="$root.newComment"
+                           style="font-size: 11px;">
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div style="height: 85%; overflow-y: auto">
+            <div class="table-scrollable"  style="margin-top: 0;">
+                <table ng-table="commentsTable" class="table gc table-striped table-bordered table-advance table-hover margin-bottom-20">
+                    <tr ng-repeat="item in currentVersion.comments"
+                        ng-class-odd="'odd'">
+                        <td data-title="'Autor'" class="bold valign"
+                            ng-class="{'feb': true}">{{item.User.Profile.name}}</td>
+                        <td data-title="'Data, czas'" class="nowrap valign">{{item.Comment.created
+                                        | substring:8:10}}.{{item.Comment.created|
+                        substring:5:7}}.{{item.Comment.created|
+                        substring:0:4}}&nbsp;|&nbsp;{{item.Comment.created|
+                        substring:11:16}}</td>
+                        <td data-title="'Komentarz'">{{item.Comment.content}}</td>
+                        <td data-title="'Obszar'" class="text-center bold valign"
+                            ng-class="{'feb': true}">{{item.Region.number}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="rectangleDiv" hidden></div>
+<script>
+    $('div.sb-tooltip').tooltip({
+        delay: {
+            show: 1000,
+            hide: 100
+        }
+    });
+</script>

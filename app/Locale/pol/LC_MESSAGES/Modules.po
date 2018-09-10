@@ -1,0 +1,47 @@
+//Model Modules 
+
+msgid "Client Project Id"
+msgstr "Client Project Id"
+msgid "Module Category Id"
+msgstr "Module Category Id"
+msgid "Desc"
+msgstr "Desc"
+msgid "Lang"
+msgstr "Lang"
+msgid "Manager User Id"
+msgstr "Manager User Id"
+msgid "Contact User Id"
+msgstr "Contact User Id"
+msgid " Comments"
+msgstr " Comments"
+msgid "Rep Type"
+msgstr "Rep Type"
+msgid "Rep Path"
+msgstr "Rep Path"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Modules"
+msgstr "Modules"
+
+msgid "New Module"
+msgstr "Dodaj Module"
+
+msgid "List Modules"
+msgstr "Lista Modules"
+
+msgid "Edit Modules"
+msgstr "Edycja Modules"
+
+msgid "Delete Modules"
+msgstr "Usuń Modules"
+
+msgid "Admin Add Module"
+msgstr "Dodawanie Module"
+
+msgid "Admin Edit Module"
+msgstr "Edycja Module"
+
+msgid "Module Data"
+msgstr "Dane Module"
+

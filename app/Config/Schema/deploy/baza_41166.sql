@@ -1,0 +1,1 @@
+ALTER TABLE `projects` CHANGE `project_id` `client_project_id` INT( 10 ) NOT NULL;

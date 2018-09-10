@@ -1,0 +1,2 @@
+ALTER TABLE  `client_projects` ADD  `account_manager_id` CHAR( 36 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT  'handlowiec projektu' AFTER  `project_author`;
+ALTER TABLE  `client_projects` CHANGE  `project_author`  `project_author_id` CHAR( 36 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT  'autor projektu';

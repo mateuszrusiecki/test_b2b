@@ -1,0 +1,1 @@
+ALTER TABLE `clients` ADD `modified` DATETIME NULL AFTER `archive`, ADD `created` DATETIME NULL AFTER `modified`;

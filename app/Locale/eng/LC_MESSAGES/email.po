@@ -1,0 +1,44 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller\BriefsController.php:425
+msgid " Przygotowaliśmy dla Państwa brief"
+msgstr ""
+
+#: Controller\BriefsController.php:652
+msgid "Przygotowaliśmy dla Państwa brief"
+msgstr ""
+
+#: Controller\Component\LogMailComponent.php:169
+msgid "Prośba o autoryzację"
+msgstr ""
+
+#: Controller\Component\LogMailComponent.php:191
+msgid "Projekt zamknięty bez protokołu odbioru"
+msgstr ""
+
+#: Plugin\Commerce\Controller\CustomersController.php:565
+msgid "[www] Przejdź do aktywacji konta"
+msgstr ""
+
+#: Plugin\Page\Controller\PagesController.php:120;128
+msgid "Kontakt"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:330
+msgid "Przejdź do aktywacji konta"
+msgstr ""
+

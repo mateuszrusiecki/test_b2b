@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-05-13, 12:33:02
+    Author     : Damian Czyż
+*/
+
+body{
+    font-family: 'Georgia','serif';
+    font-size: 4mm;
+    line-height: 5mm;
+    line-height: 20px;
+    font-size: 12px;
+}
+.wrapper {
+    min-height: 300mm;
+    min-height: 800px;
+}
+.tr{
+    text-align: right;
+}
+.tc{
+    text-align: center;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.bb{
+    border-bottom: .5mm solid #000;
+    border-bottom: 1px solid #000;
+}
+.b{
+    border: .5mm solid #000;
+    border: 1px solid #000;
+}
+.pb10{
+    padding-bottom: 10mm;
+    padding-bottom: 40px;
+}
+.leftPage{
+    float: left;
+    width: 50%;
+}
+.rightPage{
+    float: right;
+    width: 50%;
+}
+#seller{
+    border: 2mm solid #000;
+    border-width: .5mm 1.5mm 1.5mm .5mm;
+    margin-right: 4mm;
+    padding: 1mm 2mm 8mm;
+    border: 2px solid #000;
+    border-width: 1px 3px 3px 1px;
+    margin-right: 16px;
+    padding: 4px 8px 32px;
+} 
+#data{
+
+}
+#data .dataHeader{
+    font-size: 4mm;
+    font: bold 7mm/9mm serif;
+    font: bold 28px/36px serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+#buyer{
+
+}
+#recipient{
+}
+table#products{
+    margin-top: 5mm;
+    margin-top: 20px;
+    width: 100%;
+}
+#summary{
+    text-align: right;
+    
+}
+#summary .grey{
+    font-weight: bold;
+    font-size: 5mm;
+    line-height: 7mm;
+    padding: 0 2mm;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 8px;
+}
+.grey{
+    background-color: lightgray;
+}
+table#paid{
+    width: 100%
+}
+table#paid td{
+    padding-top: 5mm;
+    padding-top: 20px;
+}
+table#paid tr.small td{
+    font-size: 3mm;
+    font-size: 12px;
+    padding-top: 0;
+}

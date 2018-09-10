@@ -1,0 +1,39 @@
+//Model Hr Settings 
+
+msgid "Margin"
+msgstr "Margin"
+msgid "Buffer"
+msgstr "Buffer"
+msgid "It Rate"
+msgstr "It Rate"
+msgid "Hostname"
+msgstr "Hostname"
+msgid "Username"
+msgstr "Username"
+msgid "Password"
+msgstr "Password"
+
+msgid "Hr Settings"
+msgstr "Hr Settings"
+
+msgid "New Hr Setting"
+msgstr "Dodaj Hr Setting"
+
+msgid "List Hr Settings"
+msgstr "Lista Hr Settings"
+
+msgid "Edit Hr Settings"
+msgstr "Edycja Hr Settings"
+
+msgid "Delete Hr Settings"
+msgstr "Usuń Hr Settings"
+
+msgid "Admin Add Hr Setting"
+msgstr "Dodawanie Hr Setting"
+
+msgid "Admin Edit Hr Setting"
+msgstr "Edycja Hr Setting"
+
+msgid "Hr Setting Data"
+msgstr "Dane Hr Setting"
+

@@ -1,0 +1,1 @@
+<?php echo $this->element('PhotoCategories/indexsort', array('tree' => $tree)); ?>

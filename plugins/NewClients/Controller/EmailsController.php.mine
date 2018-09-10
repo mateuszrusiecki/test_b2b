@@ -1,0 +1,164 @@
+<?php
+
+App::uses('FebEmail', 'Lib');		
+App::uses('NewClientsAppController', 'NewClients.Controller');
+
+class EmailsController extends NewClientsAppController {
+    
+    public $autoRender = false;
+    
+    public $components = array('FebEmail');
+    
+    public $uses = array(
+        'NewClients.Comment',
+    );
+    
+    /**
+     * Pobieranie komentarzy do potwierdzenia mailowego
+     * 
+     * @return array             lista komentarzy
+     */
+    private function getComments(){
+        
+        return $this->Comment->find('all', array(
+                'contidions' => array(
+                    'Comment.email_confirmed' => 0
+                ),
+                'fields' => array(
+                    'Comment.id',
+                    'Comment.content',
+                    'Comment.version_id',
+                    'Comment.created',
+                    'Comment.modified',
+                ),
+                'contain' => array(
+                    'Version' => array(
+                        'fields' => array(
+                            'Version.id',
+                            'Version.view_id',
+                            'Version.view_id',
+                        ),
+                        'View' => array(
+                            'fields' => array(
+                                'View.id',
+                                'View.project_id',
+                            ),
+                            'Project' => array(
+                                'fields' => array(
+                                    'Project.id',
+                                    'Project.manager_id',
+                                    'Project.title',
+                                ),
+                                'Manager' => array(
+                                    'fields' => array(
+                                        'Manager.id',
+                                        'Manager.email',
+                                    )
+                                )
+                            )                               
+                        )                    
+                    )
+                )
+            )
+        );
+    }
+    
+    /**
+     * Funkcja przygotowująca dane do wysyłki maili. Który koordynator, w jakich projektach, otrzymał ile jakich komentarzy
+     * 
+     * @param array $comments        tablica pobranych wcześniej komentarzy
+     * @return array                 dane koordynatorów
+     */
+    public function prepareCoordinatorsData($comments){
+        
+        $coordinatorsData = array();
+        
+        foreach($comments as $comment){
+           $coordinatorEmail = $comment['Version']['View']['Project']['Manager']['email'];
+           $projectTitle = $comment['Version']['View']['Project']['title'];
+           
+           if(!isset($coordinatorsData[$coordinatorEmail])){
+               $coordinatorsData[$coordinatorEmail] = array();
+           }
+           
+           if(!isset($coordinatorsData[$coordinatorEmail][$projectTitle])){
+               $coordinatorsData[$coordinatorEmail][$projectTitle] = array();
+           }         
+           
+           $coordinatorsData[$coordinatorEmail][$projectTitle][] = array(
+               'id' => $comment['Comment']['id'],
+               'content' => $comment['Comment']['content'],
+               'created' => $comment['Comment']['created'],
+               'modified' => $comment['Comment']['modified'],
+           );
+        }
+        
+        return $coordinatorsData;
+    }
+    
+    /**
+     * Funkcja uruchamiająca się w cronie. Wysyłająca sumaryczne maile z komentarzami do koordynatorów projektów
+     * 
+     * @return void
+     */
+    public function sendCommentsEmails(){
+  
+//        App::uses('CakeEmail', 'Network/Email');
+//        
+//        $Email = new CakeEmail();
+//        
+//        $Email->sender('mkustraaaa@asd.com', 'Coś tam coś tam');
+//        $Email->from(array('me@example.com' => 'gtfrdf'));
+//        $Email->to('mkustra0@gmail.com');
+//        $Email->subject('About');
+//        
+//        //print_r($Email);
+//        $Email->send('My message');
+        App::uses('FebEmail', 'Lib');
+        
+        $email = new FebEmail('public');
+        
+        //$to[] = "<mkustra0@gmail.com>";
+
+        $email->template('gc_confirm')
+                ->emailFormat('html')
+                ->to('mkustra0@gmail.com')
+                ->from('crm@febdev.pl')
+                ->subject('gfds');
+        $response = $email->send();
+        
+        debug($response['headers']); // headers as string
+        debug($response['message']); 
+        
+        $email->reset();
+//        
+//        echo 'aaa';  
+        
+        die();
+        $comments = $this->getComments();
+                     
+        $coordinatorsData = $this->prepareCoordinatorsData($comments);
+        
+        foreach($coordinatorsData as $coordinatorEmail => $coordinatorProjects){
+            
+            foreach($coordinatorProjects as $coordinatorProject => $comments){
+                
+                //ta funkcja odpalać sie będzie w cronie co 1h
+                
+                //W TYM MIEJSCU JEST WYSYŁKA JEDNEGO MAILA DO DANEGO KOORDYNATORA Z NOWYMI KOMENTARZAMI DOTYCZĄCYMI JEDNEGO PROJEKTU
+                
+                //każdy koordynator otrzymuje co godzine sumaryczne maile z komentarzami dotyczącymi projektów, jeśli są nowe komentarze
+                
+                //$coordinatorEmail -> na tego maila trzeba wysłać             
+                //$coordinatorProject -> nazwa projektu którego dotyczą komentarze               
+                //$comments -> komentarze do wysyłki
+                
+                //W COMENTSACH SĄ TEŻ ICH ID. PO WYSŁANIU MAILA Z KOMENTARZAMI TRZEBA W TYCH KOMENTARZACH USTAWIĆ POLE 
+                
+                // w dokumentacji te maile są opisane na stronie 76
+            }
+        }
+        
+        exit();
+    }
+}    

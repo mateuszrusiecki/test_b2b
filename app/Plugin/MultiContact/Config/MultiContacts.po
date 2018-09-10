@@ -1,0 +1,32 @@
+msgid "Label"
+msgstr "Label"
+msgid "Content"
+msgstr "Kontakt"
+msgid "Latitude"
+msgstr "sz. geog"
+msgid "Longitude"
+msgstr "dł. geog"
+
+msgid "Multi Contacts"
+msgstr "Kontakt"
+
+msgid "New Multi Contact"
+msgstr "Dodaj pozycję kontaktową"
+
+msgid "List Multi Contacts"
+msgstr "Lista pozycji kontaktów"
+
+msgid "Edit Multi Contacts"
+msgstr "Edycja pozycji kontaktów"
+
+msgid "Delete Multi Contacts"
+msgstr "Usuń pozycję"
+
+msgid "Admin Add Multi Contact"
+msgstr "Dodawanie pozycji kontaktu"
+
+msgid "Admin Edit Multi Contact"
+msgstr "Edycja pozycji kontaktu"
+
+msgid "Multi Contact Data"
+msgstr "Informacje kontaktowe"

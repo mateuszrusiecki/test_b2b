@@ -1,0 +1,1 @@
+ALTER TABLE `user_contract_histories` ADD `contract_name` VARCHAR( 255 ) NOT NULL AFTER `user_id`;

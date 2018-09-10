@@ -1,0 +1,1 @@
+ALTER TABLE  `lead_files` ADD  `file_name` VARCHAR( 255 ) NULL AFTER  `file`

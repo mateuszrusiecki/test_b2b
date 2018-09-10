@@ -1,0 +1,1 @@
+ALTER TABLE `text_documents` CHANGE `share_block` `share_block` TINYINT( 1 ) NOT NULL;

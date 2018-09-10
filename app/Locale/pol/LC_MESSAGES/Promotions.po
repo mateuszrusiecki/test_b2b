@@ -1,0 +1,35 @@
+//Model Promotions 
+
+msgid "Description"
+msgstr "Description"
+msgid "Price"
+msgstr "Price"
+msgid "Show"
+msgstr "Show"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Promotions"
+msgstr "Promotions"
+
+msgid "New Promotion"
+msgstr "Dodaj Promotion"
+
+msgid "List Promotions"
+msgstr "Lista Promotions"
+
+msgid "Edit Promotions"
+msgstr "Edycja Promotions"
+
+msgid "Delete Promotions"
+msgstr "Usuń Promotions"
+
+msgid "Admin Add Promotion"
+msgstr "Dodawanie Promotion"
+
+msgid "Admin Edit Promotion"
+msgstr "Edycja Promotion"
+
+msgid "Promotion Data"
+msgstr "Dane Promotion"
+

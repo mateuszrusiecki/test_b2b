@@ -1,0 +1,1 @@
+ALTER TABLE user_groups_users DROP INDEX user_id_2;

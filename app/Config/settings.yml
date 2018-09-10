@@ -1,0 +1,35 @@
+---
+Analytics.datasource: google_analytics
+Analytics.email: statystyki@feb.net.pl
+Analytics.passwd: yf6rf23!WESUD
+App.AdminEmail: d.czyz@feb.net.pl
+App.AppName: FEB.B2B
+App.ContactEmail: d.czyz@feb.net.pl
+App.ContactName: Damian
+App.CrmMailSettings: '{mail.febdev.pl:110/pop3/novalidate-cert}INBOX'
+App.defaultLanguage: pol
+App.FebDaneReszow: >
+    Fabryka e-biznesu sp. z o.o. ul. Trembeckiego 11A 35-234
+    Rzeszów
+App.themed: 
+App.WebSenderEmail: d.czyz@feb.net.pl
+App.WebSenderName: FEB.B2B
+Facebook.appId: 190127107724245
+Facebook.LikeBox: http://www.facebook.com/pages/Klub-Polska/102105043187662
+Facebook.on: 0
+Facebook.secret: aa169487144bf8102eab2e9d12634454
+Google.searchId: 004779266633206791730:fx9f1kx0lqa
+Image.original: 1
+Maintenance.password: feb
+Maintenance.status: 1
+SEO.description: Strona CMS-a
+SEO.generator: 'Croogo - Content Management System'
+SEO.keywords: Zarządzanie
+SEO.robots: index, follow
+SEO.tagline: 'Feb CMS - Marketing alternatywny'
+Service.akismet_key: your-key
+Service.akismet_url: http://your-blog.com
+Service.recaptcha_private_key: your-private-key
+Service.recaptcha_public_key: your-public-key
+User.failed_login_duration: 301
+User.failed_login_limit: 5

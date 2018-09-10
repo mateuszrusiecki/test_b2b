@@ -1,0 +1,1 @@
+<p><?php echo __d('public', 'Dziękujemy za przesłanie informacji') ?></p>

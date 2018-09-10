@@ -1,0 +1,37 @@
+//Model Work Times 
+
+msgid "Year"
+msgstr "Year"
+msgid "Month"
+msgstr "Month"
+msgid "Work Hours"
+msgstr "Work Hours"
+msgid "Work Days"
+msgstr "Work Days"
+msgid "Days Off"
+msgstr "Days Off"
+
+msgid "Work Times"
+msgstr "Work Times"
+
+msgid "New Work Time"
+msgstr "Dodaj Work Time"
+
+msgid "List Work Times"
+msgstr "Lista Work Times"
+
+msgid "Edit Work Times"
+msgstr "Edycja Work Times"
+
+msgid "Delete Work Times"
+msgstr "Usuń Work Times"
+
+msgid "Admin Add Work Time"
+msgstr "Dodawanie Work Time"
+
+msgid "Admin Edit Work Time"
+msgstr "Edycja Work Time"
+
+msgid "Work Time Data"
+msgstr "Dane Work Time"
+

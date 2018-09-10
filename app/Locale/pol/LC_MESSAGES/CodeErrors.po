@@ -1,0 +1,37 @@
+//Model Code Errors 
+
+msgid "User Id"
+msgstr "User Id"
+msgid "Message"
+msgstr "Message"
+msgid "Url"
+msgstr "Url"
+msgid "Line"
+msgstr "Line"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Code Errors"
+msgstr "Code Errors"
+
+msgid "New Code Error"
+msgstr "Dodaj Code Error"
+
+msgid "List Code Errors"
+msgstr "Lista Code Errors"
+
+msgid "Edit Code Errors"
+msgstr "Edycja Code Errors"
+
+msgid "Delete Code Errors"
+msgstr "Usuń Code Errors"
+
+msgid "Admin Add Code Error"
+msgstr "Dodawanie Code Error"
+
+msgid "Admin Edit Code Error"
+msgstr "Edycja Code Error"
+
+msgid "Code Error Data"
+msgstr "Dane Code Error"
+

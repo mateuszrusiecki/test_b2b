@@ -1,0 +1,31 @@
+//Model Social Books 
+
+msgid "User Id"
+msgstr "User Id"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Social Books"
+msgstr "Social Books"
+
+msgid "New Social Book"
+msgstr "Dodaj Social Book"
+
+msgid "List Social Books"
+msgstr "Lista Social Books"
+
+msgid "Edit Social Books"
+msgstr "Edycja Social Books"
+
+msgid "Delete Social Books"
+msgstr "Usuń Social Books"
+
+msgid "Admin Add Social Book"
+msgstr "Dodawanie Social Book"
+
+msgid "Admin Edit Social Book"
+msgstr "Edycja Social Book"
+
+msgid "Social Book Data"
+msgstr "Dane Social Book"
+

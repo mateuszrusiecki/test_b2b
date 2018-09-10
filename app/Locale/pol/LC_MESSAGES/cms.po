@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "Adding"
+msgstr "Dodawanie"
+
+msgid "Editing"
+msgstr "Edytowanie"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Submit"
+msgstr "Zapisz"
+
+msgid "Modified"
+msgstr "Zmodyfikowano"
+
+msgid "Created"
+msgstr "Utworzono"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Admin Add Photo Category"
+msgstr "Dodawanie kategorii zdjęcia"
+
+msgid "Admin Edit Photo Category"
+msgstr "Edycja kategorii zdjęcia"
+
+msgid "Permission Categories"
+msgstr "Kategorie uprawnień"
+
+msgid "Permission Category"
+msgstr "Kategoria uprawnień"
+
+msgid "New Permission Category"
+msgstr "Dodaj kategorię uprawnień"
+
+msgid "List Permission Categories"
+msgstr "Lista kategrii uprawnień"
+
+msgid "Edit Permission Categories"
+msgstr "Edycja kategorii uprawnień"
+
+msgid "Delete Permission Categories"
+msgstr "Usuń kategorię uprawnień"
+
+msgid "Admin Add Permission Category"
+msgstr "Dodawanie kategorii uprawnień"
+
+msgid "Admin Edit Permission Category"
+msgstr "Edycja kategorii uprawnień"
+
+msgid "Permission Category Data"
+msgstr "Dane kategorii uprawnień"
+
+#: Aktualności
+msgid "Main"
+msgstr "Na główną?"
+
+msgid "User Id"
+msgstr "Użytkownik"
+
+msgid "News"
+msgstr "Aktualności"
+
+msgid "New News"
+msgstr "Dodaj aktualność"
+
+msgid "List News"
+msgstr "Lista aktualności"
+
+msgid "Edit News"
+msgstr "Edycja aktualności"
+
+msgid "Delete News"
+msgstr "Usuń aktualność"
+
+msgid "Admin Add News"
+msgstr "Dodawanie aktualności"
+
+msgid "Admin Edit News"
+msgstr "Edycja aktualności"
+
+msgid "News Data"
+msgstr "Dane aktualności"
+
+msgid "Product Category Id"
+msgstr "Kategoria"
+
+msgid "Content"
+msgstr "Opis"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Tax Rate"
+msgstr "VAT"
+
+msgid "Tax Value"
+msgstr "Wartość VAT"
+
+msgid "Products"
+msgstr "Produkty"
+
+msgid "New Product"
+msgstr "Dodaj produkt"
+
+msgid "List Products"
+msgstr "Lista produktów"
+
+msgid "Edit Products"
+msgstr "Edycja produktu"
+
+msgid "Delete Products"
+msgstr "Usuń produkt"
+
+msgid "Admin Add Product"
+msgstr "Dodawanie produktu"
+
+msgid "Admin Edit Product"
+msgstr "Edycja produktu"
+
+msgid "Product Categories"
+msgstr "Kategorie produktów"
+
+msgid "New Product Category"
+msgstr "Dodaj kategorię produktu"
+
+msgid "List Product Categories"
+msgstr "Lista kategorii produktów"
+
+msgid "Edit Product Categories"
+msgstr "Edycja kategorii produktu"
+
+msgid "Delete Product Categories"
+msgstr "Usuń kategorię produktu"
+
+msgid "Admin Add Product Category"
+msgstr "Dodawanie kategorii produktów"
+
+msgid "Admin Edit Product Category"
+msgstr "Edycja kategorii produktu"
+
+msgid "Product Category Data"
+msgstr "Dane o kategorii produktów"
+
+msgid "Product Data"
+msgstr "Dane o produkcie"
+
+msgid "Admin Add Article Category"
+msgstr "Dodawanie kategorii artykułów"
+
+msgid "Show From"
+msgstr "Pokaż od"
+
+msgid "Modified"
+msgstr "Zmodyfikowano"
+
+msgid "Admin Add Article"
+msgstr "Dodawanie artykułu"
+
+msgid "Pdf"
+msgstr "Plik pdf"
+
+msgid "Magazines"
+msgstr "Magazyny"
+
+msgid "New Magazine"
+msgstr "Dodaj magazyn"
+
+msgid "List Magazines"
+msgstr "Lista magazynów"
+
+msgid "Edit Magazines"
+msgstr "Edycja magazynu"
+
+msgid "Admin Add Magazine"
+msgstr "Dodawanie magazynu"
+
+msgid "Admin Edit Magazine"
+msgstr "Edycja magazynu"
+
+msgid "Magazine Data"
+msgstr "Dane magazynu"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Modified"
+msgstr "Zmodyfikowano"
+
+msgid "Promotions"
+msgstr "Promocje"
+
+msgid "New Promotion"
+msgstr "Dodaj promocje"
+
+msgid "List Promotions"
+msgstr "Lista promocji"
+
+msgid "Edit Promotions"
+msgstr "Edycja promocji"
+
+msgid "Admin Add Promotion"
+msgstr "Dodawanie promocji"
+
+msgid "Admin Edit Promotion"
+msgstr "Edycja promocji"
+
+msgid "Promotion Data"
+msgstr "Dane promocji"
+
+msgid "New Article"
+msgstr "Dodaj artykuł"
+
+msgid "List Articles"
+msgstr "Lista artykułów"
+
+msgid "Edit Articles"
+msgstr "Edycja artykułu"
+
+msgid "Delete Articles"
+msgstr "Usuń artykuł"
+
+msgid "Admin Add Article"
+msgstr "Dodawanie artykułu"
+
+msgid "Admin Edit Article"
+msgstr "Edycja artykułu"
+
+msgid "Article Data"
+msgstr "Dane artykułu"
+
+msgid "Show To"
+msgstr "Pokaż do"
+
+msgid "Article Category Id"
+msgstr "Kategoria"
+
+msgid "Article Categories"
+msgstr "Kategorie artykułów"
+
+msgid "New Article Category"
+msgstr "Dodaj kategorię artykułu"
+
+msgid "List Article Categories"
+msgstr "Lista kategorii artykułu"
+
+msgid "Edit Article Categories"
+msgstr "Edycja kategorii artykułu"
+
+msgid "Delete Article Categories"
+msgstr "Usuń kategorię artykułu"
+
+msgid "Admin Add Article Category"
+msgstr "Dodawanie kategorii artykułu"
+
+msgid "Admin Edit Article Category"
+msgstr "Edycja kategorii artykułu"
+
+msgid "Article Category Data"
+msgstr "Dane kategorii artykułu"
+
+msgid "Full name"
+msgstr "Pełna nazwa"
+msgid "Full Name"
+msgstr "Pełna nazwa"
+
+msgid "List Baners"
+msgstr "Lista Banerów"
+
+
+//Model Crons 
+
+msgid "Active"
+msgstr "Active"
+msgid "N"
+msgstr "Dzień tygodnia"
+msgid "M"
+msgstr "Miesiąc"
+msgid "D"
+msgstr "Dzień"
+msgid "H"
+msgstr "Godzina"
+msgid "I"
+msgstr "Minuta"
+msgid "Url"
+msgstr "Url"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Crons"
+msgstr "Crons"
+
+msgid "New Cron"
+msgstr "Dodaj Cron"
+
+msgid "List Crons"
+msgstr "Lista Crons"
+
+msgid "Edit Crons"
+msgstr "Edycja Crons"
+
+msgid "Delete Crons"
+msgstr "Usuń Crons"
+
+msgid "Admin Add Cron"
+msgstr "Dodawanie Cron"
+
+msgid "Admin Edit Cron"
+msgstr "Edycja Cron"
+
+msgid "Cron Data"
+msgstr "Dane Cron"
+
+
+msgid "Monday"
+msgstr "Poniedziałek"
+
+
+msgid "Tuesday"
+msgstr "Wtorek"
+
+msgid "Wednesday"
+msgstr "Środa"
+
+msgid "Thursday"
+msgstr "Czwartek"
+
+msgid "Friday"
+msgstr "Piątek"
+
+msgid "Saturday"
+msgstr "Sobota"
+
+msgid "Sunday"
+msgstr "Niedziela"

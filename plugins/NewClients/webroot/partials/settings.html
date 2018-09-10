@@ -1,0 +1,75 @@
+<div class="portlet light col-xs-12">
+    <div class="portlet-title">
+        <div class="tools caption">
+            <i class=" font-grey-gallery"></i>
+            <a title="" data-original-title="" href="" class="expand_link collapse">
+                <div class="pull-left sb-subtitle">
+                    <a class="caption-subject font-blue-madison bold uppercase " ng-if="routeParams.leadOrProjectMode == 'lead_id'" ng-href="#/projects/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/">powrót do listy projektów</a>
+                    <a class="caption-subject font-blue-madison bold uppercase " ng-if="routeParams.leadOrProjectMode == 'client_project_id'" ng-href="#/projects/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/">powrót do listy projektów</a>
+                    <a class="caption-subject font-blue-madison bold uppercase " ng-if="!routeParams.leadOrProjectMode" href="#/projects/">powrót do listy projektów</a>
+                </div>  
+            </a>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div class="project-template">
+            <div class="clearfix">
+                <div class="pull-right toolbar">
+                    <a ng-if="!routeParams.leadOrProjectMode" ng-show="currentUser.role == 'manager'" href="#/settings" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>
+                    <a ng-if="routeParams.leadOrProjectMode" ng-show="currentUser.role == 'manager'" href="#/settings/leadProjectMode/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>
+                    <a ng-if="!routeParams.leadOrProjectMode" href="#/settings/projects/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
+                        Dodaj nowy
+                    </a> 
+                    <a ng-if="routeParams.leadOrProjectMode" href="#/settings/projects/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
+                        Dodaj nowy
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="portlet-body">
+                    <div class="table-scrollable">
+                        <table class="gc table table-striped table-bordered table-advance table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left"><i class="fa fa-suitcase"></i> Projekt</th>
+                                    <th class="text-left"><i class="fa fa-user"></i> Klient</th>
+                                    <th class="text-left"><i class="fa fa-flag"></i> Status</th>
+                                    <th class="text-left"><i class="fa fa-cog"></i>  Opcje</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr ng-repeat="project in projects">
+                                    <td>{{ project.Project.title}}</td>
+                                    <td>{{ project.Client.Profile.name}}</td>
+                                    <td>
+                                        <span>
+                                            <i class="fa"
+                                               ng-class="{'fa-thumbs-up text-success': project.Project.acceptance_status == 1, 'fa-question': project.Project.acceptance_status == 0, 'fa-thumbs-down text-danger': project.Project.acceptance_status == 2}"></i>
+                                        </span>&nbsp;
+                                        <span>
+                                            <i class="fa fa-fw" ng-class="{'fa-lock': project.Project.archived == 1}"></i>
+                                        </span>
+                                    </td>
+                                    <td class="text-right">
+                                        <a ng-if="!routeParams.leadOrProjectMode" href="#/settings/projects/{{project.Project.id}}">
+                                            <i tooltip="Edytuj dokument" class="fa fa-pencil-square  large-icon pull-right"></i>
+                                        </a>
+                                        <a ng-if="routeParams.leadOrProjectMode" href="#/settings/projects/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/{{project.Project.id}}">
+                                            <i tooltip="Edytuj dokument" class="fa fa-pencil-square  large-icon pull-right"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

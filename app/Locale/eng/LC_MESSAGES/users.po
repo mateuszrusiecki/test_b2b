@@ -1,0 +1,277 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller\AppController.php:85
+msgid "Nieprawidłowy email lub hasło"
+msgstr ""
+
+#: Controller\AppController.php:89
+msgid "Nie masz dostępu do tego zasobu"
+msgstr ""
+
+#: Controller\AppController.php:92
+msgid "Zaloguj się, aby uzyskać dostęp"
+msgstr ""
+
+#: Controller\SectionsController.php:306
+msgid "Pracownicy zostali zapisani"
+msgstr ""
+
+#: Controller\SectionsController.php:309
+msgid "Zapisywanie pracowników nie powiodło się. Sprawdź formularz i spróbuj ponownie."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:39
+msgid "Przełączono użytkownika na  ("
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:64
+msgid "Korzystasz z panelu jako "
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:87
+msgid "Zalogowano poprawnie"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:98
+msgid "Nieprawodłowy login lub hasło"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:132
+msgid "Link do zmiany hasła został wysłany na podany email."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:134;419;449
+msgid "Podany e-mail nie istnieje w bazie, lub konto nie zostało aktywowane."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:246
+msgid "Błędne hasło"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:249
+msgid "Błędny login"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:298
+msgid "Konto zostało utworzone. Odbierz pocztę email, aby przejść do kolejnego kroku rejestracji."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:301
+msgid "Rejestracja nie powiodła się. Sprawdź formularz i spróbuj ponownie."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:339
+msgid "Konto było już aktywowane, zaloguj się aby korzystać z konta."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:354
+msgid "Konto zostało aktywowane. Zostałeś zalogowany"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:357;466;470
+msgid "Sprawdź formularz i spróbuj ponownie"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:373
+msgid "Link jest nieprawidłowy lub stracił ważność, skontaktuj się z administratorem."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:381
+msgid "Hasło zostało zmienione. Zaloguj się."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:384
+msgid "Nie udało się zapisać zmian."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:416;446
+msgid "Odbierz pocztę."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:463
+msgid "Hasło zostało zmienione. Możesz się teraz zalogować nowym hasłem"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:563;647
+msgid "Nie odnaleziono użytkownika"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:578
+msgid "Avatar zostal zapisany"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:580
+msgid "Zapisywanie avatara nie powidło się. Sprawdź formularz i spróbuj ponownie."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:661;699
+msgid "Użytkownik został zapisany"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:665;705
+msgid "Zapisywanie użytkownika nie powidło się. Sprawdź formularz i spróbuj ponownie."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:685
+msgid "Błedy Użytkownik"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:732;748
+msgid "Invalid user"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:735
+msgid "Użytkownik został usunięty"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:738
+msgid "Usuwanie użytkownika nie powiodło się, spróbuj ponownie, lub skontaktuj się z administratorem."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:752
+msgid "Użytkownik został dezaktywowany"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:755
+msgid "Dezaktywowanie użytkownika nie powiodło się, spróbuj ponownie, lub skontaktuj się z administratorem."
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:769
+msgid "Hasło zostało ustawione"
+msgstr ""
+
+#: Plugin\User\View\Elements\Users\ajaxlogin.ctp:1
+#: Plugin\User\View\Users\login.ctp:1
+msgid "Logowanie"
+msgstr ""
+
+#: Plugin\User\View\Emails\text\user_register.ctp:1
+msgid "Witaj,"
+msgstr ""
+
+#: Plugin\User\View\Emails\text\user_register.ctp:3
+msgid "Aby dokończyć proces rejestracji, należy kliknąć (lub wkleić w pasek adresu przeglądarki) poniższy link:"
+msgstr ""
+
+#: Plugin\User\View\Emails\text\user_register.ctp:8
+msgid "Pozdrawiamy, zespół %s."
+msgstr ""
+
+#: Plugin\User\View\Users\activate.ctp:6
+msgid "Aktywacja konta"
+msgstr ""
+
+#: Plugin\User\View\Users\activate.ctp:10
+#: Plugin\User\View\Users\register_by_facebook.ctp:6
+msgid "Hasło"
+msgstr ""
+
+#: Plugin\User\View\Users\activate.ctp:11
+#: Plugin\User\View\Users\register_by_facebook.ctp:7
+msgid "Powtórz hasło"
+msgstr ""
+
+#: Plugin\User\View\Users\facebook_register_ok.ctp:9
+#: Plugin\User\View\Users\register_ok.ctp:1
+msgid "Konto zostało utworzone"
+msgstr ""
+
+#: Plugin\User\View\Users\facebook_register_ok.ctp:11
+#: Plugin\User\View\Users\register_ok.ctp:3
+msgid "Dziękujemy za rejestrację."
+msgstr ""
+
+#: Plugin\User\View\Users\facebook_register_ok.ctp:14
+msgid "Za chwile zostaniesz zalogowany. Nie chcesz czekac? "
+msgstr ""
+
+#: Plugin\User\View\Users\new_account_pass.ctp:2
+#: Plugin\User\View\Users\pass_recall.ctp:2
+msgid "Przypominanie utraconego hasła"
+msgstr ""
+
+#: Plugin\User\View\Users\new_account_pass.ctp:4
+#: Plugin\User\View\Users\pass_recall.ctp:4
+msgid "Formularz przypominania hasła"
+msgstr ""
+
+#: Plugin\User\View\Users\new_pass.ctp:1
+msgid "Resetowanie hasła"
+msgstr ""
+
+#: Plugin\User\View\Users\pass_recall.ctp:7
+msgid "Przypomnienie %s"
+msgstr ""
+
+#: Plugin\User\View\Users\pass_recall.ctp:7
+msgid "hasła"
+msgstr ""
+
+#: Plugin\User\View\Users\pass_recall.ctp:12
+msgid "Wyślij"
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:4
+#: Plugin\User\View\Users\register_by_facebook.ctp:4
+msgid "E-mail"
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:5
+#: Plugin\User\View\Users\register_by_facebook.ctp:5
+msgid "Nazwa"
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:9
+#: Plugin\User\View\Users\register_by_facebook.ctp:9
+msgid "Regulaminem"
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:10
+#: Plugin\User\View\Users\register_by_facebook.ctp:10
+msgid "Polityką prywatności"
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:11
+#: Plugin\User\View\Users\register_by_facebook.ctp:11
+msgid "Oświadczam, że zapoznałem się z %s oraz %s, rozumiem je i zobowiązuje sie je przestrzegać."
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:14
+#: Plugin\User\View\Users\register_by_facebook.ctp:14
+msgid "REJESTRACJA"
+msgstr ""
+
+#: Plugin\User\View\Users\register.ctp:19
+msgid "Logowanie/Rejestracja Facebook"
+msgstr ""
+
+#: Plugin\User\View\Users\register_by_facebook_non_auth.ctp:1
+msgid "Konto NIE mogło zostać utworzone"
+msgstr ""
+
+#: Plugin\User\View\Users\register_by_facebook_non_auth.ctp:3
+msgid "Nie zaakceptowałeś wymaganych uprawnień"
+msgstr ""
+
+#: Plugin\User\View\Users\register_by_facebook_non_auth.ctp:6
+msgid "Wróć, jeżeli zmienisz zdanie."
+msgstr ""
+
+#: Plugin\User\View\Users\register_ok.ctp:6
+msgid "Odbierz pocztę email, aby aktywować konto."
+msgstr ""
+

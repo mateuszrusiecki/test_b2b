@@ -1,0 +1,1 @@
+ALTER TABLE  `payments` ADD  `cycle_number` INT NOT NULL DEFAULT  '0' AFTER  `type`

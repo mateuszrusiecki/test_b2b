@@ -1,0 +1,84 @@
+<div class="portlet light col-xs-12">
+    <div class="portlet-title">
+        <div class="tools caption">
+            <i class=" font-grey-gallery"></i>
+            <a title="" data-original-title="" href="" class="expand_link collapse">
+                <span class="caption-subject font-blue-madison bold uppercase ">Projekty graficzne - lista</span>
+            </a>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div class="project-template">
+            <div class="clearfix">
+                <div class="pull-right toolbar">
+                    <a ng-show="currentUser.role == 'manager'" href="#/settings" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>
+                    <a href="#/settings/projects/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
+                        Dodaj nowy
+                    </a> 
+                    <button type="button" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier" ng-class="{red: item == project, gray: item != project}"
+                            style="margin-right:5px" ng-repeat="item in projects" ng-click="setCurrentProject(item)">
+                        {{item.Project.title}}
+                    </button>
+                </div>
+            </div>
+            <div class="content margin-top-20">
+                <div class="portlet box yellow bgfeb">
+                    <div class="portlet-title">
+                        <div class="caption"><i class="fa fa-list"></i>LISTA PROJEKTÓW</div>
+                        <div class="tools">
+                            <a href="javascript:;" class="collapse">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="categories" ng-repeat-start="item in project.Category" style="border-bottom: 1px solid #ff9301;">{{item.title}}</h4>
+                                <div class="pull-left" ng-repeat="view in item.pView">
+                                    <div class="text-center" style="width: 200px"><b>{{view.name}}</b></div>
+                                    <div class="pull-left" style="width: 200px" ng-repeat="version in view.Version">
+                                        <a ng-if="version.thumb_path && !routeParams.mode" href="#/project/{{project.Project.id}}/{{view.id}}" class="thumbnail">
+                                            <img ng-src="/new_clients/storage/image/path:/{{version.thumb_path}}" style="width: 200px; height: 140px">
+                                        </a>
+                                        <a ng-if="version.thumb_path && routeParams.mode" href="#/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/{{project.Project.id}}/{{view.id}}" class="thumbnail">
+                                            <img ng-src="/new_clients/storage/image/path:/{{version.thumb_path}}" style="width: 200px; height: 140px">
+                                        </a>
+                                        <div ng-if="!version.thumb_path" class="a">Brak projektów do obejrzenia</div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <span ng-repeat-end></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<br>
+<div class="row">
+    <div class="col-md-8 col-md-offset-3">
+      <button type="button" class="btn" ng-class="{red: item==project, gray: item!=project}"
+        style="margin-right:5px" ng-repeat="item in projects" ng-click="setCurrentProject(item)">
+        {{item.Project.title}}
+      </button>
+    </div>
+    <div class="col-md-8 col-md-offset-3">
+        <h4 class="categories" ng-repeat-start="item in project.Category">{{item.title}}</h4>
+        <div class="col-md-3" ng-repeat="view in item.pView">
+         <div class="text-center"><b>{{ view.name }}</b></div>
+           <a href="#/projects/{{project.Project.id}}/{{view.id}}" class="thumbnail">
+            <img style="width: 200px" ng-src="{{view.thumb_path}}">
+           </a>
+        </div>
+        <div class="clearfix"></div>
+        <span ng-repeat-end></span>
+    </div>
+</div>
+
+-->

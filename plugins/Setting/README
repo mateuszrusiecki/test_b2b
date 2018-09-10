@@ -1,0 +1,12 @@
+Settings
+Wersja 0.2
+
+Wymagania:
+CakePHP 2.1+
+
+Changelog:
+
+0.2
+- komunikatów walidacyjncyh
+- zmiana koncepcji konfiguracji na eventy
+

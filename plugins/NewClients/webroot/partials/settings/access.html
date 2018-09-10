@@ -1,0 +1,22 @@
+<table ng-table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Rola</th>
+            <th style="text-align: right">
+                <a ng-click="accessDialog(null)" style="min-width: 64px" class="btn btn-xs btn-info red"><i class="fa fa-plus"></i> Dodaj</a>
+            </th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="user in  users">
+            <td>{{ user.Profile.name}}</td>
+            <td>{{ user.User.role | rolename }}</td>
+            <td class="text-right">
+                <a  ng-click="accessDialog(user)" class="btn btn-xs btn-info blue">
+                    <i class="fa fa-edit"></i> Edytuj
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+

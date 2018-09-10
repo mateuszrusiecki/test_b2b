@@ -1,0 +1,29 @@
+//Model Checklist Positions 
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Checklist Positions"
+msgstr "Checklist Positions"
+
+msgid "New Checklist Position"
+msgstr "Dodaj Checklist Position"
+
+msgid "List Checklist Positions"
+msgstr "Lista Checklist Positions"
+
+msgid "Edit Checklist Positions"
+msgstr "Edycja Checklist Positions"
+
+msgid "Delete Checklist Positions"
+msgstr "Usuń Checklist Positions"
+
+msgid "Admin Add Checklist Position"
+msgstr "Dodawanie Checklist Position"
+
+msgid "Admin Edit Checklist Position"
+msgstr "Edycja Checklist Position"
+
+msgid "Checklist Position Data"
+msgstr "Dane Checklist Position"
+

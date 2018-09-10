@@ -1,0 +1,1 @@
+ALTER TABLE  `invoices` ADD  `parent_id` INT NULL AFTER  `id`;

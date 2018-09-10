@@ -1,0 +1,51 @@
+<div class="progress">
+    <div style="width: {{data.timeline| timelineMinDone}}%" 
+         aria-valuemax="100" 
+         aria-valuemin="0" 
+         aria-valuenow="20" 
+         role="progressbar" 
+         class="progress-bar progress-bar-info"
+         >
+        <span class="sr-only">
+            20% Complete 
+        </span>
+    </div>
+</div>
+<div class="relative">
+    <span  ng-cloak
+        ng-repeat="timeline in data.timeline| timelineMin"
+        tooltip-html-unsafe="{{timeline.start.d}}/{{timeline.start.m}}/{{timeline.start.Y}}<br>{{timeline.content}}"
+        tooltip-placement="{{left >50?'left':'right'}}"
+        class="progress-bar-pointner bg-red poitnier" 
+        ng-class="{today:timeline.type == 'today'}" 
+        style="left: {{left = (timeline.time - timeline.min) / timeline.ratio}}%" 
+        >
+    </span>
+</div>
+
+
+
+<div class="progress">
+    <div style="width: {{data.timelinePayments| timelineMinDone}}%" 
+         aria-valuemax="100" 
+         aria-valuemin="0" 
+         aria-valuenow="20" 
+         role="progressbar" 
+         class="progress-bar progress-bar-success"
+         >
+        <span class="sr-only">
+            20% Complete 
+        </span>
+    </div>
+</div>
+<div class="relative">
+    <span 
+        ng-repeat="timeline in data.timelinePayments| timelineMin"
+        tooltip-html-unsafe="{{timeline.start.d}}/{{timeline.start.m}}/{{timeline.start.Y}}<br>{{timeline.content}}"
+        tooltip-placement="{{left >50?'left':'right'}}"
+        class="progress-bar-pointner bg-blue poitnier" 
+        ng-class="{today:timeline.type == 'today'}" 
+        style="left: {{left = (timeline.time - timeline.min) / timeline.ratio}}%" 
+        >
+    </span>
+</div>

@@ -1,0 +1,1 @@
+<p><?php echo __d('public', 'Otrzymałeś link do współdzielenia dokumentu tekstowego') ?>: <?php echo $data['share_link']; ?></p>

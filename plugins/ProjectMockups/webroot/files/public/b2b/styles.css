@@ -1,0 +1,328 @@
+
+@import url("css/font-awesome.min.css");
+
+
+#mainFrame {
+    position: relative;
+    z-index: 1000 !important;
+}
+
+#rightPanel {
+    position: relative !important;
+    z-index: 2000 !important;
+}
+
+.commentMockupToll,
+.acceptThisMockupNode,
+.rejectThisMockupNode,
+.commentsCount {
+	font-size: 20px;
+	margin: 10px 4px;
+	font-weight: normal;
+	line-height: 14px;
+	color: #D9D9D9;
+}
+
+.acceptThisMockupNode,
+.rejectThisMockupNode {
+	cursor: pointer;
+}
+
+.commentMockupToll {
+	color: #FFB848;
+}
+
+.commentMockupToll.selected,
+.acceptThisMockupNode.selected {
+    color: #35D646;
+}
+
+.rejectThisMockupNode.selected {
+    color: #FF3030;
+}
+
+.sitemapPageName {
+	margin-right: 10px;
+}
+
+.commentsCount {
+	font-size: 14px;
+}
+
+.rect {
+    position: absolute;
+    z-index: 20000;
+	border: 1px solid rgba(125, 125, 125, 0.3);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#mainFrame {
+}
+
+#sitemapHost {
+    color: #FFF;
+    background-color: #3D3D3D;
+}
+
+.sitemapNode {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 35px;
+	margin: 1px 0 !important;
+}
+
+.sitemapNode  > div {
+	background-color: #6A6A6A;
+}
+
+.sitemapHighlight {
+    background-color: #A0A0A0 !important;
+    font-weight: bold;
+}
+
+.sitemapPageIcon {
+    display: none;
+}
+
+.commentsList {
+    font-size: 11px;
+    width: 320px;
+}
+
+.commentDeetailsHead {
+    background-color: #FFB848;
+    padding: 5px;
+    color: #FFF;
+}
+.commentDeetailsHead .pullLeft {
+    font-weight: 700;
+    float: left;
+    width: 50%;
+}
+.commentDeetailsHead .pullRight {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.clearfix:after { 
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+}
+
+.clearfix { 
+    display: inline-block;  
+}
+
+* html .clearfix {  
+    height: 1%;  
+} /* Hides from IE-mac \*/
+
+.clearfix {  
+    display: block;  
+}
+.textareaHolder {
+    
+}
+.textareaHolder textarea, .sendSubComment {
+    display: block;
+    width: 100%;
+    height: 26px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	box-sizing: padding-box;
+	resize: none;
+}
+
+.closeCommentsList {
+    color: #999999;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+
+.commentsList p {
+	padding: 5px 10px;
+}
+
+.sitemapPageLinkContainer {
+	position: relative;
+}
+
+.sitemapPlusMinusLink {
+	margin-right: 10px;
+	float: right;
+}
+
+.interfaceControlFrame {
+	width: 560px !important;
+}
+
+#sitemapTreeContainer {
+	top: 0 !important;
+}
+
+.sitemapTree {
+	margin-top: 0 !important;
+}
+
+.sb-header {
+	background-color: #3D3D3D;
+	padding: 14px 12px;
+	border-bottom: 1px solid #6A6A6A;
+	height: 45px;
+}
+.pull-left {
+    float: left !important;
+}
+.sb-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px 0px 18px;
+    color: #FFF;
+}
+.sb-title .sb-subtitle {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.sb-title .sb-subtitle a {
+    color: #FFF;
+}
+
+
+
+.addCommentBox {
+    width: 100%;
+    background-color: #E8E8E8;
+    height: 35px;
+    padding: 7px;
+    border: 1px solid rgba(125, 125, 125, 0.3);
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+
+.addCommentBox input {
+	display: block;
+	width: 100%;
+	height: 25px;
+	padding: 6px 12px;
+	font-size: 12px;
+	line-height: 1.42857;
+	color: #555;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+
+.addCommentBox textarea {
+	display: block;
+	width: 100%;
+	height: 25px;
+	padding: 6px 12px;
+	font-size: 12px;
+	line-height: 1.42857;
+	color: #555;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+/**
+.addCommentBox textarea {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	box-sizing: padding-box;
+	resize: none;
+}
+*/
+
+.commentMainHolder {
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.commentMainHolder .commentHolder {
+	z-index: 10000 !important;
+}
+
+.commentHolder.opened {
+	color: #FFB848;
+	background-color: #FFF;
+}
+
+.commentHolder.closed {
+	color: #FFF;
+	background-color: #FFB848;
+}
+
+.commentMainHolder .rect {
+	z-index: 150 !important;
+}
+
+.toolBox {
+	z-index: 20000;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 35px;
+	height: 39px;
+	padding-top: 6px;
+	padding-left: 15px;
+	background-color: #3D3D3D;
+}
+
+.toolBox a {
+	font-size: 22px;
+	color: #FFF;
+}
+
+.toolBox a.selected {
+	color: #FF0;
+}
+
+.infoBox {
+	position: fixed;
+	top: 10px;
+	z-index: 20000;
+	right: 60px;
+	width: 250px;
+	color: #555;
+	padding: 10px;
+	font-size: 13px;
+	border-left: 5px solid #EEE;
+	border-radius: 0px 4px 4px 0px;
+	background-color: #EEF7FB;
+	border-color: #91D9E8;
+	
+}
+

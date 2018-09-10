@@ -1,0 +1,121 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin\Modification\Config\bootstrap.php:24
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:18
+msgid "Dodał "
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:28
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:22
+msgid "Zmieniał "
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:32
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:26
+msgid "Usunął "
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:36
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:30
+msgid "Bezpiecznie usunął "
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:40
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:34
+msgid "Przywrócił "
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:50
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:44
+msgid "wyniki z zawodów, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:53
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:47
+msgid "zawody sportowe, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:56
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:50
+msgid "konkurencję, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:60
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:54
+msgid "sport, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:64
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:58
+msgid "dyscyplinę, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:68
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:62
+msgid "klasę trenerską, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:72
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:66
+msgid "kwalifikację olimpijską"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:75
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:69
+msgid "rangę zawodów sportowych, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:78
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:72
+msgid "polski związek spotowy, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:81
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:75
+msgid "klub sportowy, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:84
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:78
+msgid "typ akcji, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:87
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:81
+msgid "łączkę"
+msgstr ""
+
+#: Plugin\Modification\Config\bootstrap.php:90
+msgid "niezdefiniowany komunikat dla, <b>%s</b>"
+msgstr ""
+
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:84
+msgid "zawodnika"
+msgstr ""
+
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:87
+msgid "program olimpijski"
+msgstr ""
+
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:90
+msgid "grupę treningową"
+msgstr ""
+
+#: Plugin\Modification\View\Helper\FebModificationHelper.php:93
+msgid ", Model: <b>%s</b>"
+msgstr ""
+

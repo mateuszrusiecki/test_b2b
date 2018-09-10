@@ -1,0 +1,31 @@
+//Model Magazines 
+
+msgid "Content"
+msgstr "Content"
+msgid "Pdf"
+msgstr "Pdf"
+
+msgid "Magazines"
+msgstr "Magazines"
+
+msgid "New Magazine"
+msgstr "Dodaj Magazine"
+
+msgid "List Magazines"
+msgstr "Lista Magazines"
+
+msgid "Edit Magazines"
+msgstr "Edycja Magazines"
+
+msgid "Delete Magazines"
+msgstr "Usuń Magazines"
+
+msgid "Admin Add Magazine"
+msgstr "Dodawanie Magazine"
+
+msgid "Admin Edit Magazine"
+msgstr "Edycja Magazine"
+
+msgid "Magazine Data"
+msgstr "Dane Magazine"
+

@@ -1,0 +1,1 @@
+<p><?php echo __d('public', 'Otrzymałeś') ?> <?php echo $data['commentsCount']; ?> <?php echo __d('public', 'nowych komentarzy do projektu') ?> <?php echo $data['projectName']; ?>.</p>

@@ -1,0 +1,135 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Model\Calendar.php:45
+msgid "Rok wymagany"
+msgstr ""
+
+#: Model\Calendar.php:51
+msgid "Nazwa wymagana"
+msgstr ""
+
+#: Model\ClientLead.php:101;111;121;129;139;147;157;165;175;183;193;200;210;218
+#: Model\CodeError.php:66;76
+#: Model\Cron.php:44
+#: Model\LeadFile.php:74;81
+#: Model\Profile.php:195
+#: Model\ProjectFile.php:67;77;87
+#: Model\ProjectIssue.php:87
+#: Model\SocialBook.php:61
+#: Model\Suggestion.php:67
+#: Model\Vacation.php:112;126
+#: Model\VacationReplace.php:77;87;97;107
+#: Model\VacationStatus.php:66
+#: Plugin\Commerce\Model\AffiliateProgram.php:34;54
+#: Plugin\Commerce\Model\Order.php:164;174;184
+#: Plugin\Commerce\Model\OrderItem.php:100;110;120
+#: Plugin\Commerce\Model\OrderStatus.php:38
+#: Plugin\Commerce\Model\ShipmentMethod.php:61
+#: Plugin\Commerce\Model\ShipmentMethodConfig.php:54
+#: Plugin\MultiContact\Model\MultiContact.php:38;48
+#: Plugin\Payments\Model\Invoice.php:50;60;70;80;90;100;110;120;130
+#: Plugin\Payments\Model\Payment.php:51;71;91;111
+msgid "Pole formularza nie może być puste"
+msgstr ""
+
+#: Model\Profile.php:205
+msgid "Imię wymagane"
+msgstr ""
+
+#: Model\Profile.php:211
+msgid "Nazwisko wymagane"
+msgstr ""
+
+#: Model\Vacation.php:139;148
+msgid "Podaj poprawną datę"
+msgstr ""
+
+#: Model\Vacation.php:154
+msgid "Data początkowa musi być wcześniejsza lub równa końcowej"
+msgstr ""
+
+#: Model\Vacation.php:160;176
+msgid "Podaj poprawną godzinę(8-16)"
+msgstr ""
+
+#: Model\Vacation.php:166;182
+msgid "Podaj poprawną godzinę większą od 8"
+msgstr ""
+
+#: Model\Vacation.php:170;186
+msgid "Podaj poprawną godzinę mniejszą od 16"
+msgstr ""
+
+#: Model\Vacation.php:190
+msgid "Godzina początkowa musi być mniejsza od końcowej"
+msgstr ""
+
+#: Plugin\Commerce\Model\Address.php:70
+#: Plugin\Commerce\Model\InvoiceIdentity.php:150
+msgid "Podaj ulicę"
+msgstr ""
+
+#: Plugin\Commerce\Model\Address.php:80
+#: Plugin\Commerce\Model\InvoiceIdentity.php:151
+msgid "Podaj miejscowość"
+msgstr ""
+
+#: Plugin\Commerce\Model\Address.php:90
+#: Plugin\Commerce\Model\InvoiceIdentity.php:152
+msgid "Podaj kod pocztowy"
+msgstr ""
+
+#: Plugin\Commerce\Model\AffiliateProgram.php:44
+msgid "Podaj prog od ktorego ma obowiazywac rabat"
+msgstr ""
+
+#: Plugin\Commerce\Model\Customer.php:149
+msgid "Podaj imię i nazwisko"
+msgstr ""
+
+#: Plugin\Commerce\Model\InvoiceIdentity.php:148
+msgid "Podaj rodzaj zakupów"
+msgstr ""
+
+#: Plugin\Commerce\Model\InvoiceIdentity.php:149
+msgid "Podaj imię nazwisko lub nazwę"
+msgstr ""
+
+#: Plugin\Commerce\Model\InvoiceIdentity.php:153
+msgid "Podaj NIP"
+msgstr ""
+
+#: Plugin\Commerce\Model\OrderItemFile.php:57
+msgid "Dozwolone tylko formaty graficzne (PSD, TIFF, EPS, CDR, AI, PDF)"
+msgstr ""
+
+#: Plugin\Page\Model\Page.php:57
+msgid "Wprowadź tytuł strony"
+msgstr ""
+
+#: Plugin\Payments\Model\Payment.php:101
+msgid "Podaj tytuł płatności"
+msgstr ""
+
+#: Plugin\Payments\Model\Payment.php:121
+msgid "Podaj kwote płatności"
+msgstr ""
+
+#: Plugin\Payments\Model\Payment.php:131
+msgid "Podaj datę płatności"
+msgstr ""
+

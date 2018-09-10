@@ -1,0 +1,32 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin\Commerce\Controller\AddressesController.php:99
+#: Plugin\Commerce\Controller\AffiliateProgramsController.php:95
+#: Plugin\Commerce\Controller\CustomersController.php:119
+#: Plugin\Commerce\Controller\InvoiceIdentitiesController.php:100
+#: Plugin\Commerce\Controller\OrderItemFilesController.php:97
+#: Plugin\Commerce\Controller\OrderItemsController.php:251
+#: Plugin\Commerce\Controller\OrderStatusesController.php:96
+#: Plugin\Commerce\Controller\ShipmentMethodConfigsController.php:99
+#: Plugin\Commerce\Controller\ShipmentMethodsController.php:96
+#: Plugin\StaticProduct\Controller\ProductCategoriesController.php:178
+#: Plugin\StaticProduct\Controller\ProductsController.php:226
+#: Plugin\User\Controller\PermissionCategoriesController.php:107
+#: Plugin\User\Controller\PermissionGroupsController.php:101
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr ""
+

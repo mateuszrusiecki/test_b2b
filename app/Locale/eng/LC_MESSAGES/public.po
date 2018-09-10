@@ -1,0 +1,5204 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller\BaseModulesController.php:93;186
+#: Controller\BaseProjectsController.php:96;189
+#: Controller\BriefsController.php:689;745
+#: Controller\CalendarsController.php:54
+#: Controller\ChecklistPositionsController.php:126;156;187
+#: Controller\ClientProjectsController.php:401;598
+#: Controller\CodeErrorsController.php:114
+#: Controller\CronsController.php:104;132
+#: Controller\HrSettingsController.php:92;118
+#: Controller\ModulesController.php:96;134
+#: Controller\ProfilesController.php:100;128;517
+#: Controller\SectionsController.php:73;100
+#: Controller\SocialBooksController.php:135;161
+#: Controller\SuggestionsController.php:129
+#: Controller\TextDocumentsController.php:90;163
+#: Controller\VacationReplacesController.php:82;112
+#: Controller\VacationStatusesController.php:82;108
+#: Controller\WorkTimesController.php:71;92
+msgid "Poprawnie zapisano."
+msgstr ""
+
+#: Controller\BaseModulesController.php:100;199
+#: Controller\BaseProjectsController.php:103;196
+#: Controller\BriefsController.php:614;693;749
+#: Controller\ChecklistPositionsController.php:130;164;191
+#: Controller\CodeErrorsController.php:118
+#: Controller\CronsController.php:108;136
+#: Controller\HrSettingsController.php:96;122
+#: Controller\ModulesController.php:100;138
+#: Controller\ProfilesController.php:104;132;520
+#: Controller\SectionsController.php:76;103
+#: Controller\SocialBooksController.php:139;165
+#: Controller\SuggestionsController.php:102;133
+#: Controller\TextDocumentsController.php:103;175
+#: Controller\VacationReplacesController.php:86;116
+#: Controller\VacationStatusesController.php:86;112
+#: Controller\VacationsController.php:318;372
+#: Controller\WorkTimesController.php:74;95
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr ""
+
+#: Controller\BriefsController.php:100
+msgid "Brief został zamknięty."
+msgstr ""
+
+#: Controller\BriefsController.php:282;520
+msgid "Nie ma takiego briefa"
+msgstr ""
+
+#: Controller\BriefsController.php:539
+msgid "Brief został ponownie otwarty"
+msgstr ""
+
+#: Controller\BriefsController.php:610
+msgid "Dokument został zapisany na liście dokumentów związanych z leadem!"
+msgstr ""
+
+#: Controller\BriefsController.php:779
+#: Controller\ChecklistPositionsController.php:218
+#: Controller\ClientProjectsController.php:1079
+#: Controller\CodeErrorsController.php:145
+#: Controller\CronsController.php:164
+#: Controller\HrSettingsController.php:149
+#: Controller\ModulesController.php:168
+#: Controller\ProfilesController.php:161
+#: Controller\SectionsController.php:131
+#: Controller\SocialBooksController.php:192
+#: Controller\SuggestionsController.php:162
+#: Controller\VacationReplacesController.php:147
+#: Controller\VacationStatusesController.php:139
+#: Controller\WorkTimesController.php:117
+msgid "Poprawnie usunięto."
+msgstr ""
+
+#: Controller\BriefsController.php:782
+#: Controller\ChecklistPositionsController.php:221
+#: Controller\ClientProjectsController.php:1082
+#: Controller\CodeErrorsController.php:148
+#: Controller\CronsController.php:167
+#: Controller\HrSettingsController.php:152
+#: Controller\ModulesController.php:171
+#: Controller\ProfilesController.php:164
+#: Controller\SectionsController.php:134
+#: Controller\SocialBooksController.php:195
+#: Controller\SuggestionsController.php:165
+#: Controller\VacationReplacesController.php:150
+#: Controller\VacationStatusesController.php:142
+#: Controller\VacationsController.php:891
+#: Controller\WorkTimesController.php:120
+msgid "Nie można usunąć."
+msgstr ""
+
+#: Controller\ChecklistPositionsController.php:47
+#: View\ChecklistPositions\index.ctp:1
+msgid "Karty obiegowe"
+msgstr ""
+
+#: Controller\ChecklistPositionsController.php:112
+#: View\ChecklistPositions\view_group.ctp:2
+#: View\ChecklistPositions\pdf\print_group.ctp:15
+msgid "Karta obiegowa"
+msgstr ""
+
+#: Controller\ChecklistPositionsController.php:150
+#: View\ChecklistPositions\add.ctp:1
+msgid "Dodawanie nowej pozycji"
+msgstr ""
+
+#: Controller\ClientProjectsController.php:569;575
+msgid "Dany projekt nie jest skonfigurowany."
+msgstr ""
+
+#: Controller\ClientProjectsController.php:1323
+msgid "Nie  można zamknąć finansowania projektu - nie wszystkie płatności zostały oznaczone jako wykonane"
+msgstr ""
+
+#: Controller\ClientProjectsController.php:1494
+msgid "Brak projektu"
+msgstr ""
+
+#: Controller\ClientProjectsController.php:1502
+msgid "Zablokowano dostep klientowi"
+msgstr ""
+
+#: Controller\ClientProjectsController.php:1505
+msgid "Udostępniono projekt klientowi"
+msgstr ""
+
+#: Controller\CodeErrorsController.php:87
+msgid "Powiadomiono administratora o błędzie."
+msgstr ""
+
+#: Controller\CodeErrorsController.php:90
+msgid "Wystąpił błąd podczas powiadomienie. Wyslij informajce o błędzie."
+msgstr ""
+
+#: Controller\FrontsController.php:535
+msgid "SMS został wysłany."
+msgstr ""
+
+#: Controller\FrontsController.php:611
+msgid "Backup bazy został zapisany."
+msgstr ""
+
+#: Controller\PmController.php:106
+msgid "Zalogowano poprawnie."
+msgstr ""
+
+#: Controller\PmController.php:109
+msgid "Niepoprawne dane logowania."
+msgstr ""
+
+#: Controller\PmController.php:113
+msgid "Niepoprawny login lub hasło."
+msgstr ""
+
+#: Controller\PmController.php:145
+msgid "Zostałeś wylogowany. Aby w pełni korzystać z systemu zaloguj się ponownie."
+msgstr ""
+
+#: Controller\PmController.php:148
+msgid "Niepoprawne dane."
+msgstr ""
+
+#: Controller\SuggestionsController.php:98
+msgid "Uwagę została zgłoszona do administratora"
+msgstr ""
+
+#: Controller\TextDocumentsController.php:363
+msgid "Powiadomienie wysłano."
+msgstr ""
+
+#: Controller\VacationsController.php:270
+msgid "Niepoprawny numer wniosku."
+msgstr ""
+
+#: Controller\VacationsController.php:314
+msgid "Wniosek został złożony."
+msgstr ""
+
+#: Controller\VacationsController.php:347
+msgid "Nie możesz edytować tego wniosku."
+msgstr ""
+
+#: Controller\VacationsController.php:368
+msgid "Wniosek został zapisany."
+msgstr ""
+
+#: Controller\VacationsController.php:878
+msgid "Nie możesz usunąć tego wniosku."
+msgstr ""
+
+#: Controller\VacationsController.php:888
+msgid "Wniosek o urlop został usunięty."
+msgstr ""
+
+#: Controller\Component\LogMailComponent.php:222
+msgid "Feb - dane do konta"
+msgstr ""
+
+#: Model\ClientDomain.php:366
+msgid "raport"
+msgstr ""
+
+#: Model\ClientProject.php:477
+#: View\ClientProjects\add_realization.ctp:28
+msgid "Początek umowy"
+msgstr ""
+
+#: Model\ClientProject.php:484
+#: View\ClientProjects\add_realization.ctp:143
+msgid "Koniec umowy"
+msgstr ""
+
+#: Model\ClientProject.php:501
+msgid "Początek gwarancji"
+msgstr ""
+
+#: Model\ClientProject.php:508
+msgid "Koniec gwarancji"
+msgstr ""
+
+#: Model\ClientProjectLog.php:80
+#: Model\LeadLog.php:70
+#: Plugin\User\View\Users\login.ctp:52;88
+#: Plugin\User\View\Users\new_account_pass.ctp:28
+#: Plugin\User\View\Users\new_pass.ctp:29
+#: View\Briefs\pdf\brief_pdf.ctp:20
+#: View\Clients\index.ctp:133
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:76
+#: View\Elements\Clients\add_client_contact.ctp:47
+#: View\Elements\Clients\add_client_contact_extend.ctp:30;130
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:75
+#: View\Elements\Clients\edit_client.ctp:120
+#: View\Elements\Pm\login.ctp:29
+msgid "Email"
+msgstr ""
+
+#: Model\ClientProjectLog.php:81
+msgid "Nowy dokument"
+msgstr ""
+
+#: Model\ClientProjectLog.php:82
+msgid "Usunięcie  pliku"
+msgstr ""
+
+#: Model\ClientProjectLog.php:83
+#: Model\LeadLog.php:73
+msgid "Nowa wersja pliku"
+msgstr ""
+
+#: Model\ClientProjectLog.php:84
+#: Model\LeadLog.php:74
+msgid "Data wydarzenia"
+msgstr ""
+
+#: Model\ClientProjectLog.php:85
+#: Model\LeadLog.php:75
+msgid "Wystąpienie wydarzenia"
+msgstr ""
+
+#: Model\ClientProjectLog.php:86
+msgid "Otwarcie projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:87
+msgid "Zamknięcie projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:88
+msgid "Dodanie osoby do projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:89
+msgid "Usunięcie osoby z projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:90
+msgid "Dodanie pozycji budżetowej"
+msgstr ""
+
+#: Model\ClientProjectLog.php:91
+msgid "Zmiana pozycji budżetowej"
+msgstr ""
+
+#: Model\ClientProjectLog.php:92
+msgid "Usunięcie pozycji budżetowej"
+msgstr ""
+
+#: Model\ClientProjectLog.php:93
+msgid "Realizacja kamienia milowego"
+msgstr ""
+
+#: Model\ClientProjectLog.php:94
+msgid "Wystawienie faktury"
+msgstr ""
+
+#: Model\ClientProjectLog.php:95
+msgid "Oznaczenie opłacenia faktury"
+msgstr ""
+
+#: Model\ClientProjectLog.php:96
+msgid "Odznaczenie realizacji kamienia milowego"
+msgstr ""
+
+#: Model\ClientProjectLog.php:97
+msgid "Odznaczenie opłacenia faktury"
+msgstr ""
+
+#: Model\ClientProjectLog.php:98
+msgid "Zamknięcie finansowania projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:99
+msgid "Otwarcie finansowania projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:100
+msgid "Dodanie kosztu poz. budżetowej"
+msgstr ""
+
+#: Model\ClientProjectLog.php:101
+msgid "Usunięcie kosztu poz. budżetowej"
+msgstr ""
+
+#: Model\ClientProjectLog.php:102
+msgid "Przypisanie faktury do projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:103
+msgid "Dodanie notatki do projektu"
+msgstr ""
+
+#: Model\ClientProjectLog.php:104
+msgid "Faktura do wystawienia"
+msgstr ""
+
+#: Model\ClientProjectLog.php:105
+msgid "Faktura wystawiona"
+msgstr ""
+
+#: Model\ClientProjectLog.php:106
+#: View\Elements\Hrs\hrs_invocies.ctp:168
+msgid "Faktura opłacona"
+msgstr ""
+
+#: Model\ClientProjectLog.php:108
+msgid "Wysyłka maila z ankietą "
+msgstr ""
+
+#: Model\ClientProjectLog.php:109
+msgid "Wypełnienie ankiety"
+msgstr ""
+
+#: Model\LeadFile.php:100
+#: Model\ProjectFile.php:170
+#: View\Fronts\coordinator_panel.ctp:111
+#: View\Fronts\front.ctp:31
+#: View\Fronts\worker_panel.ctp:50
+#: View\Hrs\index.ctp:20
+msgid "Inne"
+msgstr ""
+
+#: Model\LeadFile.php:101
+#: Model\ProjectFile.php:171
+msgid "Inne hand."
+msgstr ""
+
+#: Model\LeadFile.php:102
+#: Model\ProjectFile.php:172
+#: View\Briefs\view.ctp:87
+msgid "Brief"
+msgstr ""
+
+#: Model\LeadFile.php:103
+#: Model\ProjectFile.php:173
+msgid "Wycena"
+msgstr ""
+
+#: Model\LeadFile.php:104
+#: Model\ProjectFile.php:174
+msgid "Oferta"
+msgstr ""
+
+#: Model\LeadFile.php:105
+#: Model\ProjectFile.php:175
+#: View\Vacations\add.ctp:36
+#: View\Vacations\calendar.ctp:32
+#: View\Vacations\edit.ctp:33
+#: View\Vacations\index.ctp:48
+#: View\Vacations\team.ctp:90
+msgid "Umowa"
+msgstr ""
+
+#: Model\LeadFile.php:106
+#: Model\ProjectFile.php:176
+msgid "FV"
+msgstr ""
+
+#: Model\LeadLog.php:71
+msgid "Nowy plik"
+msgstr ""
+
+#: Model\LeadLog.php:72
+msgid "Usunięcie pliku"
+msgstr ""
+
+#: Model\LeadLog.php:76
+msgid "Edycja leadu"
+msgstr ""
+
+#: Model\ProjectFile.php:177
+msgid "Protokół odbioru"
+msgstr ""
+
+#: Model\ProjectFile.php:178
+msgid "Makieta"
+msgstr ""
+
+#: Plugin\Commerce\Controller\CustomersController.php:470
+#: Plugin\Commerce\Controller\OrdersController.php:307
+msgid "Twoje zamówienie nie zostało zapisane. Sprawdź formularz i popraw odpowiednie dane."
+msgstr ""
+
+#: Plugin\Commerce\Controller\OrdersController.php:302
+msgid "Twoje zamówienie zostało zapisane."
+msgstr ""
+
+#: Plugin\Commerce\Controller\OrdersController.php:488;537
+msgid "Zamówienie nr %s - hedom.pl"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\add.ctp:1
+#: Plugin\Commerce\View\Customers\edit.ctp:4
+msgid "Dane klienta"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\add.ctp:3
+#: Plugin\Commerce\View\Customers\edit.ctp:8
+msgid "DANE KLIENTA"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_discount.ctp:1
+msgid "PROGRAM PARTNERSKI"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_invoice.ctp:1
+#: View\Elements\Hrs\tab_client.ctp:11
+msgid "Faktury"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders.ctp:10
+msgid "MOJE KONTO"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:1
+msgid "ZAMÓWIENIA W TRAKCIE REALIZACJI"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_in_chart.ctp:1
+msgid "W Koszyku"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:1
+msgid "ZAMÓWIENIA ZREALIZOWANE"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:1
+msgid "USTAWIENIA KONTA"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:2
+#: Plugin\Commerce\View\Customers\order_item.ctp:2
+#: Plugin\Commerce\View\Orders\admin_view.ctp:2
+msgid "PODGLĄD ZAMÓWIENIA NUMER: "
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:12
+#: Plugin\User\View\Users\login.ctp:93
+#: View\ClientLeads\lead_report_all.ctp:12
+#: View\ClientLeads\view.ctp:14
+#: View\Clients\lead_report.ctp:12
+#: View\Elements\cms\header.ctp:11
+msgid "Powrót"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:27
+#: Plugin\Commerce\View\Orders\admin_view.ctp:75
+msgid "Summe"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:28
+#: Plugin\Commerce\View\Orders\admin_view.ctp:76
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:13
+#: View\Elements\Hrs\files\faktura.ctp:92
+#: View\Hrs\pdf\invoice.ctp:97
+msgid "Wartość netto"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:29
+#: Plugin\Commerce\View\Orders\admin_view.ctp:77
+msgid "Wartość VAT"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:30
+#: Plugin\Commerce\View\Orders\admin_view.ctp:78
+#: Plugin\Commerce\View\Orders\completed.ctp:23
+msgid "Wartość brutto"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_item.ctp:18
+#: Plugin\Commerce\View\Orders\completed.ctp:20
+#: Plugin\Commerce\View\Orders\summary.ctp:21
+msgid "Nazwa produktu"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_item.ctp:19
+#: Plugin\Commerce\View\Orders\completed.ctp:21
+#: Plugin\Commerce\View\Orders\summary.ctp:22
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:14
+msgid "Cena brutto"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_item.ctp:74
+msgid "Szczegóły zamówienia (do druku)"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\cart.ctp:77
+msgid "sztuki"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:6
+#: Plugin\Commerce\View\Orders\cart.ctp:29
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:10
+msgid "Produkt"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:7
+#: Plugin\Commerce\View\Orders\cart.ctp:30
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:12
+#: View\Elements\Hrs\hrs_invocies.ctp:121
+#: View\Elements\Hrs\files\faktura.ctp:88
+#: View\Hrs\pdf\invoice.ctp:93
+msgid "Ilość"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:8
+#: Plugin\Commerce\View\Orders\cart.ctp:31
+msgid "Cena"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:31
+#: Plugin\Commerce\View\Orders\cart.ctp:54
+#: Plugin\Commerce\View\Orders\summary.ctp:46
+msgid "Razem:"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:119
+#: Plugin\Commerce\View\Orders\summary.ctp:67
+msgid "Sposób wysyłki"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:133
+#: Plugin\Commerce\View\Orders\cart.ctp:130
+#: Plugin\Commerce\View\Orders\completed.ctp:97
+#: Plugin\Commerce\View\Orders\summary.ctp:115
+msgid "Do zapłaty:"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:136
+#: Plugin\Commerce\View\Orders\cart.ctp:133
+#: Plugin\Commerce\View\Orders\completed.ctp:104
+#: Plugin\Commerce\View\Orders\summary.ctp:51;122
+msgid "(brutto)"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:15;26
+msgid "lub"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\table_index.ctp:9
+msgid "pozostało"
+msgstr ""
+
+#: Plugin\Commerce\View\Email\html\order_adminemail.ctp:1
+#: Plugin\Commerce\View\Email\html\order_email.first.ctp:3
+#: View\Emails\html\test.ctp:1
+#: View\Emails\text\test.ctp:1
+msgid "Witaj!"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_specification.ctp:2
+msgid "SPECYFIKACJA ZAMÓWIENIA NUMER: "
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:4
+msgid "Koszyk"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:21
+msgid "KOSZYK"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\completed.ctp:22
+msgid "Ilość brutto"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:4
+#: Plugin\Commerce\View\Orders\summary.ctp:4
+msgid "Podsumowanie"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:12
+msgid "PODSUMOWANIE"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:23
+msgid "Ilosć"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:24
+msgid "Wartość<br /> brutto"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:64
+#: View\Elements\Hrs\files\faktura.ctp:121
+#: View\Hrs\pdf\invoice.ctp:126
+msgid "Forma płatności"
+msgstr ""
+
+#: Plugin\FebFooter\View\Elements\default\footer.ctp:11
+#: View\Elements\default\footer.ctp:11
+msgid "Wykonanie:<br/>Fabryka e-biznesu"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:4
+msgid "Potwierdzenie"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\selfstatus.ctp:1
+msgid "SELF STATUS TEST"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\start.ctp:1
+#: View\ClientProjects\add_payment.ctp:29
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:53
+msgid "Płatność"
+msgstr ""
+
+#: Plugin\StaticProduct\Controller\ProductCategoriesController.php:110
+msgid "Zmieniono pozycję"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:11
+#: View\Elements\Hrs\files\faktura.ctp:91
+#: View\Hrs\pdf\invoice.ctp:96
+msgid "Cena netto"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\nav_product.ctp:16
+msgid "Ładowanie…"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\nav_product.ctp:17
+#: View\Elements\flash\error.ctp:2
+#: View\Layouts\default.ctp:281;293
+msgid "Błąd"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\front.ctp:13
+#: Plugin\StaticProduct\View\Products\front_all.ctp:21
+msgid "Kaufen"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:22
+#: View\Elements\Clients\client_list.ctp:37
+msgid "więcej"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:20
+msgid "Pobierz pełna broszurę produktu"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:22
+msgid "Wyślij zapytanie"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:33
+#: View\BaseProjects\index.ctp:57
+msgid "Opis"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:36
+msgid "Dane techniczne"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:40
+msgid "Zastosowania"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:44
+msgid "Wygląd produktu"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:48
+msgid "Akcesoria"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:52
+msgid "Podobne produkty"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:80
+msgid "Zdjęcia produktu"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:155;410
+msgid " - link resetowania hasła"
+msgstr ""
+
+#: Plugin\User\Controller\UsersController.php:442
+msgid " - utwórz nowe hasło"
+msgstr ""
+
+#: Plugin\User\View\Elements\Users\ajaxlogin.ctp:9
+msgid "Witaj użytkowniku"
+msgstr ""
+
+#: Plugin\User\View\Elements\Users\table_index.ctp:7
+msgid "Grupy"
+msgstr ""
+
+#: Plugin\User\View\Elements\Users\table_index.ctp:8
+#: View\Elements\Hrs\hrs_documents.ctp:46
+#: View\Elements\Vacations\table_vacation_applications.ctp:49
+#: View\Hrs\circulation_card.ctp:15
+#: View\Hrs\hire_employee.ctp:43
+#: View\Profiles\edit_hr.ctp:413
+msgid "Dział"
+msgstr ""
+
+#: Plugin\User\View\Emails\html\user_passreset.ctp:1
+#: Plugin\User\View\Emails\text\user_passreset.ctp:1
+#: View\Elements\cms\header.ctp:7
+msgid "Witaj"
+msgstr ""
+
+#: Plugin\User\View\Emails\html\user_passreset.ctp:3
+#: Plugin\User\View\Emails\text\user_passreset.ctp:4
+msgid "Aby ustawić nowe hasło, kliknij poniższy link:"
+msgstr ""
+
+#: Plugin\User\View\Users\activate.ctp:16
+#: View\Briefs\add.ctp:207
+#: View\Briefs\add_default_question.ctp:33
+#: View\Briefs\edit.ctp:193
+#: View\ChecklistPositions\add.ctp:11
+#: View\ChecklistPositions\edit.ctp:15
+#: View\ChecklistPositions\view_group.ctp:19
+#: View\Clients\index.ctp:155
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:142
+#: View\Elements\ClientProjects\add_file_modal.ctp:144
+#: View\Elements\ClientProjects\scan_file_modal.ctp:112
+#: View\Elements\Clients\edit_client.ctp:143
+#: View\Elements\Clients\edit_client_lead.ctp:145
+#: View\Elements\Hrs\tabs.ctp:67;98
+#: View\Elements\Vacations\add.ctp:138
+#: View\Elements\Vacations\add_no_table.ctp:122
+#: View\Elements\Vacations\edit.ctp:191
+#: View\Fronts\client_panel.ctp:47;78
+#: View\HrSettings\add.ctp:12
+#: View\HrSettings\edit.ctp:16
+#: View\Hrs\edit_contract.ctp:113
+#: View\Profiles\edit_hr.ctp:455
+#: View\Profiles\personal_aim.ctp:84
+#: View\TextDocuments\create.ctp:49
+#: View\TextDocuments\update.ctp:101
+#: View\WorkTimes\add.ctp:14
+#: View\WorkTimes\edit.ctp:16
+msgid "Zapisz"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:45
+msgid "Zaloguj się na swoje konto"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:55
+#: View\Elements\Profile\table_index.ctp:55
+#: View\Elements\Profile\table_payments.ctp:43
+#: View\Emails\html\kontakt.ctp:4
+#: View\Profiles\index.ctp:57
+msgid "E-mail"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:59;63
+#: Plugin\User\View\Users\new_pass.ctp:36
+#: View\Elements\Pm\login.ctp:36
+msgid "Hasło"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:72;81
+msgid "Zapomniałeś hasła?"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:74
+msgid "Nie szkodzi, kliknij"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:75
+#: View\Emails\html\brief_client_info.ctp:19
+#: View\Emails\html\brief_close.ctp:14
+#: View\Emails\html\make_invoice.ctp:13
+#: View\Emails\html\mark_invoice_as_paid.ctp:6
+#: View\Emails\html\one_day_to_pay_day.ctp:15
+#: View\Emails\html\seven_days_to_pay_day.ctp:15
+#: View\Emails\html\two_days_after_pay_day.ctp:18
+msgid "tutaj"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:76
+msgid "aby zresetować hasło"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:83
+msgid "Wpisz swój adres email, aby zresetować hasło"
+msgstr ""
+
+#: Plugin\User\View\Users\login.ctp:95
+#: View\BaseModules\index.ctp:16
+#: View\BaseProjects\index.ctp:16
+#: View\Briefs\view.ctp:246
+#: View\Calendars\edit.ctp:47;67
+#: View\Calendars\index.ctp:52
+#: View\Clients\profile.ctp:143
+#: View\Elements\ClientProjects\document_list_modals.ctp:18;38
+#: View\Elements\Profile\profile.ctp:219
+#: View\Elements\ProjectFiles\table.ctp:118
+#: View\Elements\Vacations\vacation_applications_modals.ctp:13;31;49
+#: View\Profiles\metrics.ctp:332
+#: View\TextDocuments\index.ctp:52
+msgid "Potwierdź"
+msgstr ""
+
+#: Plugin\User\View\Users\new_account_pass.ctp:21
+#: View\Emails\html\account_credentials.ctp:1
+msgid "Witaj nowy pracowniku FEB!"
+msgstr ""
+
+#: Plugin\User\View\Users\new_account_pass.ctp:23
+msgid "Wpisz służbowy adres email, aby ustawić hasło dla konta w systemie"
+msgstr ""
+
+#: Plugin\User\View\Users\new_pass.ctp:22
+msgid "Resetowanie hasła"
+msgstr ""
+
+#: Plugin\User\View\Users\new_pass.ctp:25
+msgid "Uzupełnij dane"
+msgstr ""
+
+#: Plugin\User\View\Users\new_pass.ctp:32
+#: View\Clients\profile.ctp:128
+#: View\Elements\Profile\profile.ctp:204
+msgid "Nowe hasło"
+msgstr ""
+
+#: Plugin\User\View\Users\new_pass.ctp:41
+msgid "Powtórz nowe hasło"
+msgstr ""
+
+#: View\BaseModules\index.ctp:1
+#: View\BaseProjects\index.ctp:65
+msgid "Baza modułów"
+msgstr ""
+
+#: View\BaseModules\index.ctp:9
+msgid "Usuń projekt z bazy modułów"
+msgstr ""
+
+#: View\BaseModules\index.ctp:12
+msgid "Czy na pewno chcesz usunąć projekt z bazy modułów?"
+msgstr ""
+
+#: View\BaseModules\index.ctp:15
+#: View\BaseProjects\index.ctp:15
+#: View\BonusPanels\index.ctp:104
+#: View\Briefs\view.ctp:245
+#: View\Calendars\edit.ctp:27;46;66
+#: View\Calendars\index.ctp:29;51
+#: View\ClientDomains\index.ctp:95
+#: View\Clients\index.ctp:147
+#: View\Clients\profile.ctp:67
+#: View\Clients\view.ctp:151;186;206
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:17;125
+#: View\Elements\ClientLeads\client_lead_confirm_delete_file_modals.ctp:17
+#: View\Elements\ClientProjects\addForm.ctp:65
+#: View\Elements\ClientProjects\add_file_modal.ctp:143
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:118
+#: View\Elements\ClientProjects\document_list_modals.ctp:17;37
+#: View\Elements\ClientProjects\fileQuestion.ctp:24
+#: View\Elements\ClientProjects\scan_file_modal.ctp:111
+#: View\Elements\ClientProjects\share.ctp:43
+#: View\Elements\Clients\add_client_contact.ctp:102
+#: View\Elements\Clients\add_client_contact_extend.ctp:202
+#: View\Elements\Clients\add_client_lead.ctp:108
+#: View\Elements\Clients\add_client_note.ctp:50
+#: View\Elements\Clients\add_lead_report.ctp:49
+#: View\Elements\Clients\add_lead_report_all.ctp:48
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:17;134
+#: View\Elements\Clients\edit_client.ctp:135
+#: View\Elements\Clients\edit_client_lead.ctp:122
+#: View\Elements\Hrs\hrs_invocies.ctp:98;156
+#: View\Elements\Hrs\tabs.ctp:66;97
+#: View\Elements\Profile\modal_photo.ctp:82
+#: View\Elements\Profile\profile.ctp:67
+#: View\Elements\ProjectFiles\table.ctp:98;117
+#: View\Elements\Vacations\add.ctp:159
+#: View\Elements\Vacations\edit.ctp:210
+#: View\Elements\Vacations\vacation_applications_modals.ctp:12;30;48
+#: View\Elements\default\suggestion.ctp:51
+#: View\Fronts\client_panel.ctp:46
+#: View\Profiles\metrics.ctp:331
+#: View\TextDocuments\index.ctp:29;51
+#: View\TextDocuments\update.ctp:35
+msgid "Zamknij"
+msgstr ""
+
+#: View\BaseModules\index.ctp:30
+#: View\BaseProjects\index.ctp:30
+#: View\BonusPanels\index.ctp:13
+#: View\Calendars\index.ctp:70
+#: View\Elements\ClientProjects\document_list.ctp:79
+#: View\Elements\ClientProjects\log_list.ctp:11
+#: View\Elements\ClientProjects\notes_list.ctp:17
+#: View\Elements\ClientProjects\table.ctp:18
+#: View\Elements\ClientProjects\table_index.ctp:41
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:41
+#: View\Elements\Hrs\hrs_documents.ctp:16
+#: View\Elements\Hrs\hrs_invocies.ctp:7
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:14
+#: View\Elements\Pm\table.ctp:26
+#: View\Elements\Profile\table_contracts.ctp:10
+#: View\Elements\Profile\table_index.ctp:17
+#: View\Elements\Profile\table_payments.ctp:11
+#: View\Fronts\coordinator_panel.ctp:13
+#: View\Fronts\list_bugs.ctp:8
+#: View\Fronts\management_panel.ctp:207
+#: View\Hrs\circulation_card.ctp:7
+#: View\Pm\index.ctp:47
+#: View\Profiles\index.ctp:19
+#: View\Profiles\messages.ctp:8
+#: View\SocialBooks\index.ctp:11
+#: View\TextDocuments\index.ctp:73
+#: View\Vacations\team.ctp:9
+msgid "Szukaj"
+msgstr ""
+
+#: View\BaseModules\index.ctp:49
+#: View\Briefs\index.ctp:63
+#: View\ClientLeads\crm_report.ctp:154;231;270
+#: View\Elements\ClientLeads\contact_list.ctp:7
+#: View\Elements\Clients\add_client_lead.ctp:31
+#: View\Elements\Clients\edit_client_lead.ctp:33
+#: View\Elements\Clients\lead_list.ctp:16
+#: View\Elements\Clients\project_list.ctp:15
+#: View\Elements\ProjectFiles\table.ctp:8
+msgid "Kategoria"
+msgstr ""
+
+#: View\BaseModules\index.ctp:53
+#: View\Briefs\index.ctp:15
+#: View\Briefs\view.ctp:57
+#: View\Calendars\edit.ctp:100
+#: View\Calendars\index.ctp:87
+#: View\ClientProjects\add_budget.ctp:136
+#: View\ClientProjects\add_payment.ctp:42
+#: View\ClientProjects\add_realization.ctp:49
+#: View\Clients\index.ctp:40
+#: View\Elements\Bonuses\table.ctp:9
+#: View\Elements\Clients\add_client_lead.ctp:19
+#: View\Elements\Clients\edit_client.ctp:20
+#: View\Elements\Clients\edit_client_lead.ctp:21
+#: View\Elements\Clients\lead_list.ctp:13
+#: View\Elements\Clients\project_list.ctp:12
+#: View\Elements\Hrs\hrs_documents.ctp:88
+#: View\Elements\Hrs\hrs_invocies.ctp:107
+#: View\Elements\Payments\table_index.ctp:9
+#: View\Elements\ProjectFiles\table.ctp:7
+#: View\Fronts\worker_panel.ctp:13
+#: View\TextDocuments\index.ctp:86
+msgid "Nazwa"
+msgstr ""
+
+#: View\BaseModules\index.ctp:57
+#: View\BaseProjects\index.ctp:49
+#: View\Elements\ClientProjects\addForm.ctp:6;8
+#: View\Elements\ClientProjects\view_tiles_client.ctp:65
+msgid "Nazwa projektu"
+msgstr ""
+
+#: View\BaseModules\index.ctp:61
+#: View\ClientProjects\add_budget.ctp:272
+msgid "Uwagi"
+msgstr ""
+
+#: View\BaseModules\index.ctp:65
+#: View\BaseProjects\index.ctp:61
+#: View\Elements\ClientProjects\share.ctp:35
+#: View\Elements\Hrs\hrs_documents.ctp:122
+#: View\Elements\Hrs\hrs_invocies.ctp:193
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:88
+#: View\Emails\html\share.ctp:2
+msgid "Link do projektu"
+msgstr ""
+
+#: View\BaseModules\index.ctp:69
+#: View\BaseProjects\index.ctp:69
+#: View\Briefs\add.ctp:31
+#: View\Briefs\edit.ctp:38
+#: View\Calendars\index.ctp:91
+#: View\ClientProjects\add_budget.ctp:245
+#: View\ClientProjects\add_payment.ctp:95
+#: View\ClientProjects\add_realization.ctp:155
+#: View\Elements\Clients\lead_list.ctp:37
+#: View\Elements\Hrs\hrs_documents.ctp:91
+#: View\Elements\Hrs\hrs_invocies.ctp:78
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:66
+#: View\Elements\Profile\table_contracts.ctp:48
+#: View\Elements\Profile\table_index.ctp:74
+#: View\Elements\Profile\table_payments.ctp:66
+#: View\Elements\Vacations\table_vacation_applications.ctp:82
+#: View\Profiles\index.ctp:76
+#: View\TextDocuments\index.ctp:94
+msgid "Opcje"
+msgstr ""
+
+#: View\BaseModules\index.ctp:99
+#: View\BaseProjects\index.ctp:102
+#: View\Calendars\index.ctp:104
+#: View\ClientDomains\index.ctp:33
+#: View\Clients\view.ctp:96
+#: View\Elements\ClientLeads\contact_list.ctp:36
+#: View\Elements\Clients\client_contact.ctp:39
+#: View\Elements\HrSettings\table_index.ctp:27
+#: View\Elements\HrSettings\work_times.ctp:25
+#: View\Elements\Vacations\list.ctp:91;91
+#: View\TextDocuments\index.ctp:113
+msgid "Usuń"
+msgstr ""
+
+#: View\BaseModules\index.ctp:102;108
+#: View\BaseProjects\index.ctp:105
+#: View\Elements\Profile\table_contracts.ctp:81
+#: View\Elements\Profile\table_index.ctp:137
+#: View\Elements\Profile\table_payments.ctp:121
+#: View\Profiles\index.ctp:146
+msgid "Edycja"
+msgstr ""
+
+#: View\BaseModules\index.ctp:105;111
+msgid "View"
+msgstr ""
+
+#: View\BaseProjects\index.ctp:1
+msgid "Baza projektów"
+msgstr ""
+
+#: View\BaseProjects\index.ctp:9
+msgid "Usuń projekt z bazy projektów"
+msgstr ""
+
+#: View\BaseProjects\index.ctp:12
+msgid "Czy na pewno chcesz usunąć projekt z bazy projektów?"
+msgstr ""
+
+#: View\BaseProjects\index.ctp:108
+#: View\Elements\Clients\lead_list.ctp:73
+#: View\Elements\Profile\table_contracts.ctp:84
+#: View\Elements\Profile\table_index.ctp:140
+#: View\Elements\Profile\table_payments.ctp:124
+#: View\Profiles\index.ctp:149
+msgid "Podgląd"
+msgstr ""
+
+#: View\BonusPanels\add_bonus.ctp:1
+msgid "Dodaj premię"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:1
+msgid "Lista premii"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:37
+msgid "Zysk"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:49
+msgid "Zostało premii"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:63
+msgid "Wykorzystany czas"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:77
+msgid "Wykoszytany czas dodatkowy"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:86
+#: View\Elements\Bonuses\table.ctp:1
+#: View\Fronts\worker_panel.ctp:5
+msgid "Premie"
+msgstr ""
+
+#: View\BonusPanels\bonus.ctp:112
+msgid "Do tego projektu nie jest przydzielony żaden dział"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:1
+#: View\ClientProjects\index.ctp:1
+#: View\Clients\view.ctp:69
+#: View\Fronts\client_panel.ctp:90
+#: View\Fronts\coordinator_panel.ctp:1
+#: View\Hrs\index.ctp:13
+msgid "Lista projektów"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:20
+msgid "Wybierz zespół"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:36
+#: View\Elements\ClientProjects\table.ctp:28
+#: View\Elements\ClientProjects\table_index.ctp:50;98
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:60;127
+#: View\Fronts\client_panel.ctp:95
+msgid "Nazwa Projektu"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:39
+#: View\Elements\ClientProjects\table.ctp:31
+#: View\Elements\ClientProjects\table_index.ctp:53
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:63
+#: View\Fronts\client_panel.ctp:98
+msgid "Początek"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:42
+#: View\Elements\ClientProjects\table.ctp:34
+#: View\Elements\ClientProjects\table_index.ctp:56
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:66
+#: View\Fronts\client_panel.ctp:101
+msgid "Koniec"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:45
+msgid "Rentowność"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:73
+msgid "Link do panelu premi króty można skopiować i udostępnić"
+msgstr ""
+
+#: View\BonusPanels\index.ctp:86
+msgid "Link do panelu premi króty można skopiować i udostępnić."
+msgstr ""
+
+#: View\Briefs\add.ctp:7
+#: View\Briefs\edit.ctp:4
+msgid "Pytania opcjonalne"
+msgstr ""
+
+#: View\Briefs\add.ctp:38
+#: View\Briefs\edit.ctp:45
+msgid "DODAJ KATEGORIĘ"
+msgstr ""
+
+#: View\Briefs\add.ctp:45
+msgid "Dodaj kategorię"
+msgstr ""
+
+#: View\Briefs\add.ctp:56
+msgid "Przeciągnij pytanie do kategorii"
+msgstr ""
+
+#: View\Briefs\add.ctp:59
+#: View\Briefs\edit.ctp:58
+msgid "DODAJ PYTANIE"
+msgstr ""
+
+#: View\Briefs\add.ctp:81
+#: View\Briefs\edit.ctp:75
+msgid "Brief [pytanie oferowe]"
+msgstr ""
+
+#: View\Briefs\add.ctp:84
+#: View\Briefs\edit.ctp:78
+#: View\Briefs\view.ctp:97
+#: View\ClientLeads\view.ctp:33
+#: View\Clients\view.ctp:41
+#: View\Elements\ClientProjects\view_tiles.ctp:73
+#: View\Elements\ProjectFiles\table.ctp:9
+#: View\Fronts\client_panel.ctp:1
+msgid "Informacje"
+msgstr ""
+
+#: View\Briefs\add.ctp:89
+#: View\Briefs\edit.ctp:83;144;170
+msgid "Tytuł briefa"
+msgstr ""
+
+#: View\Briefs\add.ctp:100
+#: View\Briefs\edit.ctp:112
+#: View\Briefs\view.ctp:138
+msgid "Opiekun klienta"
+msgstr ""
+
+#: View\Briefs\add.ctp:113
+#: View\Briefs\view.ctp:37
+#: View\ClientLeads\crm_report.ctp:191
+#: View\Clients\lead_report.ctp:20
+#: View\Elements\ClientProjects\contactInfo.ctp:3
+msgid "Klient"
+msgstr ""
+
+#: View\Briefs\add.ctp:118
+msgid "email"
+msgstr ""
+
+#: View\Briefs\add.ctp:155;178
+msgid "Przeciągnij i upuść tutaj aby dodać"
+msgstr ""
+
+#: View\Briefs\add.ctp:195
+msgid "Powrót do leada"
+msgstr ""
+
+#: View\Briefs\add.ctp:201
+#: View\Briefs\edit.ctp:192
+msgid "Zapisz i powiadom klienta"
+msgstr ""
+
+#: View\Briefs\add_default_question.ctp:3
+msgid "Brief - dodaj pytanie domyslne"
+msgstr ""
+
+#: View\Briefs\add_default_question.ctp:17
+msgid "Wybierz kategorię pytania"
+msgstr ""
+
+#: View\Briefs\add_default_question.ctp:25
+#: View\Briefs\index.ctp:64
+msgid "Treść pytania"
+msgstr ""
+
+#: View\Briefs\edit.ctp:6
+msgid "WWW"
+msgstr ""
+
+#: View\Briefs\edit.ctp:7
+msgid "Facebook"
+msgstr ""
+
+#: View\Briefs\edit.ctp:8
+msgid "Zintegrowany"
+msgstr ""
+
+#: View\Briefs\edit.ctp:9
+msgid "Buzz"
+msgstr ""
+
+#: View\Briefs\edit.ctp:14
+msgid "IT"
+msgstr ""
+
+#: View\Briefs\edit.ctp:27
+#: View\Elements\ClientProjects\view_tiles.ctp:172
+msgid "SEO"
+msgstr ""
+
+#: View\Briefs\edit.ctp:51
+msgid "Wprowadź nazwę kategorii i naciśnij Enter"
+msgstr ""
+
+#: View\Briefs\edit.ctp:64
+msgid "Wprowadź treść pytania i naciśnij Enter"
+msgstr ""
+
+#: View\Briefs\edit.ctp:96
+msgid "Data  utworzenia"
+msgstr ""
+
+#: View\Briefs\edit.ctp:125
+#: View\Briefs\view.ctp:148
+msgid "SKĄD DOWIEDZIELI SIĘ PAŃSTWO O NASZEJ FIRMIE"
+msgstr ""
+
+#: View\Briefs\edit.ctp:139
+msgid "Marka/Produkt"
+msgstr ""
+
+#: View\Briefs\edit.ctp:157
+msgid "Tytuł briefa ukryty"
+msgstr ""
+
+#: View\Briefs\edit.ctp:186
+msgid "Dokument został zapisany na liście dokumentów związanych z leadem Mój lead"
+msgstr ""
+
+#: View\Briefs\edit.ctp:186
+msgid "Opcjonalnie możesz wykorzystać link do briefa"
+msgstr ""
+
+#: View\Briefs\edit.ctp:188
+msgid "Kliknij aby otworzyć brief"
+msgstr ""
+
+#: View\Briefs\index.ctp:1;6
+msgid "Dodaj brief"
+msgstr ""
+
+#: View\Briefs\index.ctp:16
+msgid "Opiekun"
+msgstr ""
+
+#: View\Briefs\index.ctp:17
+#: View\ClientLeads\lead_report_all.ctp:65
+#: View\Clients\lead_report.ctp:66
+#: View\Elements\Clients\edit_client_lead.ctp:57
+msgid "Komentarz"
+msgstr ""
+
+#: View\Briefs\index.ctp:18
+#: View\ClientLeads\lead_report_all.ctp:64
+#: View\Clients\lead_report.ctp:65
+#: View\Clients\view.ctp:174
+msgid "Lead"
+msgstr ""
+
+#: View\Briefs\index.ctp:20
+#: View\Briefs\view.ctp:58
+msgid "Utworzono"
+msgstr ""
+
+#: View\Briefs\index.ctp:55
+msgid "Dodaj pytnie domyślne"
+msgstr ""
+
+#: View\Briefs\index.ctp:62
+msgid "Grupa"
+msgstr ""
+
+#: View\Briefs\view.ctp:7
+msgid "Ofertę przygotował"
+msgstr ""
+
+#: View\Briefs\view.ctp:51
+msgid "Wszystkie wersje"
+msgstr ""
+
+#: View\Briefs\view.ctp:114
+msgid "Link briefa, który można udostępnić klientowi"
+msgstr ""
+
+#: View\Briefs\view.ctp:125
+#: View\Elements\ClientProjects\addForm.ctp:14
+msgid "Data utworzenia"
+msgstr ""
+
+#: View\Briefs\view.ctp:215
+msgid "Zakończ i wygeneruj PDF"
+msgstr ""
+
+#: View\Briefs\view.ctp:220
+msgid "Powiadom handlowca o zakończeniu wypełniania briefa"
+msgstr ""
+
+#: View\Briefs\view.ctp:220
+msgid "Powiadom handlowca"
+msgstr ""
+
+#: View\Briefs\view.ctp:223
+msgid "Powiadomienie zostało wysłane"
+msgstr ""
+
+#: View\Briefs\view.ctp:239
+msgid "Zamknięcie briefa"
+msgstr ""
+
+#: View\Briefs\view.ctp:242
+msgid "Zamknięcie briefa stworzy jego nową wersje i spowoduje wysłanie maila z PDF do klienta."
+msgstr ""
+
+#: View\Briefs\pdf\brief_pdf.ctp:11
+msgid "Brief przygotował"
+msgstr ""
+
+#: View\Calendars\edit.ctp:1;10
+#: View\Calendars\view.ctp:1;10
+#: View\Vacations\team.ctp:95
+msgid "Kalendarz"
+msgstr ""
+
+#: View\Calendars\edit.ctp:11
+msgid "Instrukcja korzystania z kalendarza"
+msgstr ""
+
+#: View\Calendars\edit.ctp:24
+msgid "Kalendarz został zapisany do bazy"
+msgstr ""
+
+#: View\Calendars\edit.ctp:40;60
+msgid "Usuń wydarzenie"
+msgstr ""
+
+#: View\Calendars\edit.ctp:43
+msgid "Czy na pewno chcesz usunąć wydarzenie z kalendarza"
+msgstr ""
+
+#: View\Calendars\edit.ctp:63
+msgid "Czy na pewno chcesz usunąć wydarzenie"
+msgstr ""
+
+#: View\Calendars\edit.ctp:78
+msgid "Dodaj nowe wydarzenie"
+msgstr ""
+
+#: View\Calendars\edit.ctp:81
+msgid "Tytuł wydarzenia"
+msgstr ""
+
+#: View\Calendars\edit.ctp:95
+#: View\Calendars\index.ctp:30
+#: View\ClientProjects\add_budget.ctp:87;115
+#: View\Clients\profile.ctp:38;55
+#: View\Elements\Clients\add_client_contact_extend.ctp:69;192
+#: View\Elements\Profile\modal_photo.ctp:52;73
+#: View\Elements\Profile\profile.ctp:38;55
+#: View\Hrs\add_contract.ctp:108
+#: View\Hrs\add_employe_contract.ctp:103
+#: View\Hrs\add_employee_contract.ctp:103
+#: View\Hrs\hire_employee.ctp:83
+#: View\TextDocuments\index.ctp:30
+msgid "Dodaj"
+msgstr ""
+
+#: View\Calendars\edit.ctp:129
+msgid "Wróc do listy"
+msgstr ""
+
+#: View\Calendars\index.ctp:1
+msgid "Lista kalendarzy"
+msgstr ""
+
+#: View\Calendars\index.ctp:8;59
+msgid "Dodaj nowy kalendarz"
+msgstr ""
+
+#: View\Calendars\index.ctp:45
+msgid "Usuń kalendarz"
+msgstr ""
+
+#: View\Calendars\index.ctp:48
+msgid "Czy na pewno chcesz usunąć kalendarz"
+msgstr ""
+
+#: View\Calendars\index.ctp:83
+msgid "Rok"
+msgstr ""
+
+#: View\Calendars\index.ctp:107
+#: View\TextDocuments\index.ctp:117;121
+msgid "Edycja/Podglad"
+msgstr ""
+
+#: View\ChecklistPositions\add.ctp:3
+#: View\ChecklistPositions\view_group.ctp:4
+msgid "Lista kart obiegowych"
+msgstr ""
+
+#: View\ChecklistPositions\edit.ctp:3
+msgid "Edit Checklist Positions"
+msgstr ""
+
+#: View\ChecklistPositions\index.ctp:3
+#: View\ChecklistPositions\view_group.ctp:6
+msgid "Dodaj nową pozycję"
+msgstr ""
+
+#: View\ChecklistPositions\view_group.ctp:5
+#: View\Elements\ChecklistPositions\table_index.ctp:28
+#: View\Elements\Hrs\hrs_documents.ctp:107
+#: View\Elements\Hrs\hrs_invocies.ctp:182
+#: View\Elements\Vacations\list.ctp:86;86
+msgid "Drukuj"
+msgstr ""
+
+#: View\ClientDomains\add.ctp:1
+#: View\ClientDomains\edit.ctp:2
+#: View\ClientDomains\view.ctp:1
+#: View\SocialBooks\view.ctp:2
+msgid "Lista"
+msgstr ""
+
+#: View\ClientDomains\edit.ctp:1
+#: View\ClientDomains\index.ctp:1
+#: View\ClientLeads\view.ctp:63
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:51
+#: View\Elements\Pm\table.ctp:53;88
+#: View\Elements\Vacations\add.ctp:103
+#: View\Elements\Vacations\add_no_table.ctp:96
+#: View\Elements\Vacations\edit.ctp:118;157
+#: View\Fronts\coordinator_panel.ctp:42;83
+#: View\Fronts\management_panel.ctp:236;277
+#: View\Pm\index.ctp:130
+msgid "Projekt"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:13
+msgid "id"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:14
+msgid "Domena"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:25
+msgid "pokaż raporty"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:37
+#: View\Elements\ClientLeads\contact_list.ctp:37
+#: View\Elements\ClientProjects\view_tiles.ctp:199
+#: View\Elements\Clients\client_contact.ctp:41
+#: View\Elements\Vacations\contract_history.ctp:124
+#: View\Elements\Vacations\list.ctp:88;88
+msgid "Edytuj"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:39
+#: View\ClientLeads\index.ctp:66
+#: View\Clients\view.ctp:58
+msgid "Generuj raport"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:73
+msgid "Integracja z systemem monitorującym pozycje stron"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:76
+msgid "Pozycjonowanie strony jest typowym działaniem projektowym, tak więc\n                        użytkownicy działu SEM także widzą listę projektów, z tą różnicą, że w\n                        każdym projekcie zdefiniowana jest lista wybranych domen Klienta"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:79
+msgid "Domeny wprowadza się podczas konfigurowania projektu, są\n                        przechowywane w CRM jako własność Klienta"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:81
+msgid "Integracja z systemem monitoringu pozycji w wyszukiwarkach"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:82
+msgid "Co miesiąc, za pomocą linku do systemu monitoringu, pobierane są nowe\n                        raporty, jeden dla każdej domeny"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:83
+msgid "Każdy raport ma w nazwie"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:84
+msgid "nazwę domeny"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:85
+msgid "okres raportu od-do"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:86
+msgid "monitoring (np. google.de)"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:87
+msgid "Raport trafia na listę dokumentów projektowych w postaci PDF"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:88
+msgid "Każdy kolejny raport dotyczący tej samej domeny jest zapisywany jako\n                        najnowsza wersja, a stare raporty są przechowywane jako stare wersje"
+msgstr ""
+
+#: View\ClientDomains\index.ctp:90
+msgid "Miesięczne raporty SEO są automatycznie udostępniane dla Klienta w\n                        jego panelu"
+msgstr ""
+
+#: View\ClientLeads\crm_activity.ctp:2
+msgid "Lista aktywności"
+msgstr ""
+
+#: View\ClientLeads\crm_activity.ctp:7
+msgid "Wszystkie aktywności"
+msgstr ""
+
+#: View\ClientLeads\crm_activity.ctp:59
+msgid "Pokaż listę aktywności tego użytkownika we wszystkich leadach"
+msgstr ""
+
+#: View\ClientLeads\crm_activity.ctp:61
+msgid "No name"
+msgstr ""
+
+#: View\ClientLeads\crm_activity.ctp:69
+msgid "Pokaż listę aktywniści wsysktich użytkowników w tym leadzie"
+msgstr ""
+
+#: View\ClientLeads\crm_activity.ctp:74
+msgid "Zobacz ten lead"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:3
+#: View\Profiles\edit_hr.ctp:11
+#: View\Profiles\index.ctp:1
+#: View\Profiles\metrics.ctp:371
+#: View\Vacations\index.ctp:29
+msgid "Lista pracowników"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:17
+msgid "Utwórz raport"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:26
+msgid "Raporty"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:33
+msgid "Ogólnie"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:37;124
+msgid "Lejek sprzedaży"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:41
+msgid "Pozostałe"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:55
+msgid "Nowi klienci"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:66
+msgid "Nowe leady"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:77
+msgid "Wartość otwartych interesów"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:88
+msgid "Wartość wygranych interesów"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:99
+msgid "Wartość przegranych interesów"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:114
+msgid "Raport do pobrania"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:145
+msgid "Kategorie leadów"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:157;194;234;273
+msgid "Liczba"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:160;237;276
+msgid "Wszystkich"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:182
+msgid "Sprzedaż/Klient"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:197
+#: View\Elements\ClientLeads\contact_list.ctp:8
+#: View\Elements\Clients\add_client_lead.ctp:81
+#: View\Elements\Clients\edit_client_lead.ctp:95
+msgid "Wartość"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:222
+msgid "Kategorie leadów zamknietych"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:261
+msgid "Kategorie leadów otwartych"
+msgstr ""
+
+#: View\ClientLeads\crm_report.ctp:302
+msgid "Wartość podpisanych umów"
+msgstr ""
+
+#: View\ClientLeads\index.ctp:1
+#: View\Clients\view.ctp:63
+msgid "Lista leadów"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:8
+#: View\Clients\lead_report.ctp:8
+msgid "Raport z leadów"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:26
+#: View\Clients\lead_report.ctp:27
+msgid "Ilość utworzonych leadów"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:30
+#: View\Clients\lead_report.ctp:31
+msgid "Ilość leadów wygranych"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:34
+#: View\Clients\lead_report.ctp:35
+msgid "Ilość leadów przegranych"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:42
+msgid "Lista leadów wygranych:"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:58
+msgid "Lista leadów przegranych:"
+msgstr ""
+
+#: View\ClientLeads\lead_report_all.ctp:113
+#: View\Clients\lead_report.ctp:124
+msgid "Pobierz CSV"
+msgstr ""
+
+#: View\ClientLeads\view.ctp:9
+msgid "Szczegóły leadu"
+msgstr ""
+
+#: View\ClientLeads\view.ctp:38
+msgid "Log i pliki"
+msgstr ""
+
+#: View\ClientLeads\view.ctp:48
+#: View\Elements\Clients\edit_client_lead.ctp:69
+msgid "Prawdopodobieństwo"
+msgstr ""
+
+#: View\ClientLeads\view.ctp:66
+msgid "Utwórz projekt"
+msgstr ""
+
+#: View\ClientLeads\view.ctp:68
+msgid "Edytuj lead"
+msgstr ""
+
+#: View\ClientLeads\view.ctp:74;77
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:99
+#: View\Elements\ClientProjects\view_tiles.ctp:157
+#: View\Elements\ClientProjects\view_tiles_client.ctp:140
+msgid "Briefing"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:7
+#: View\ClientProjects\add_budget.ctp:4
+#: View\ClientProjects\add_payment.ctp:4
+#: View\ClientProjects\add_realization.ctp:3
+msgid "Nowy projekt"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:9
+msgid "Na podstawie leadu"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:19
+msgid "Informacje z leadu"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:21
+msgid "Informacje kontaktowe"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:27
+msgid "Account manager"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:35
+msgid "Wybierz osoby kontaktowe w projekcie"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:39
+msgid "Załączone pliki"
+msgstr ""
+
+#: View\ClientProjects\add.ctp:48
+#: View\ClientProjects\add_budget.ctp:289
+#: View\ClientProjects\add_payment.ctp:151
+msgid "Zapisz i kontynuuj"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:8
+#: View\Elements\ClientProjects\table_index.ctp:59
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:69
+#: View\Fronts\client_panel.ctp:104
+msgid "Budżet"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:20
+msgid "Koszty projektowe"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:35;165
+msgid "Bufor"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:52;182
+msgid "Marża"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:72
+#: View\ClientProjects\add_payment.ctp:98
+msgid "Do zapłaty"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:81
+msgid "Dodaj pozycję budżetową"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:84
+msgid "Wybierz"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:90
+msgid "Dział juz jest na liście"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:123
+msgid "Nazwa działania"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:126
+msgid "Link do PM "
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:140
+msgid "Czas"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:146
+msgid "Koszt"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:199
+msgid "minimalna wartość marży to"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:211
+msgid "Koszty pozycji budżetowej"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:219
+msgid "Wartość pozycji budżetowej"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:249
+msgid "Status projektu"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:253
+#: View\Elements\Bonuses\table.ctp:19
+#: View\Elements\ClientLeads\contact_list.ctp:6
+#: View\Elements\ClientProjects\table.ctp:40
+#: View\Elements\ClientProjects\table_index.ctp:62
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:75
+#: View\Elements\Clients\add_client_lead.ctp:43
+#: View\Elements\Clients\edit_client_lead.ctp:45
+#: View\Elements\Clients\lead_list.ctp:19
+#: View\Elements\Clients\project_list.ctp:18
+#: View\Elements\Hrs\hrs_invocies.ctp:76
+#: View\Elements\Payments\table_index.ctp:21
+#: View\Elements\Vacations\table_vacation_applications.ctp:24
+#: View\Fronts\client_panel.ctp:107
+#: View\Fronts\worker_panel.ctp:22
+msgid "Status"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:255
+msgid "Przed podpisaniem umowy"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:255
+msgid "Podpisana umowa"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:255
+msgid "Zakończony"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:255
+msgid "Wewnętrzny"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:258
+#: View\ClientProjects\add_realization.ctp:122
+#: View\Elements\Profile\table_contracts.ctp:40
+#: View\Elements\Vacations\arrangement.ctp:20
+#: View\Elements\Vacations\contract_history.ctp:40
+msgid "Data rozpoczęcia"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:259
+#: View\Elements\Profile\table_contracts.ctp:41
+#: View\Elements\Vacations\arrangement.ctp:30
+#: View\Elements\Vacations\contract_history.ctp:51
+msgid "Data zakończenia"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:260
+msgid "Data zakończenia gwarancji"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:262
+#: View\Elements\ClientLeads\contact_list.ctp:32
+#: View\Elements\Clients\client_contact.ctp:36
+msgid "Dodatkowe informacje"
+msgstr ""
+
+#: View\ClientProjects\add_budget.ctp:272
+msgid "Np. informacja kto kalkuloweał projekt"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:10
+msgid "Harmonogram płatności"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:13
+msgid "Realizacja projektu"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:20
+msgid "Upuść tutaj aby dodać płatność"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:28
+msgid "Płatność cykliczna"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:47
+#: View\ClientProjects\add_realization.ctp:99
+#: View\Elements\Bonuses\table.ctp:12
+#: View\Elements\Hrs\hrs_documents.ctp:89
+#: View\Elements\Vacations\add.ctp:58
+#: View\Elements\Vacations\add_no_table.ctp:52
+#: View\Elements\Vacations\edit.ctp:69
+#: View\Fronts\worker_panel.ctp:16
+#: View\Hrs\circulation_card.ctp:16
+#: View\Vacations\team.ctp:111
+msgid "Data"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:52
+msgid "Dzien płatności"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:58
+#: View\ClientProjects\add_realization.ctp:52
+msgid "Okres"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:63
+#: View\Elements\Bonuses\table.ctp:16
+#: View\Elements\Clients\lead_list.ctp:25
+#: View\Elements\Clients\project_list.ctp:21
+#: View\Elements\Hrs\files\faktura.ctp:123
+#: View\Elements\Payments\table_index.ctp:18
+#: View\Fronts\worker_panel.ctp:19
+#: View\Hrs\pdf\invoice.ctp:128
+msgid "Kwota"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:69
+msgid "Data ostatniej płatności"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:100
+#: View\Clients\view.ctp:75
+msgid "Płatności"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:107
+msgid "Dodaj płatność"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:113
+msgid "Dodaj płatność cykliczną"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:120
+msgid "Płatność cykliczna będzie powtarzana aż do dnia zakończenia\n                realizacji. Jeżeli umowa jest automatycznie przedłużana,\n                płatność będzie powtarzana"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:127
+msgid "Automatycznie przedłużaj umowę"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:131
+msgid "Umowa będzie automatycznie przedłużana od daty jej\n                zakończenia o wskazany okres czasu"
+msgstr ""
+
+#: View\ClientProjects\add_payment.ctp:133
+msgid "Płatności jednokrotne nie będą powtarzane\n                Płatności cykliczne będą powtarzane"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:9
+msgid "Harmonogram realizacji"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:13
+msgid "Upuść tutaj aby dodać harmonogram realizacji"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:19;86;133
+msgid "Kamień milowy"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:37
+msgid "Wydarzenie cykliczne"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:50;75
+msgid "Data początkowa"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:51
+msgid "Dzien miesiąca"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:53;76
+msgid "Data końcowa"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:62
+msgid "Etap"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:74
+msgid "Tytuł etapu"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:77
+msgid "Szczegółowy opis etapu"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:98
+msgid "Nazwa kamienia"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:100
+msgid "Szczegółowy opis kamienia"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:109
+msgid "Nowa umowa"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:121
+#: View\Elements\Profile\table_contracts.ctp:27
+msgid "Nazwa umowy"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:123
+msgid "Data zakonczenia"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:158
+msgid "Elementy realizacyjne"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:165
+msgid "Dodaj etap"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:171
+msgid "Dodaj kamień milowy"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:177
+msgid "Dodaj wydarzenie cykliczne"
+msgstr ""
+
+#: View\ClientProjects\add_realization.ctp:183
+msgid "Dodaj nową umowę"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:8
+#: View\ClientProjects\view_client.ctp:8
+msgid "Harmonogram realizacji projektu"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:21
+msgid "Cały projekt"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:46
+msgid "Log projektu"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:51
+#: View\ClientProjects\view_client.ctp:24
+#: View\Clients\view.ctp:79
+msgid "Notatki"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:63
+msgid "Zespół projektowy"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:82
+#: View\ClientProjects\view_client.ctp:38
+msgid "Kierownik projektu i Handlowiec"
+msgstr ""
+
+#: View\ClientProjects\view.ctp:90
+#: View\ClientProjects\view_client.ctp:46
+msgid "Osoby kontaktowe klienta"
+msgstr ""
+
+#: View\Clients\index.ctp:11
+#: View\Elements\flash\info.ctp:2
+#: View\Profiles\metrics.ctp:354;875
+#: View\Profiles\personal_aim.ctp:20
+#: View\Vacations\add.ctp:20
+msgid "Informacja"
+msgstr ""
+
+#: View\Clients\index.ctp:13
+msgid "Wybierz klienta z listy, aby zobaczyć szczegóły lub"
+msgstr ""
+
+#: View\Clients\index.ctp:16
+msgid "Dodaj klienta"
+msgstr ""
+
+#: View\Clients\index.ctp:35
+msgid "Dodawanie klienta"
+msgstr ""
+
+#: View\Clients\index.ctp:44
+#: View\Elements\Clients\edit_client.ctp:24
+msgid "Wpisz nazwę"
+msgstr ""
+
+#: View\Clients\index.ctp:54
+#: View\Elements\Clients\edit_client.ctp:35
+#: View\Hrs\questionnaire.ctp:89
+#: View\Profiles\edit_hr.ctp:277;335
+#: View\Profiles\metrics.ctp:196;277;685;787
+#: View\Profiles\update_profile.ctp:878
+msgid "Ulica"
+msgstr ""
+
+#: View\Clients\index.ctp:58
+#: View\Elements\Clients\edit_client.ctp:39
+msgid "Wpisz ulicę"
+msgstr ""
+
+#: View\Clients\index.ctp:67
+#: View\Elements\Clients\edit_client.ctp:49
+#: View\Hrs\questionnaire.ctp:82
+#: View\Profiles\edit_hr.ctp:292;350
+#: View\Profiles\metrics.ctp:211;292;709;811
+#: View\Profiles\update_profile.ctp:728;941
+msgid "Kod pocztowy"
+msgstr ""
+
+#: View\Clients\index.ctp:71
+#: View\Elements\Clients\edit_client.ctp:53
+msgid "Wpisz kod pocztowy"
+msgstr ""
+
+#: View\Clients\index.ctp:80
+#: View\Elements\Clients\edit_client.ctp:63
+msgid "Miasto"
+msgstr ""
+
+#: View\Clients\index.ctp:84
+#: View\Elements\Clients\edit_client.ctp:67
+msgid "Wpisz miasto"
+msgstr ""
+
+#: View\Clients\index.ctp:93
+#: View\Elements\Clients\edit_client.ctp:77
+#: View\Profiles\edit_hr.ctp:316;375
+#: View\Profiles\metrics.ctp:235;749;851
+#: View\Profiles\update_profile.ctp:833;1047
+msgid "Państwo"
+msgstr ""
+
+#: View\Clients\index.ctp:97
+#: View\Elements\Clients\edit_client.ctp:81
+msgid "Wpisz państwo"
+msgstr ""
+
+#: View\Clients\index.ctp:106
+msgid "Telefon kom."
+msgstr ""
+
+#: View\Clients\index.ctp:110
+msgid "Wpisz telefon komórkowy(do powiadomień sms)"
+msgstr ""
+
+#: View\Clients\index.ctp:120
+#: View\Elements\Clients\edit_client.ctp:106
+msgid "Strona WWW"
+msgstr ""
+
+#: View\Clients\index.ctp:124
+#: View\Elements\Clients\edit_client.ctp:110
+msgid "Wpisz adres WWW"
+msgstr ""
+
+#: View\Clients\index.ctp:137
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:79
+#: View\Elements\Clients\add_client_contact.ctp:51
+#: View\Elements\Clients\add_client_contact_extend.ctp:134
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:79
+#: View\Elements\Clients\edit_client.ctp:124
+msgid "Wpisz adres email"
+msgstr ""
+
+#: View\Clients\lead_report.ctp:21
+msgid "Zakres"
+msgstr ""
+
+#: View\Clients\lead_report.ctp:44
+msgid "Lista leadów wygranych"
+msgstr ""
+
+#: View\Clients\lead_report.ctp:60
+msgid "Lista leadów przegranych"
+msgstr ""
+
+#: View\Clients\lead_report.ctp:131
+msgid "Nie wybrano zakresu dat."
+msgstr ""
+
+#: View\Clients\profile.ctp:10
+#: View\Elements\Profile\profile.ctp:10
+msgid "Dodawanie zdjęcia profilowego"
+msgstr ""
+
+#: View\Clients\profile.ctp:20
+#: View\Elements\Profile\modal_photo.ctp:17
+#: View\Elements\Profile\profile.ctp:20
+msgid "Wgraj zdjęcie z dysku"
+msgstr ""
+
+#: View\Clients\profile.ctp:24
+#: View\Elements\Profile\modal_photo.ctp:21;57
+#: View\Elements\Profile\profile.ctp:24;46
+msgid "Wklej link"
+msgstr ""
+
+#: View\Clients\profile.ctp:29
+#: View\Elements\Profile\modal_photo.ctp:36
+#: View\Elements\Profile\profile.ctp:29
+msgid "Dodaj zdjęcie z dysku"
+msgstr ""
+
+#: View\Clients\profile.ctp:95
+#: View\Elements\Profile\profile.ctp:97
+msgid "Zmień zdjęcie profilowe"
+msgstr ""
+
+#: View\Clients\profile.ctp:109
+#: View\Elements\Profile\profile.ctp:185
+msgid "Zmiana hasła"
+msgstr ""
+
+#: View\Clients\profile.ctp:115
+#: View\Elements\Profile\profile.ctp:191
+msgid "Wprowadź dane poniżej, aby zmienić hasło"
+msgstr ""
+
+#: View\Clients\profile.ctp:121
+#: View\Elements\Profile\profile.ctp:197
+msgid "Stare hasło"
+msgstr ""
+
+#: View\Clients\profile.ctp:135
+#: View\Elements\Profile\profile.ctp:211
+msgid "Potwierdź nowe hasło"
+msgstr ""
+
+#: View\Clients\view.ctp:11
+#: View\Elements\Clients\client_list.ctp:22
+msgid "(zarchiwizowany)"
+msgstr ""
+
+#: View\Clients\view.ctp:17
+msgid "Nowy lead"
+msgstr ""
+
+#: View\Clients\view.ctp:43
+#: View\Elements\Clients\add_client_contact_extend.ctp:16
+msgid "Dodaj nową osobę"
+msgstr ""
+
+#: View\Clients\view.ctp:46
+msgid "Edytuj klienta"
+msgstr ""
+
+#: View\Clients\view.ctp:82
+msgid "Nowa notatka"
+msgstr ""
+
+#: View\Clients\view.ctp:102
+msgid "Brak notatek"
+msgstr ""
+
+#: View\Clients\view.ctp:110;111
+msgid "Archiwizuj klienta"
+msgstr ""
+
+#: View\Clients\view.ctp:145
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:11
+#: View\Elements\ClientLeads\client_lead_confirm_delete_file_modals.ctp:11
+#: View\Elements\ClientProjects\document_list_modals.ctp:11
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:11
+msgid "Potwierdź usunięcie"
+msgstr ""
+
+#: View\Clients\view.ctp:148
+msgid "Czy na pewno chcesz usunąć notatkę"
+msgstr ""
+
+#: View\Clients\view.ctp:178
+msgid "Lead jest notatką z działań handlowca z\n                        klientem w celu sprzedaży konkretnego produktu, jest prekursorem\n                        projektu. Lead jest tworzony gdy klient jest zainteresowany ofertą.\n                        Jeden handlowiec tworzy wiele leadów, może ich być wiele dla jednego\n                        klienta, a każdy odzwierciedla próbę sprzedaży innego produktu"
+msgstr ""
+
+#: View\Clients\view.ctp:200
+msgid "Potwierdź archiwizację"
+msgstr ""
+
+#: View\Clients\view.ctp:203
+msgid "Czy na pewno chcesz zarchiwizowac klienta"
+msgstr ""
+
+#: View\CodeErrors\index.ctp:1
+msgid "Lista błędów"
+msgstr ""
+
+#: View\Elements\work_time.ctp:21
+#: View\Elements\Vacations\arrangement.ctp:9
+#: View\Hrs\add_contract.ctp:24
+#: View\Hrs\add_employe_contract.ctp:24
+#: View\Hrs\add_employee_contract.ctp:24
+#: View\Hrs\edit_contract.ctp:25
+#: View\Profiles\metrics.ctp:540
+#: View\Profiles\update_profile.ctp:401
+msgid "Etat"
+msgstr ""
+
+#: View\Elements\work_time.ctp:25
+msgid "Godziny pracujące"
+msgstr ""
+
+#: View\Elements\work_time.ctp:29
+msgid "Przepracowane godziny"
+msgstr ""
+
+#: View\Elements\work_time.ctp:34
+msgid "Wynagrodzenie podstawowe"
+msgstr ""
+
+#: View\Elements\work_time.ctp:41
+msgid "Nadgodziny"
+msgstr ""
+
+#: View\Elements\work_time.ctp:45
+#: View\Elements\Vacations\arrangement.ctp:102
+msgid "Nadgodziny łącznie"
+msgstr ""
+
+#: View\Elements\work_time.ctp:49
+msgid "Urlop"
+msgstr ""
+
+#: View\Elements\work_time.ctp:53
+msgid "Zwolnienie lekarskie"
+msgstr ""
+
+#: View\Elements\work_time.ctp:74
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:91
+#: View\Elements\Vacations\table_vacation_applications.ctp:101;104
+msgid "Brak danych"
+msgstr ""
+
+#: View\Elements\ChecklistPositions\table_index.ctp:26
+#: View\Elements\HrSettings\table_index.ctp:30
+#: View\Elements\HrSettings\work_times.ctp:28
+#: View\Elements\Hrs\hrs_documents.ctp:103
+msgid "Edytuj dokument"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:14
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:14
+msgid "Czy na pewno chcesz usunąć osobę kontaktową"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:44
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:40
+msgid "edytuj osobę kontaktową"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:50
+#: View\Elements\Clients\add_client_contact.ctp:19
+#: View\Elements\Clients\add_client_contact_extend.ctp:102
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:45
+#: View\Hrs\questionnaire.ctp:29;30;55;60
+#: View\Profiles\edit_hr.ctp:56
+#: View\Profiles\metrics.ctp:43
+#: View\Profiles\update_profile.ctp:53
+msgid "Imię"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:53
+#: View\Elements\Clients\add_client_contact.ctp:23
+#: View\Elements\Clients\add_client_contact_extend.ctp:106
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:49
+msgid "Wpisz imię"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:63
+#: View\Elements\Clients\add_client_contact.ctp:33
+#: View\Elements\Clients\add_client_contact_extend.ctp:116
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:60
+#: View\Hrs\questionnaire.ctp:35;36
+#: View\Profiles\edit_hr.ctp:62
+#: View\Profiles\metrics.ctp:48
+#: View\Profiles\update_profile.ctp:74
+msgid "Nazwisko"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:66
+#: View\Elements\Clients\add_client_contact.ctp:37
+#: View\Elements\Clients\add_client_contact_extend.ctp:120
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:64
+msgid "Wpisz nazwisko"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:88
+#: View\Elements\Clients\add_client_contact.ctp:61
+#: View\Elements\Clients\add_client_contact_extend.ctp:143
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:90
+#: View\Elements\Profile\table_index.ctp:54
+#: View\Elements\Profile\table_payments.ctp:42
+#: View\Emails\html\kontakt.ctp:7
+#: View\Hrs\questionnaire.ctp:107
+#: View\Profiles\index.ctp:56
+msgid "Telefon"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:91
+#: View\Elements\Clients\add_client_contact.ctp:65
+#: View\Elements\Clients\add_client_contact_extend.ctp:147
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:94
+msgid "Wpisz numer telefonu"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:100
+#: View\Elements\Clients\add_client_contact.ctp:75
+#: View\Elements\Clients\add_client_contact_extend.ctp:156
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:105
+msgid "Telefon dodatkowy"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:103
+#: View\Elements\Clients\add_client_contact.ctp:79
+#: View\Elements\Clients\add_client_contact_extend.ctp:160
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:109
+msgid "Wpisz dodatkowy numer telefonu"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:112
+#: View\Elements\Clients\add_client_contact.ctp:88
+#: View\Elements\Clients\add_client_contact_extend.ctp:169
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:119
+msgid "Notatka"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_contact_modals.ctp:115
+#: View\Elements\ClientProjects\add_project_note.ctp:18
+#: View\Elements\Clients\add_client_contact.ctp:92
+#: View\Elements\Clients\add_client_contact_extend.ctp:173
+#: View\Elements\Clients\add_client_note.ctp:37
+#: View\Elements\Clients\edit_and_delete_client_contact.ctp:123
+msgid "Wpisz treść notatki"
+msgstr ""
+
+#: View\Elements\ClientLeads\client_lead_confirm_delete_file_modals.ctp:14
+msgid "Czy na pewno chcesz usunąć plik"
+msgstr ""
+
+#: View\Elements\ClientLeads\contact_list.ctp:24;27;30;33
+#: View\Elements\Clients\client_contact.ctp:28;31;34;37
+msgid "Brak"
+msgstr ""
+
+#: View\Elements\ClientLeads\contact_list.ctp:44
+msgid "Brak osób kontaktowych"
+msgstr ""
+
+#: View\Elements\ClientLeads\file_list.ctp:1
+msgid "Pliki"
+msgstr ""
+
+#: View\Elements\ClientLeads\file_list.ctp:4
+msgid "Dodaj plik do leada"
+msgstr ""
+
+#: View\Elements\ClientLeads\log_list.ctp:2
+msgid "Log"
+msgstr ""
+
+#: View\Elements\ClientLeads\log_list.ctp:11
+msgid "Wpisz tytuł maila"
+msgstr ""
+
+#: View\Elements\ClientLeads\log_list.ctp:28
+#: View\Elements\ClientProjects\log_list.ctp:30
+msgid " przez:"
+msgstr ""
+
+#: View\Elements\ClientLeads\log_list.ctp:40
+#: View\Elements\ClientProjects\log_list.ctp:43
+msgid "od"
+msgstr ""
+
+#: View\Elements\ClientLeads\log_list.ctp:50
+#: View\Elements\ClientProjects\log_list.ctp:53
+msgid "Pokaż treść"
+msgstr ""
+
+#: View\Elements\ClientLeads\log_list.ctp:51
+#: View\Elements\ClientProjects\log_list.ctp:54
+msgid "Ukryj"
+msgstr ""
+
+#: View\Elements\ClientProjects\addForm.ctp:10
+msgid "Alias"
+msgstr ""
+
+#: View\Elements\ClientProjects\addForm.ctp:11
+#: View\Elements\ClientProjects\view_tiles.ctp:13
+#: View\Elements\ClientProjects\view_tiles_client.ctp:12
+msgid "Kierownik projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\addForm.ctp:13
+msgid "Autor projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\addForm.ctp:25
+msgid "SEO - wybierz domeny"
+msgstr ""
+
+#: View\Elements\ClientProjects\addForm.ctp:46;59
+msgid "Dodaj domenę"
+msgstr ""
+
+#: View\Elements\ClientProjects\addForm.ctp:62
+#: View\Profiles\messages.ctp:19
+msgid "Komunikat"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:10
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:6
+msgid "Wybierz plik"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:22
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:88
+msgid "Przesłane pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:57
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:23
+#: View\Elements\ClientProjects\scan_file_modal.ctp:26
+msgid "wybierz kategorię"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:69
+msgid "wybierz dział"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:72
+msgid "Wybierz odpowiedni dział do którego zostanie przypisany plik"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:87
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:51
+#: View\Elements\ClientProjects\scan_file_modal.ctp:55
+#: View\Elements\Hrs\tabs.ctp:91
+#: View\Fronts\client_panel.ctp:71
+#: View\Fronts\management_panel.ctp:172
+msgid "wybierz projekt"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:110
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:74
+msgid "Aby dodać dokumenty przeciągnij tutaj pliki lub kliknij tutaj"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:111
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:75
+msgid "pliki zostaną przesłane automatycznie"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:113;126
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:77
+msgid "File Drag/Drop is not supported for this browser"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:118
+msgid "zmień plik"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:123
+msgid "Aby edytować dokument przeciągnij tutaj plik lub kliknij tutaj"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:124
+msgid "plik zostanie automatycznie zwersjonowany"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal.ctp:131
+msgid "Kategoria i dział jest wymagany aby wysłać pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:34
+#: View\Elements\ClientProjects\scan_file_modal.ctp:38
+msgid "wybierz Sekcje"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_file_modal_version.ctp:82
+msgid "Kategoria jest wymagana aby wysłać pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_project_note.ctp:31
+msgid "Gwiazdka żłóta - notatka staje się widoczna dla klienta"
+msgstr ""
+
+#: View\Elements\ClientProjects\add_project_note.ctp:31
+msgid "Gwiazdka czarna - notatka niewidoczna"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:8
+msgid "Projekt może zakończyć tylko koordynator projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:15
+msgid "Zakończ projekt"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:29
+msgid "Zamykanie projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:36
+msgid "Czy jesteś pewien, że chcesz zamknąć projekt"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:40
+#: View\Elements\ClientProjects\projectWithoutAgreementNotification.ctp:6
+msgid "Uwaga"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:41
+msgid "Brak protokołu odbioru/umowy"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:42
+msgid "otrzyma powiadomienie"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:46
+#: View\Elements\ClientProjects\view_tiles.ctp:259
+msgid "Anuluj"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:47
+#: View\Elements\ClientProjects\view_tiles.ctp:260
+msgid "OK"
+msgstr ""
+
+#: View\Elements\ClientProjects\close.ctp:65
+msgid "Otwórz projekt"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list.ctp:4
+#: View\Elements\Hrs\tab_client.ctp:7
+#: View\Elements\Hrs\tabs.ctp:14
+#: View\Fronts\client_panel.ctp:12
+#: View\Fronts\management_panel.ctp:104
+msgid "Dokumenty"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list.ctp:27
+#: View\Elements\Hrs\hrs_documents.ctp:8
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:5
+msgid "Dodaj plik"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list.ctp:37
+msgid "Utwórz nowy dokument TC"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list.ctp:42
+msgid "Usuń zaznaczone pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list.ctp:53
+msgid "Zaznacz wszystkie"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list.ctp:57
+msgid "Odznacz wszystkie"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list_modals.ctp:14
+msgid "Czy na pewno chcesz usunąć zaznaczone pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list_modals.ctp:31
+msgid "Text Cooperation"
+msgstr ""
+
+#: View\Elements\ClientProjects\document_list_modals.ctp:34
+msgid "Przejdź do listy dokumentów aby utworzyć nowy"
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:6
+msgid "Sprawdziłeś pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:11
+msgid "Upewnij się, czy wszystkie są potrzebne w projekcie"
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:12
+msgid "jeżeli nie - usuń je naciskając "
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:12
+msgid "Pliki nie będą uzunięte z leadu, jedynie z projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:15
+msgid "Czy uprawnienia są odpowiednie? Pliki widoczne dla wszystkich znajdują się"
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:16
+msgid "w kategorii Inne, pozostałe będą widoczne tylko dla kierowników i handlowców"
+msgstr ""
+
+#: View\Elements\ClientProjects\fileQuestion.ctp:19
+msgid "Aby przenieść plik między kategoriami, po prostu przeciągnij go i upuść"
+msgstr ""
+
+#: View\Elements\ClientProjects\filesList.ctp:14
+msgid "Upuść tutaj"
+msgstr ""
+
+#: View\Elements\ClientProjects\filesList.ctp:15
+msgid "brak dokumentów w tej kategorii"
+msgstr ""
+
+#: View\Elements\ClientProjects\notes_list.ctp:9
+msgid "Lista notatek"
+msgstr ""
+
+#: View\Elements\ClientProjects\notes_list.ctp:45
+msgid "Zobacz mniej"
+msgstr ""
+
+#: View\Elements\ClientProjects\notes_list.ctp:46
+msgid "Zobacz więcej"
+msgstr ""
+
+#: View\Elements\ClientProjects\notes_list.ctp:57
+msgid "Notatka widoczna dla klienta"
+msgstr ""
+
+#: View\Elements\ClientProjects\notes_list.ctp:57
+msgid "Notatka niewidoczna dla klienta"
+msgstr ""
+
+#: View\Elements\ClientProjects\profile_card_normal.ctp:27
+msgid "Dodaj do projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\profile_cart.ctp:32
+#: View\Elements\ClientProjects\profile_feb_cart.ctp:47
+msgid "Kliknij aby dodać/usunąć użytkownika"
+msgstr ""
+
+#: View\Elements\ClientProjects\profile_feb_cart.ctp:49;51
+msgid "Tylko koordynator może dodawać lub usuwać osob z projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\profile_feb_cart.ctp:58
+msgid "Zobacz"
+msgstr ""
+
+#: View\Elements\ClientProjects\projectWithoutAgreementNotification.ctp:7
+msgid "Rozpoczynasz projekt bez umowy"
+msgstr ""
+
+#: View\Elements\ClientProjects\projectWithoutAgreementNotification.ctp:8
+msgid "otrzyma prośbę o autoryzację"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:9
+msgid "Skanuj plik"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:79
+msgid "Instalacja Java"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:79;81
+msgid "link"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:80
+msgid "Odblokowanie Java w przeglądarce \"Pozwól teraz i zapamiętaj\""
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:81
+msgid "Pobierz sterownik zainstaluj sterownik"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:82
+msgid "Uruchom program skanera i wybierz urządzenie a następnie zapisz ustawienia"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:83
+msgid "Skanuj w aplikacji"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:84
+msgid "Usługa skanowania działa z przeglądarka firefox oraz Internet Explorer"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:90
+msgid "Kliknij tutaj aby zeskanować"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:91
+msgid "plik zostane przesłany automatycznie"
+msgstr ""
+
+#: View\Elements\ClientProjects\scan_file_modal.ctp:100
+msgid "Kategoria oraz wybór sekcji jest wymagane aby skanować pliki"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:7
+#: View\Vacations\team.ctp:92
+msgid "Ostatnie logowanie"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:12
+msgid "Udostępnione"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:12;53
+msgid "Udostępnij"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:25
+msgid "Udostepnij klientowi"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:31
+msgid "już widzi projekt"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:31
+msgid "nie posiada dostępu do projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\share.ctp:48
+msgid "Zablokuj"
+msgstr ""
+
+#: View\Elements\ClientProjects\table.ctp:1
+#: View\Fronts\client.ctp:8
+#: View\Fronts\front.ctp:24
+#: View\Fronts\worker_panel.ctp:1
+msgid "Moje projekty"
+msgstr ""
+
+#: View\Elements\ClientProjects\table.ctp:37
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:72
+msgid "Narzędzia"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:15
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:13
+msgid "Pokaż brak umowy"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:21
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:19
+msgid "Pokaż brak protokołu odbioru"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:27
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:25
+msgid "Pokaż projekty zakończone"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:33
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:31
+msgid "Pokaż opóźnione"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:75
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:104
+#: View\Fronts\client_panel.ctp:126
+msgid "Przejście do strony projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:76
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:105
+#: View\Fronts\client_panel.ctp:127
+msgid "Proces tworzenia projektu nie został ukończony"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:77
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:106
+#: View\Fronts\client_panel.ctp:128
+msgid "Zakończono realizację, powinien być protokół odbioru"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:78
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:107
+#: View\Fronts\client_panel.ctp:129
+msgid "Zakończono finansowanie"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:79
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:108
+#: View\Fronts\client_panel.ctp:130
+msgid "Projekt opóźniony względem harmonogramu"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:80
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:109
+#: View\Fronts\client_panel.ctp:131
+msgid "Po rozpoczęciu projektu brak umowy"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:81
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:110
+#: View\Fronts\client_panel.ctp:132
+msgid "Po zakończeniu realizacji brak protokołu odbioru"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:82
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:111
+#: View\Fronts\client_panel.ctp:133
+msgid "Po zakończeniu realizacji brak umowy i protokołu odbioru"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:83
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:112
+#: View\Fronts\client_panel.ctp:134
+msgid "Mimo zakończenia realizacji projekt nie jest dodany do bazy projektów"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:84
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:113
+#: View\Fronts\client_panel.ctp:135
+msgid "Po zakończeniu realizacji projekt jest dodany do bazy projektów"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index.ctp:99
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:128
+msgid "Harmonogram"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:56
+msgid "Mail do projektu:<br/> aby wysłac mail do projektu <br/>należy wpisać adres<br/> crm@febdev.pl a w tytule podać <br/>poniższe oznaczenie np. $8"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:92
+#: View\Fronts\client_panel.ctp:123
+msgid "Bilans OK"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:92
+#: View\Fronts\client_panel.ctp:123
+msgid "Przekroczono koszty projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:92
+#: View\Fronts\client_panel.ctp:123
+msgid "Przekroczono koszty i bufor"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:96
+#: View\Elements\ClientProjects\view_tiles.ctp:132
+#: View\Elements\ClientProjects\view_tiles_client.ctp:101
+msgid "TC"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:97
+#: View\Elements\ClientProjects\view_tiles.ctp:120
+#: View\Elements\ClientProjects\view_tiles_client.ctp:126
+msgid "GC"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:98
+#: View\Elements\ClientProjects\view_tiles.ctp:107
+#: View\Elements\ClientProjects\view_tiles_client.ctp:88
+#: View\Elements\Fronts\raporty.ctp:8;35;52
+msgid "CSMS"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:100
+#: View\Elements\ClientProjects\view_tiles.ctp:144
+msgid "Makietowanie"
+msgstr ""
+
+#: View\Elements\ClientProjects\table_index_no_ajax.ctp:101
+#: View\Elements\ClientProjects\view_tiles.ctp:185
+msgid "Panel premii"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:29
+#: View\Elements\ClientProjects\view_tiles_client.ctp:28
+msgid "Dane Klienta"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:56
+#: View\Elements\ClientProjects\view_tiles_client.ctp:55
+msgid "Działania w projekcie"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:92
+msgid "Budżet projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:113
+msgid "Moduł jest w realizacji"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:218
+msgid "Dodaj do bazy modułów"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:233
+msgid "Dodaj do bazy projektów"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:251
+msgid "Zamykanie finansowania projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:256
+msgid "Czy jesteś pewien że chcesz oznaczyć płatność za projekt"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:256
+msgid "jako kompletną i zakończoną"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:271
+msgid "Nie można zakońcyć finansowania projektu, gdyż nie wszystkie płatności zostały oznaczone jako wykonane"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles.ctp:278
+msgid "Zakończ fin. projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles_client.ctp:67
+msgid "Alias projektu"
+msgstr ""
+
+#: View\Elements\ClientProjects\view_tiles_client.ctp:73
+msgid "Infrmacje"
+msgstr ""
+
+#: View\Elements\Clients\add_client_contact.ctp:14
+#: View\Elements\Clients\add_client_contact_extend.ctp:7
+msgid "nowa osoba kontaktowa"
+msgstr ""
+
+#: View\Elements\Clients\add_client_contact_extend.ctp:13
+msgid "Wybierz z listy"
+msgstr ""
+
+#: View\Elements\Clients\add_client_contact_extend.ctp:27
+#: View\Elements\Profile\table_index.ctp:38
+#: View\Elements\Profile\table_payments.ctp:26
+#: View\Elements\Vacations\table_vacation_applications.ctp:46
+#: View\Emails\html\kontakt.ctp:1
+#: View\Profiles\index.ctp:40
+#: View\Profiles\metrics.ctp:410
+#: View\Vacations\team.ctp:25
+msgid "Imię i nazwisko"
+msgstr ""
+
+#: View\Elements\Clients\add_client_contact_extend.ctp:33
+msgid "Akcja"
+msgstr ""
+
+#: View\Elements\Clients\add_client_contact_extend.ctp:59
+msgid "Dodano"
+msgstr ""
+
+#: View\Elements\Clients\add_client_lead.ctp:14
+msgid "nowy lead"
+msgstr ""
+
+#: View\Elements\Clients\add_client_lead.ctp:55
+#: View\Elements\Clients\lead_list.ctp:22
+msgid "Szansa"
+msgstr ""
+
+#: View\Elements\Clients\add_client_lead.ctp:62
+#: View\Elements\Clients\edit_client_lead.ctp:76
+#: View\Profiles\edit_hr.ctp:405;415
+msgid "wybierz"
+msgstr ""
+
+#: View\Elements\Clients\add_client_lead.ctp:94
+#: View\Elements\Clients\edit_client_lead.ctp:108
+#: View\Elements\Clients\lead_list.ctp:28
+#: View\Elements\Clients\project_list.ctp:24
+msgid "Waluta"
+msgstr ""
+
+#: View\Elements\Clients\add_client_note.ctp:14
+msgid "nowa notatka"
+msgstr ""
+
+#: View\Elements\Clients\add_client_note.ctp:19
+msgid "Tytuł"
+msgstr ""
+
+#: View\Elements\Clients\add_client_note.ctp:23
+msgid "Wpisz tytuł notatki"
+msgstr ""
+
+#: View\Elements\Clients\add_client_note.ctp:33
+#: View\Emails\html\kontakt.ctp:10
+msgid "Treść"
+msgstr ""
+
+#: View\Elements\Clients\add_lead_report.ctp:14
+msgid "nowy raport"
+msgstr ""
+
+#: View\Elements\Clients\add_lead_report.ctp:19
+#: View\Elements\Clients\add_lead_report_all.ctp:19
+#: View\Elements\Hrs\hrs_documents.ctp:61
+#: View\Elements\Hrs\hrs_invocies.ctp:17
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:24
+#: View\Elements\Vacations\add.ctp:57
+#: View\Elements\Vacations\add_no_table.ctp:51
+#: View\Elements\Vacations\edit.ctp:68
+#: View\Elements\Vacations\list.ctp:48
+msgid "Data od"
+msgstr ""
+
+#: View\Elements\Clients\add_lead_report.ctp:33
+#: View\Elements\Clients\add_lead_report_all.ctp:33
+#: View\Elements\Hrs\hrs_documents.ctp:67
+#: View\Elements\Hrs\hrs_invocies.ctp:23
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:30
+#: View\Elements\Vacations\add.ctp:75
+#: View\Elements\Vacations\add_no_table.ctp:62
+#: View\Elements\Vacations\edit.ctp:84
+#: View\Elements\Vacations\list.ctp:49
+msgid "Data do"
+msgstr ""
+
+#: View\Elements\Clients\add_lead_report.ctp:62
+#: View\Elements\Clients\add_lead_report_all.ctp:56
+msgid "Generuj"
+msgstr ""
+
+#: View\Elements\Clients\add_lead_report_all.ctp:14
+msgid "Raport - wszystkie leady"
+msgstr ""
+
+#: View\Elements\Clients\client_list.ctp:4
+msgid "Lista klientów"
+msgstr ""
+
+#: View\Elements\Clients\client_list.ctp:10
+msgid "Wpisz nazwę klienta"
+msgstr ""
+
+#: View\Elements\Clients\edit_client.ctp:15
+msgid "Edycja danych klienta"
+msgstr ""
+
+#: View\Elements\Clients\edit_client.ctp:91
+msgid "Telefon kom"
+msgstr ""
+
+#: View\Elements\Clients\edit_client.ctp:95
+msgid "Wpisz telefon"
+msgstr ""
+
+#: View\Elements\Clients\edit_client_lead.ctp:16
+msgid "edycja"
+msgstr ""
+
+#: View\Elements\Clients\lead_list.ctp:9
+msgid "Mail do leadu:<br/> aby wysłac mail do leadu należy<br/> wpisać adres crm@febdev.pl <br/>a w tytule podać <br/> poniższe oznaczenie np. #7"
+msgstr ""
+
+#: View\Elements\Clients\lead_list.ctp:31
+#: View\Elements\Clients\project_list.ctp:27
+msgid "Handlowiec"
+msgstr ""
+
+#: View\Elements\Clients\lead_list.ctp:34
+msgid "Założony"
+msgstr ""
+
+#: View\Elements\Clients\lead_list.ctp:84
+msgid "Brak leadów"
+msgstr ""
+
+#: View\Elements\Clients\project_list.ctp:8
+msgid "Mail do leadu:aby wysłac mail do leadu należy w tytule dodać poniższe oznaczenie np. #7"
+msgstr ""
+
+#: View\Elements\Crons\fields.ctp:18
+msgid "Puste pole wykonuje się za każdym razem"
+msgstr ""
+
+#: View\Elements\Crons\fields.ctp:19
+msgid "wykonuje się za każdym razem"
+msgstr ""
+
+#: View\Elements\Crons\fields.ctp:20
+msgid "wykonuje się"
+msgstr ""
+
+#: View\Elements\Crons\fields.ctp:21
+msgid "podajemy w stringu np '/test/test'"
+msgstr ""
+
+#: View\Elements\Crons\fields.ctp:22
+msgid "dzień dygodnia - 1 to poniedziałek a 7 to niedziela"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:1
+msgid "Raporty[w trakcie realizacji]"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:18
+msgid "Kadry i płace"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:27
+msgid "Zrealizowane projekty"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:44
+msgid "Zadowolenie klientów"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:60
+msgid "Przepływ fin. w perspektywie 3-mc."
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:68
+msgid "Ślubowisko"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:76
+msgid "Pracownicy"
+msgstr ""
+
+#: View\Elements\Fronts\raporty.ctp:85
+msgid "Przepływ fin. w perspektywie 3-mc"
+msgstr ""
+
+#: View\Elements\HrSettings\table_index.ctp:29
+#: View\Elements\HrSettings\work_times.ctp:27
+#: View\Elements\Hrs\hrs_documents.ctp:115
+#: View\Elements\Hrs\hrs_invocies.ctp:190
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:92
+msgid "Szybki podgląd"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:6
+msgid "skaner działa w firefox oraz Internet Explorer"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:7
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:2
+msgid "Skanuj dokumenty"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:28;90
+msgid "Dodał"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:76
+#: View\Elements\Hrs\hrs_invocies.ctp:31
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:38
+msgid "Dzisiaj"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:77
+#: View\Elements\Hrs\hrs_invocies.ctp:32
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:39
+msgid "7 dni"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:78
+#: View\Elements\Hrs\hrs_invocies.ctp:33
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:40
+msgid "30 dni"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_documents.ctp:111
+#: View\Elements\Hrs\hrs_invocies.ctp:186
+msgid "Pobierz"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:44
+msgid "Numer dokumentu"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:45
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:52
+msgid "Kontrachent"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:46
+msgid "Pozycje"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:53
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:61
+#: View\Elements\Hrs\files\faktura.ctp:37
+#: View\Hrs\pdf\invoice.ctp:42
+msgid "Data wystawienia"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:54
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:62
+#: View\Elements\Payments\table_index.ctp:12
+msgid "Data płatności"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:62;137
+#: View\Elements\Hrs\files\faktura.ctp:125
+#: View\Hrs\pdf\invoice.ctp:130
+msgid "Netto"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:63;137
+#: View\Elements\Hrs\files\faktura.ctp:127
+#: View\Hrs\pdf\invoice.ctp:132
+msgid "Brutto"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:71;129
+msgid "Stawka VAT"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:72;129
+msgid "Kwota VAT"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:87
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:75
+msgid "Szczegóły klienta"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:90;99
+msgid "Pozycje na fakturze"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:113
+#: View\Elements\Hrs\files\faktura.ctp:87
+#: View\Hrs\pdf\invoice.ctp:92
+msgid "PKWiU"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:113
+msgid "Jm."
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:121
+msgid "Cena jed. netto"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:167
+msgid "Faktura nie opłacona"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:174
+msgid "Edytuj opis faktury"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:178
+msgid "Przypisz do projektu"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:195
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:94
+msgid "Do windykacji"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies.ctp:198
+msgid "Oznacz fakturę jako zapłaconą (klient otrzyma poiwadomienie email oraz sms)"
+msgstr ""
+
+#: View\Elements\Hrs\hrs_invocies_issuing.ctp:84
+msgid "Wystaw fakturę (zostanie wysłane powiadomenie do klienta - mail i sms)"
+msgstr ""
+
+#: View\Elements\Hrs\tab_client.ctp:1
+#: View\Elements\Hrs\tabs.ctp:8
+#: View\Fronts\client_panel.ctp:5
+#: View\TextDocuments\create.ctp:14;19
+#: View\TextDocuments\update.ctp:53;58
+msgid "Lista dokumentów"
+msgstr ""
+
+#: View\Elements\Hrs\tabs.ctp:18
+#: View\Fronts\client_panel.ctp:16
+#: View\Fronts\management_panel.ctp:108
+msgid "Faktury sprzedażowe"
+msgstr ""
+
+#: View\Elements\Hrs\tabs.ctp:22
+#: View\Fronts\management_panel.ctp:112
+msgid "Faktury zakupowe"
+msgstr ""
+
+#: View\Elements\Hrs\tabs.ctp:26
+msgid "Faktury do wystawienia"
+msgstr ""
+
+#: View\Elements\Hrs\tabs.ctp:55
+#: View\Fronts\client_panel.ctp:35
+msgid "Zmień opis faktury"
+msgstr ""
+
+#: View\Elements\Hrs\tabs.ctp:59
+#: View\Fronts\client_panel.ctp:39
+msgid "Wystąpił błąd"
+msgstr ""
+
+#: View\Elements\Hrs\tabs.ctp:80
+#: View\Fronts\client_panel.ctp:60
+msgid "Przypisz fakturę do projektu"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:12
+#: View\Hrs\pdf\invoice.ctp:12
+msgid "Sprzedawca"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:30
+#: View\Hrs\pdf\invoice.ctp:33
+msgid "Faktura VAT"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:44
+#: View\Hrs\pdf\invoice.ctp:49
+msgid "Data dostawy / wykonania usługi"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:58
+#: View\Hrs\pdf\invoice.ctp:63
+msgid "Nabywca"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:71
+#: View\Hrs\pdf\invoice.ctp:76
+msgid "Odbiorca"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:86
+#: View\Hrs\pdf\invoice.ctp:91
+msgid "Nazwa towaru/usługi"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:89
+#: View\Hrs\pdf\invoice.ctp:94
+msgid "J.m."
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:90;126
+#: View\Hrs\pdf\invoice.ctp:95;131
+msgid "VAT"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:122
+#: View\Elements\Pm\table.ctp:55;90
+#: View\Fronts\coordinator_panel.ctp:44;85
+#: View\Fronts\management_panel.ctp:238;279
+#: View\Hrs\pdf\invoice.ctp:127
+#: View\Pm\index.ctp:81;132
+msgid "Termin"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:124
+#: View\Hrs\pdf\invoice.ctp:129
+msgid "Stawka"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:140
+#: View\Hrs\pdf\invoice.ctp:145
+msgid "Razem"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:148
+#: View\Hrs\pdf\invoice.ctp:153
+msgid "W tym"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:161
+#: View\Hrs\pdf\invoice.ctp:166
+msgid "Razem do zapłaty"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:166
+#: View\Hrs\pdf\invoice.ctp:171
+msgid "Słownie"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:171
+#: View\Hrs\pdf\invoice.ctp:176
+msgid "Zapłacono"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:174
+#: View\Hrs\pdf\invoice.ctp:179
+msgid "Pozostaje"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:188
+#: View\Hrs\pdf\invoice.ctp:193
+msgid "Podpis osoby uprawnionej do wystawienia faktury"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:191
+#: View\Hrs\pdf\invoice.ctp:196
+msgid "Data odbioru"
+msgstr ""
+
+#: View\Elements\Hrs\files\faktura.ctp:193
+#: View\Hrs\pdf\invoice.ctp:198
+msgid "Podpis osoby uprawnionej do odbioru faktury"
+msgstr ""
+
+#: View\Elements\Hrs\files\informacja_dla_pracownika.ctp:27
+msgid "miejscowość, data"
+msgstr ""
+
+#: View\Elements\Hrs\files\informacja_dla_pracownika.ctp:38
+msgid "nazwa firmy, adres"
+msgstr ""
+
+#: View\Elements\Hrs\files\informacja_dla_pracownika.ctp:44
+msgid "Informacja dla pracownika"
+msgstr ""
+
+#: View\Elements\Hrs\files\informacja_dla_pracownika.ctp:50
+msgid "imię i nazwisko pracownika"
+msgstr ""
+
+#: View\Elements\Payments\table_index.ctp:15
+msgid "Data do - gdy cykliczna"
+msgstr ""
+
+#: View\Elements\Payments\table_index.ctp:36
+msgid "Nieopłacona"
+msgstr ""
+
+#: View\Elements\Payments\table_index.ctp:37
+msgid "Opłacone"
+msgstr ""
+
+#: View\Elements\Pm\login.ctp:7
+#: View\Elements\Profile\profile.ctp:152
+msgid "Jesteś zalogowany jako: "
+msgstr ""
+
+#: View\Elements\Pm\login.ctp:10;10
+#: View\Elements\Profile\profile.ctp:156;156
+#: View\Elements\default\user_menu.ctp:96
+msgid "Wyloguj"
+msgstr "Logout"
+
+#: View\Elements\Pm\login.ctp:16
+msgid "Zaloguj się aby mieć dostęp do PM"
+msgstr ""
+
+#: View\Elements\Pm\login.ctp:45
+#: View\Elements\default\not_logged_menu.ctp:13
+msgid "Zaloguj"
+msgstr "Login"
+
+#: View\Elements\Pm\table.ctp:5
+#: View\Elements\Profile\profile.ctp:164
+msgid "Aby w pełni korzystać z systemu zaloguj się do "
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:7
+#: View\Elements\Profile\profile.ctp:167
+#: View\Elements\default\user_menu.ctp:68
+msgid "PM"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:15
+#: View\Fronts\coordinator_panel.ctp:6
+#: View\Pm\index.ctp:39
+msgid "Podsumowanie zadań w systemie PM"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:46
+#: View\Fronts\coordinator_panel.ctp:36
+#: View\Pm\index.ctp:72
+msgid "Zadania przypisane do mnie"
+msgstr "Tasks asigned to me"
+
+#: View\Elements\Pm\table.ctp:52;87
+#: View\Fronts\coordinator_panel.ctp:41;82
+#: View\Fronts\list_bugs.ctp:21
+#: View\Fronts\management_panel.ctp:235;276
+#: View\Pm\index.ctp:78;129
+msgid "#"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:54;89
+#: View\Fronts\coordinator_panel.ctp:43;84
+#: View\Fronts\management_panel.ctp:237;278
+#: View\Pm\index.ctp:80;131
+msgid "Priorytet"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:56;91
+#: View\Fronts\coordinator_panel.ctp:45;86
+#: View\Fronts\management_panel.ctp:239;280
+#: View\Pm\index.ctp:82;133
+msgid "Temat"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:57
+#: View\Fronts\coordinator_panel.ctp:46
+#: View\Fronts\management_panel.ctp:240
+#: View\Pm\index.ctp:83
+msgid "Osoba przypisująca"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:74
+#: View\Pm\index.ctp:112;161
+msgid "W tym momencie brak zadań przypisanych"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:82
+#: View\Fronts\coordinator_panel.ctp:77
+#: View\Pm\index.ctp:122
+msgid "Zadania utworzone przeze mnie"
+msgstr ""
+
+#: View\Elements\Pm\table.ctp:107
+msgid "W tym momencie brak zadań utworzonych"
+msgstr ""
+
+#: View\Elements\Profile\modal_photo.ctp:7
+msgid "Dodawanie zdjęcia do celu osobistego"
+msgstr ""
+
+#: View\Elements\Profile\profile.ctp:105
+#: View\Elements\default\user_menu.ctp:38
+msgid "Metryka"
+msgstr ""
+
+#: View\Elements\Profile\profile.ctp:114
+#: View\Elements\Profile\table_index.ctp:68
+#: View\Elements\Profile\table_payments.ctp:62
+#: View\Elements\default\user_menu.ctp:48
+#: View\Profiles\employment.ctp:1
+#: View\Profiles\index.ctp:70
+#: View\Vacations\add.ctp:30
+#: View\Vacations\calendar.ctp:22
+#: View\Vacations\edit.ctp:23
+#: View\Vacations\index.ctp:21
+msgid "Zatrudnienie"
+msgstr ""
+
+#: View\Elements\Profile\profile.ctp:123
+#: View\Elements\default\user_menu.ctp:58
+#: View\Profiles\personal_aim.ctp:1
+#: View\Vacations\team.ctp:104
+msgid "Cel osobisty"
+msgstr ""
+
+#: View\Elements\Profile\profile.ctp:134
+msgid "Mój PM"
+msgstr ""
+
+#: View\Elements\Profile\profile.ctp:147
+msgid "Pm"
+msgstr ""
+
+#: View\Elements\Profile\profile.ctp:162
+msgid "Nie jesteś zalogowany "
+msgstr ""
+
+#: View\Elements\Profile\table_contracts.ctp:30
+#: View\Elements\Vacations\arrangement.ctp:6
+#: View\Elements\Vacations\contract_history.ctp:28
+#: View\Hrs\add_contract.ctp:28
+#: View\Hrs\add_employe_contract.ctp:28
+#: View\Hrs\add_employee_contract.ctp:28
+#: View\Hrs\edit_contract.ctp:29
+msgid "Rodzaj umowy"
+msgstr ""
+
+#: View\Elements\Profile\table_contracts.ctp:33
+msgid "Data dodania"
+msgstr ""
+
+#: View\Elements\Profile\table_contracts.ctp:45
+msgid "Stan"
+msgstr ""
+
+#: View\Elements\Profile\table_contracts.ctp:73
+msgid "Zatrudniony"
+msgstr ""
+
+#: View\Elements\Profile\table_contracts.ctp:76
+msgid "Umowa nieaktualna"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:24
+msgid "Kandydaci"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:45
+#: View\Elements\Profile\table_payments.ctp:33
+#: View\Hrs\add_contract.ctp:14
+#: View\Hrs\add_employe_contract.ctp:14
+#: View\Hrs\add_employee_contract.ctp:14
+#: View\Hrs\edit_contract.ctp:14
+#: View\Profiles\index.ctp:47
+#: View\Profiles\metrics.ctp:548
+#: View\Profiles\update_profile.ctp:422
+#: View\Vacations\team.ctp:89
+msgid "Stanowisko"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:46
+#: View\Elements\Profile\table_payments.ctp:34
+#: View\Hrs\hire_employee.ctp:61
+#: View\Profiles\edit_hr.ctp:146
+#: View\Profiles\index.ctp:48
+#: View\Profiles\metrics.ctp:126;532
+#: View\Profiles\update_profile.ctp:380
+msgid "Miejsce pracy"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:63
+#: View\Elements\Profile\table_payments.ctp:51
+#: View\Profiles\index.ctp:65
+msgid "Pesel"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:64
+#: View\Elements\Profile\table_payments.ctp:52
+#: View\Profiles\index.ctp:66
+msgid "Nip"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:71
+#: View\Profiles\index.ctp:73
+msgid "Powiadomienia"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:100;104;105
+#: View\Elements\Profile\table_payments.ctp:80;82;85;96;97
+#: View\Profiles\index.ctp:90;92;95;106;107
+msgid "brak danych"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:111
+#: View\Profiles\index.ctp:113
+msgid "Kliknij aby dezaktywować"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:114
+msgid "Użytkownik nie aktywny. Kliknij aby aktywować"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:119
+#: View\Profiles\index.ctp:121
+msgid "Zatrudnij"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:125
+msgid "Brak danych o badaniach"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:126
+msgid "Brak danych o szkoleniu"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:127
+msgid "Brak danych o umowie. Kliknij aby dodać"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:128
+#: View\Profiles\index.ctp:137
+msgid "Umowa na okres"
+msgstr ""
+
+#: View\Elements\Profile\table_index.ctp:129
+#: View\Profiles\index.ctp:138
+msgid "Pracownik edytował swoje dane"
+msgstr ""
+
+#: View\Elements\Profile\table_payments.ctp:56
+#: View\Profiles\metrics.ctp:557
+msgid "Wynagrodzenie"
+msgstr ""
+
+#: View\Elements\Profile\table_payments.ctp:59
+#: View\Elements\Vacations\arrangement.ctp:49
+#: View\Elements\Vacations\contract_history.ctp:71
+#: View\Hrs\add_contract.ctp:68
+#: View\Hrs\add_employe_contract.ctp:68
+#: View\Hrs\add_employee_contract.ctp:68
+#: View\Hrs\edit_contract.ctp:72
+msgid "Wynagrodzenie netto"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:26;52
+msgid "Utworzenie"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:27;53
+msgid "Modyfikacja"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:31
+msgid "Dodaj nowszą wersję pliku"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:34
+msgid "Link do pliku króty można skopiować i udostępnić"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:37
+msgid "Usuń plik"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:40
+msgid "Udostępnij klientowi"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:57
+msgid "Link do pliku króty można skopiować i udostępnić klientowi"
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:81
+msgid "Link do pliku króty można skopiować i udostępnić."
+msgstr ""
+
+#: View\Elements\ProjectFiles\table.ctp:111
+msgid "Potwierdzenie usunięcia pliku"
+msgstr ""
+
+#: View\Elements\StaticPage\kontakt.ctp:1
+msgid "Formularz kontaktowy"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:8
+#: View\Elements\Vacations\add_no_table.ctp:5
+#: View\Elements\Vacations\edit.ctp:7
+#: View\Elements\Vacations\table_vacation_applications.ctp:52
+msgid "Rodzaj urlopu"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:19
+#: View\Elements\Vacations\add_no_table.ctp:14
+#: View\Elements\Vacations\edit.ctp:19
+msgid "Czas trwania"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:23
+#: View\Elements\Vacations\add_no_table.ctp:17
+#: View\Elements\Vacations\edit.ctp:28
+msgid "Dni"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:23
+#: View\Elements\Vacations\add_no_table.ctp:17
+#: View\Elements\Vacations\edit.ctp:28
+msgid "Godziny"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:35
+#: View\Elements\Vacations\add_no_table.ctp:28;32
+#: View\Elements\Vacations\edit.ctp:43
+msgid "Godzina od"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:46
+#: View\Elements\Vacations\add_no_table.ctp:37;41
+#: View\Elements\Vacations\edit.ctp:55
+msgid "Godzina do"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:92
+#: View\Elements\Vacations\add_no_table.ctp:75
+#: View\Elements\Vacations\edit.ctp:103
+msgid "Na czas urlopu wyznaczam zastępstwo w osobach"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:102
+#: View\Elements\Vacations\edit.ctp:117;156
+msgid "Osoba"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:153
+#: View\Elements\Vacations\edit.ctp:204
+msgid "Wniosek urlopowy"
+msgstr ""
+
+#: View\Elements\Vacations\add.ctp:156
+#: View\Elements\Vacations\edit.ctp:207
+msgid "Wybierz zastępstwo."
+msgstr ""
+
+#: View\Elements\Vacations\add_no_table.ctp:79
+#: View\Elements\Vacations\edit.ctp:189
+msgid "Dodaj zastępstwo"
+msgstr ""
+
+#: View\Elements\Vacations\add_no_table.ctp:84
+msgid "Zastępstwo"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:41
+#: View\Elements\Vacations\contract_history.ctp:65
+#: View\Hrs\add_contract.ctp:64
+#: View\Hrs\add_employe_contract.ctp:64
+#: View\Hrs\add_employee_contract.ctp:64
+#: View\Hrs\edit_contract.ctp:67
+msgid "Wynagrodzenie brutto"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:59
+#: View\Elements\Vacations\contract_history.ctp:80
+#: View\Hrs\add_contract.ctp:78
+#: View\Hrs\add_employe_contract.ctp:78
+#: View\Hrs\add_employee_contract.ctp:78
+#: View\Hrs\edit_contract.ctp:84
+#: View\Profiles\metrics.ctp:577
+msgid "Ilość urlopu rocznie"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:65;79;92
+msgid " dni"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:73
+#: View\Elements\Vacations\table_vacation_applications.ctp:78
+msgid "Wykorzystany"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:86
+#: View\Elements\Vacations\table_vacation_applications.ctp:78
+msgid "Pozostały"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:112;132
+msgid " h"
+msgstr ""
+
+#: View\Elements\Vacations\arrangement.ctp:121
+msgid "Odebrane nadgodziny"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:32
+#: View\Hrs\add_contract.ctp:56
+#: View\Hrs\add_employe_contract.ctp:56
+#: View\Hrs\add_employee_contract.ctp:56
+#: View\Hrs\edit_contract.ctp:59
+msgid "Wymiar czasu pracy"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:36
+msgid "Pozycja"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:86;99
+msgid "dni"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:93
+#: View\Hrs\add_contract.ctp:82
+msgid "Dostępny urlop"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:110
+msgid "Umowa nie aktualna"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:119
+msgid "Edytuj aktualną"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:140;140;155;155
+msgid "Dodaj umowę"
+msgstr ""
+
+#: View\Elements\Vacations\contract_history.ctp:150
+msgid "Brak historii zatrudnienia"
+msgstr ""
+
+#: View\Elements\Vacations\list.ctp:5;13;21
+#: View\Vacations\calendar.ctp:90;98;106
+msgid "Przełącz na rok "
+msgstr ""
+
+#: View\Elements\Vacations\list.ctp:33
+msgid "Pokaż w kalendarzu"
+msgstr ""
+
+#: View\Elements\Vacations\list.ctp:47
+msgid "Rodzaj wolnego"
+msgstr ""
+
+#: View\Elements\Vacations\list.ctp:50
+msgid "Ilośc dni(d) / godzin(h)"
+msgstr ""
+
+#: View\Elements\Vacations\list.ctp:51
+msgid "Urlop poz./wyk."
+msgstr ""
+
+#: View\Elements\Vacations\list.ctp:104
+msgid "Urlopy Ci nie w głowie, Twoja miłość do FEBu jest nieustanna !"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:25
+msgid "Zatwierdzony"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:26
+msgid "Odrzucony"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:27
+msgid "Przyjęty"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:59
+#: View\Vacations\team.ctp:33
+msgid "Wolne od"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:60
+#: View\Vacations\team.ctp:34
+msgid "Wolne do"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:68
+msgid "Dni roboczych"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:69
+msgid "Godzin"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:77
+msgid "Dostępy urlop"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:125
+msgid "Odrzuć"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:128
+msgid "Zatwierdź"
+msgstr ""
+
+#: View\Elements\Vacations\table_vacation_applications.ctp:131
+msgid "Przyjmij"
+msgstr ""
+
+#: View\Elements\Vacations\vacation_applications_modals.ctp:6;24;42
+msgid "Potwierdzenie zmian"
+msgstr ""
+
+#: View\Elements\Vacations\vacation_applications_modals.ctp:9
+msgid "Czy na pewno chcesz odrzucić wniosek urlopowy?"
+msgstr ""
+
+#: View\Elements\Vacations\vacation_applications_modals.ctp:27
+msgid "Czy na pewno chcesz zatwierdzić wniosek urlopowy?"
+msgstr ""
+
+#: View\Elements\Vacations\vacation_applications_modals.ctp:45
+msgid "Czy na pewno chcesz przyjąć wniosek urlopowy?"
+msgstr ""
+
+#: View\Elements\cms\left_menu.ctp:4
+msgid "MENU GŁÓWNE"
+msgstr ""
+
+#: View\Elements\default\footer.ctp:10
+msgid "Marketing szeptany, strony internetowe, kampanie Google AdWords, materiały reklamowe"
+msgstr ""
+
+#: View\Elements\default\my_team.ctp:1
+msgid "Mój zespół"
+msgstr ""
+
+#: View\Elements\default\not_logged_menu.ctp:5;6
+msgid "Niezalogowany"
+msgstr ""
+
+#: View\Elements\default\personal_purpose.ctp:1
+#: View\Profiles\personal_aim.ctp:15
+msgid "Mój cel osobisty"
+msgstr ""
+
+#: View\Elements\default\personal_purpose.ctp:19
+msgid "Początek realizacji"
+msgstr ""
+
+#: View\Elements\default\personal_purpose.ctp:28
+msgid "Planowane zakończenie"
+msgstr ""
+
+#: View\Elements\default\personal_purpose.ctp:43
+#: View\Profiles\personal_aim.ctp:71
+#: View\Vacations\team.ctp:110
+msgid "Stopień realizacji"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:2
+msgid "Zgłaszanie uwag"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:14
+msgid "Napisz do nas"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:24
+msgid "Podaj temat"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:32
+msgid "sugestia"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:33
+msgid "błąd"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:34
+msgid "pytanie"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:35
+msgid "pochwała"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:41
+msgid "Napisz, co zmienić lub co źle działa"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:42;42
+msgid "Wpisz szczegóły"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:45
+msgid "Załącz plik"
+msgstr ""
+
+#: View\Elements\default\suggestion.ctp:52
+#: View\Fronts\sms.ctp:38
+#: View\Hrs\send_account_credentials.ctp:19
+#: View\TextDocuments\update.ctp:36
+msgid "Wyślij"
+msgstr ""
+
+#: View\Elements\default\user_menu.ctp:24
+msgid "Panel zarządzania"
+msgstr ""
+
+#: View\Elements\default\user_menu.ctp:78
+msgid "FEB Book"
+msgstr ""
+
+#: View\Elements\default\user_menu.ctp:89
+msgid "Edytuj profil"
+msgstr ""
+
+#: View\Elements\flash\success.ctp:2
+msgid "Sukces"
+msgstr ""
+
+#: View\Emails\html\account_credentials.ctp:3
+msgid "Kliknij w link aby uzyskać dostęp do systemu."
+msgstr ""
+
+#: View\Emails\html\account_credentials.ctp:5
+msgid "Poniżej znajdują się dane niezbędne do rozpoczęcia pracy"
+msgstr ""
+
+#: View\Emails\html\brief_client_info.ctp:1
+#: View\Emails\html\brief_close.ctp:2
+#: View\Emails\html\make_invoice.ctp:1
+#: View\Emails\html\mark_invoice_as_paid.ctp:1
+#: View\Emails\html\one_day_to_pay_day.ctp:1
+#: View\Emails\html\seven_days_to_pay_day.ctp:1
+#: View\Emails\html\two_days_after_pay_day.ctp:1
+msgid "Dzień dobry"
+msgstr ""
+
+#: View\Emails\html\brief_client_info.ctp:4
+msgid "W celu zebrania informacji o Państwa potrzebach i \n    oczekiwaniach związanych z nowym produktem, \n    przygotowaliśmy indywidualny dokument – Brief –\n    pozwalający na zebranie istotnych informacji"
+msgstr ""
+
+#: View\Emails\html\brief_client_info.ctp:12
+msgid "Aby przejść do edycji briefa proszę skorzystać z linku"
+msgstr ""
+
+#: View\Emails\html\brief_client_info.ctp:14
+msgid "Kliknij tutaj aby otworzyć brief"
+msgstr ""
+
+#: View\Emails\html\brief_client_info.ctp:19
+#: View\Emails\html\brief_close.ctp:14
+#: View\Emails\html\make_invoice.ctp:13
+#: View\Emails\html\mark_invoice_as_paid.ctp:6
+#: View\Emails\html\one_day_to_pay_day.ctp:15
+#: View\Emails\html\seven_days_to_pay_day.ctp:15
+#: View\Emails\html\two_days_after_pay_day.ctp:18
+msgid "Kliknij"
+msgstr ""
+
+#: View\Emails\html\brief_client_info.ctp:20
+#: View\Emails\html\brief_close.ctp:15
+#: View\Emails\html\mark_invoice_as_paid.ctp:7
+#: View\Emails\html\one_day_to_pay_day.ctp:16
+#: View\Emails\html\seven_days_to_pay_day.ctp:16
+#: View\Emails\html\two_days_after_pay_day.ctp:19
+msgid "aby zalogować się do Panelu i zapoznać się z listą dokumentów"
+msgstr ""
+
+#: View\Emails\html\brief_close.ctp:4
+msgid "Dziękujemy za udzielenie wyczerpujących\ninformacji na temat nowego produktu. W\nzałączniku przesyłamy gotowy brie w formacie\nPDF. W przypadku zauważenia istotnych różnic ze\nstanem faktycznym, posimy o kontakt z Państwa opiekunem"
+msgstr ""
+
+#: View\Emails\html\gc_accept_version.ctp:1
+msgid "Wersja graficzna została zaakceptowana. Ścieżka do pliku graficznego"
+msgstr ""
+
+#: View\Emails\html\gc_change_version_status.ctp:1
+msgid "Wersja graficzna została zaakceptowana. Scieżka do grafiki"
+msgstr ""
+
+#: View\Emails\html\gc_confirm.ctp:1
+msgid "Otrzymałeś"
+msgstr ""
+
+#: View\Emails\html\gc_confirm.ctp:1
+msgid "nowych komentarzy do projektu"
+msgstr ""
+
+#: View\Emails\html\gc_new_version_visible.ctp:1
+msgid "Udostępniono nową wersję graficzną w module GC"
+msgstr ""
+
+#: View\Emails\html\kontakt_podziekowanie.ctp:1
+#: View\Emails\text\kontakt_podziekowanie.ctp:1
+msgid "Dziękujemy za przesłanie informacji"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:2
+#: View\Emails\html\two_days_after_pay_day.ctp:2
+msgid "W dniu"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:2
+msgid "wystawiono fakturę w projekcie"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:3
+#: View\Emails\html\one_day_to_pay_day.ctp:5
+#: View\Emails\html\seven_days_to_pay_day.ctp:5
+#: View\Emails\html\two_days_after_pay_day.ctp:8
+msgid "Faktura nr"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:4
+#: View\Emails\html\one_day_to_pay_day.ctp:6
+#: View\Emails\html\seven_days_to_pay_day.ctp:6
+#: View\Emails\html\two_days_after_pay_day.ctp:9
+msgid "Kwota netto"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:5
+#: View\Emails\html\one_day_to_pay_day.ctp:7
+#: View\Emails\html\seven_days_to_pay_day.ctp:7
+#: View\Emails\html\two_days_after_pay_day.ctp:10
+msgid "Kwota brutto"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:6
+#: View\Emails\html\one_day_to_pay_day.ctp:8
+#: View\Emails\html\seven_days_to_pay_day.ctp:8
+#: View\Emails\html\two_days_after_pay_day.ctp:11
+msgid "Termin płatności"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:9
+#: View\Emails\html\one_day_to_pay_day.ctp:11
+#: View\Emails\html\seven_days_to_pay_day.ctp:11
+#: View\Emails\html\two_days_after_pay_day.ctp:14
+msgid "Dziękujemy za terminowe regulowanie płatności"
+msgstr ""
+
+#: View\Emails\html\make_invoice.ctp:14
+msgid "aby zalogować się do Panelu i zapoznać się z listą faktur"
+msgstr ""
+
+#: View\Emails\html\mark_invoice_as_paid.ctp:2
+msgid "Dziękujemy za opłacenie faktury nr"
+msgstr ""
+
+#: View\Emails\html\mark_invoice_as_paid.ctp:2
+#: View\Emails\html\two_days_after_pay_day.ctp:4
+msgid "w projekcie"
+msgstr ""
+
+#: View\Emails\html\new_comments.ctp:1
+msgid "Nowe komentarze"
+msgstr ""
+
+#: View\Emails\html\one_day_to_pay_day.ctp:2
+#: View\Emails\html\seven_days_to_pay_day.ctp:2
+msgid "Przypominamy, że w dniu"
+msgstr ""
+
+#: View\Emails\html\one_day_to_pay_day.ctp:3
+msgid "upływa termin płatności faktury "
+msgstr ""
+
+#: View\Emails\html\one_day_to_pay_day.ctp:3
+#: View\Emails\html\seven_days_to_pay_day.ctp:3
+msgid "wystawionej w projekcie"
+msgstr ""
+
+#: View\Emails\html\seven_days_to_pay_day.ctp:3
+msgid "upływa termin płatności faktury"
+msgstr ""
+
+#: View\Emails\html\share_link_email.ctp:1
+msgid "Otrzymałeś link do współdzielenia dokumentu tekstowego"
+msgstr ""
+
+#: View\Emails\html\test.ctp:3
+#: View\Emails\text\test.ctp:4
+msgid "To jest wiadomość testowa"
+msgstr ""
+
+#: View\Emails\html\test.ctp:5
+#: View\Emails\text\test.ctp:7
+msgid "Sprawdź szczegóły na stronie %s."
+msgstr ""
+
+#: View\Emails\html\test.ctp:7
+#: View\Emails\text\test.ctp:10
+msgid "Sprawdź"
+msgstr ""
+
+#: View\Emails\html\two_days_after_pay_day.ctp:3
+msgid "upłynął termin płatności faktury"
+msgstr ""
+
+#: View\Emails\html\two_days_after_pay_day.ctp:4
+msgid "wystawionej dn"
+msgstr ""
+
+#: View\Emails\html\two_days_after_pay_day.ctp:5
+msgid "Informujemy, że 5 dni po ustalonym terminie zapłaty rozpocznie się procedura windykacyjna za pośrednictwem KRD. Prosimy o opłacenie faktury."
+msgstr ""
+
+#: View\Fronts\activity_monitor.ctp:1
+msgid "Monitorowanie aktywności użytkowników"
+msgstr ""
+
+#: View\Fronts\backup_db.ctp:1
+msgid "Zarządzanie kopiami bezpieczeństwa"
+msgstr ""
+
+#: View\Fronts\backup_db.ctp:11
+msgid "Stwórz kopie bezpieczeństwa bazy danych"
+msgstr ""
+
+#: View\Fronts\client_panel.ctp:2
+msgid "Do odkomentowania"
+msgstr ""
+
+#: View\Fronts\client_panel.ctp:22
+msgid "Odkomentować element"
+msgstr ""
+
+#: View\Fronts\filled_poll.ctp:2
+msgid "Wypełniłeś już tę ankietę"
+msgstr ""
+
+#: View\Fronts\list_bugs.ctp:1
+#: View\Suggestions\index.ctp:1
+msgid "Lista uwag"
+msgstr ""
+
+#: View\Fronts\list_bugs.ctp:22
+msgid "URL"
+msgstr ""
+
+#: View\Fronts\list_bugs.ctp:23
+msgid "Opis uwagi"
+msgstr ""
+
+#: View\Fronts\r403.ctp:2
+#: View\Fronts\json\r403.ctp:2
+msgid "Brak uprawnień"
+msgstr ""
+
+#: View\Fronts\seo_list.ctp:1
+msgid "lista seo"
+msgstr ""
+
+#: View\Fronts\sms.ctp:2
+msgid "Wysyłanie sms"
+msgstr ""
+
+#: View\Fronts\sms.ctp:9
+msgid "Numer telefonu z kierunkowym(np. 48500500500)"
+msgstr ""
+
+#: View\Fronts\sms.ctp:22
+msgid "Wiadomość"
+msgstr ""
+
+#: View\HrSettings\add.ctp:2
+#: View\HrSettings\edit.ctp:3
+msgid "Edtycja HR"
+msgstr ""
+
+#: View\HrSettings\index.ctp:1
+msgid "Ustawiena hr"
+msgstr ""
+
+#: View\HrSettings\index.ctp:25
+#: View\Vacations\add.ctp:42
+#: View\Vacations\calendar.ctp:38
+#: View\Vacations\edit.ctp:39
+#: View\Vacations\index.ctp:54
+msgid "Czas pracy"
+msgstr ""
+
+#: View\Hrs\add_contract.ctp:1
+#: View\Hrs\add_employe_contract.ctp:1
+#: View\Hrs\add_employee_contract.ctp:1
+#: View\Hrs\edit_contract.ctp:1
+msgid "dodawanie nowej umowy"
+msgstr ""
+
+#: View\Hrs\add_contract.ctp:25
+#: View\Hrs\add_employe_contract.ctp:25
+#: View\Hrs\add_employee_contract.ctp:25
+#: View\Hrs\edit_contract.ctp:26
+msgid "Kontrakt(b2b)"
+msgstr ""
+
+#: View\Hrs\add_contract.ctp:26
+#: View\Hrs\add_employe_contract.ctp:26
+#: View\Hrs\add_employee_contract.ctp:26
+#: View\Hrs\edit_contract.ctp:27
+msgid "Zlecenie"
+msgstr ""
+
+#: View\Hrs\add_contract.ctp:32
+#: View\Hrs\add_employe_contract.ctp:32
+#: View\Hrs\add_employee_contract.ctp:32
+#: View\Hrs\edit_contract.ctp:33
+msgid "Data rozpoczęcia umowy"
+msgstr ""
+
+#: View\Hrs\add_contract.ctp:41
+#: View\Hrs\add_employe_contract.ctp:41
+#: View\Hrs\add_employee_contract.ctp:41
+#: View\Hrs\edit_contract.ctp:43
+msgid "Data zakończenia umowy"
+msgstr ""
+
+#: View\Hrs\add_contract.ctp:73
+#: View\Hrs\add_employe_contract.ctp:73
+#: View\Hrs\add_employee_contract.ctp:73
+#: View\Hrs\edit_contract.ctp:78
+msgid "Stawka za godzinę"
+msgstr ""
+
+#: View\Hrs\add_employe_contract.ctp:54
+#: View\Hrs\add_employee_contract.ctp:54
+#: View\Hrs\edit_contract.ctp:57
+msgid "Pełny"
+msgstr ""
+
+#: View\Hrs\circulation_card.ctp:1;17
+msgid "Obiegówka"
+msgstr ""
+
+#: View\Hrs\files.ctp:2
+msgid "Pliki do pobrania"
+msgstr ""
+
+#: View\Hrs\hire_employee.ctp:1
+msgid "NOWY PRACOWNIK"
+msgstr ""
+
+#: View\Hrs\hire_employee.ctp:33
+#: View\Profiles\edit_hr.ctp:403
+msgid "Grupa uprawnień"
+msgstr ""
+
+#: View\Hrs\hire_employee.ctp:56
+msgid "E-mail(służbowy)"
+msgstr ""
+
+#: View\Hrs\hire_employee.ctp:62
+msgid "Rzeszów"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:2
+msgid "Kwestionariusz"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:50
+msgid "Miejscowośc"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:51
+#: View\Profiles\edit_hr.ctp:83
+#: View\Profiles\metrics.ctp:61;431
+#: View\Profiles\update_profile.ctp:120
+msgid "Miejsce urodzenia"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:56
+#: View\Profiles\edit_hr.ctp:89
+#: View\Profiles\metrics.ctp:66
+msgid "Imię ojca"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:61
+#: View\Profiles\edit_hr.ctp:94
+#: View\Profiles\metrics.ctp:71
+msgid "Imię matki"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:66
+msgid "Obywatelstwo"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:67
+msgid "Polska"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:76
+#: View\Profiles\edit_hr.ctp:297;356
+#: View\Profiles\metrics.ctp:216;297;717;819
+#: View\Profiles\update_profile.ctp:749;962
+msgid "Miejscowość"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:95
+msgid "Numer domu/mieszkania"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:101
+msgid "E-mail(prywatny)"
+msgstr ""
+
+#: View\Hrs\questionnaire.ctp:116;124
+msgid "Generuj dokumenty"
+msgstr ""
+
+#: View\Hrs\send_account_credentials.ctp:1
+msgid "wyślij dane do konta"
+msgstr ""
+
+#: View\Hrs\send_account_credentials.ctp:11
+msgid "Pracownik otrzyma maila z linkiem do konta w systemie.<br/> Poniżej można załączyć dodatkowe dane - do służbowego konta pocztowego, febook, pm, itp."
+msgstr ""
+
+#: View\Hrs\send_account_credentials.ctp:14
+msgid "Mail służbowy"
+msgstr ""
+
+#: View\Hrs\pdf\invoice.ctp:31
+msgid "Faktura PROFORMA"
+msgstr ""
+
+#: View\Layouts\default.ctp:209
+msgid "nowych powiadomień"
+msgstr ""
+
+#: View\Layouts\default.ctp:295
+msgid "Strona główna"
+msgstr ""
+
+#: View\Layouts\Emails\html\default.ctp:85
+#: View\Layouts\Emails\text\default.ctp:9
+msgid "System B2B Fabryki e-biznesu"
+msgstr ""
+
+#: View\Layouts\Emails\html\default.ctp:87
+#: View\Layouts\Emails\text\default.ctp:10
+msgid "Prosimy nie odpowiadać, wiadomość została wygenerowana automatycznie przez system informatyczny Fabryki e-Biznesu Sp. z o. o."
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:105
+msgid " dnia "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:108
+msgid "Wniosek"
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:111
+msgid " o udzielenie zwolnienia "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:113
+msgid " o urlop "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:119
+msgid "Proszę o udzielenie"
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:123
+msgid "Zwolnienia od pracy w dniu "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:125
+msgid " w celu załatwienia spraw osobistych "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:126
+msgid "od godziny "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:131
+msgid " w okresie od dnia "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:137
+msgid "do godziny "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:140
+msgid "do dnia "
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:144
+msgid "włącznie tj."
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:153
+msgid " godzin roboczych"
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:156
+msgid " minut"
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:163
+msgid " dni roboczych"
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:173
+msgid "podpis przełożonego"
+msgstr ""
+
+#: View\Layouts\pdf\default.ctp:178
+msgid "podpis pracownika"
+msgstr ""
+
+#: View\Pm\index.ctp:2
+#: View\Profiles\metrics.ctp:5
+#: View\Vacations\add.ctp:3
+#: View\Vacations\calendar.ctp:2
+#: View\Vacations\edit.ctp:3
+#: View\Vacations\index.ctp:3
+msgid "Mój profil"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:16
+#: View\Vacations\index.ctp:38
+msgid "Przejdź do metryki"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:22
+#: View\Profiles\metrics.ctp:380
+msgid "Przejdź do zatrudnienia"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:34
+#: View\Profiles\metrics.ctp:25;390
+#: View\Profiles\update_profile.ctp:33
+msgid "Dane personalne"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:37
+#: View\Profiles\metrics.ctp:29;394
+#: View\Profiles\update_profile.ctp:37
+msgid "Dane podatkowe i ubezpieczeniowe"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:40
+#: View\Profiles\metrics.ctp:33;398
+#: View\Profiles\update_profile.ctp:41
+msgid "Dane teleadresowe"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:43
+msgid "Uprawnienia"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:68
+msgid "Email służbowy"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:77
+#: View\Profiles\metrics.ctp:56;418
+#: View\Profiles\update_profile.ctp:95
+msgid "Data urodzenia"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:100
+#: View\Profiles\metrics.ctp:76;452
+msgid "Nazwisko rodowe"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:109
+#: View\Profiles\metrics.ctp:81;460
+#: View\Profiles\update_profile.ctp:204
+msgid "PESEL"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:115
+#: View\Profiles\metrics.ctp:86;468
+#: View\Profiles\update_profile.ctp:225
+msgid "Wykształcenie"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:122
+#: View\Profiles\metrics.ctp:92
+msgid "Rodzaj dokumentu tożsamości"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:128
+#: View\Profiles\metrics.ctp:97
+msgid "Numer i seria dowodu tożsamości"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:134
+#: View\Profiles\metrics.ctp:492
+#: View\Profiles\update_profile.ctp:288
+msgid "Nazwa banku"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:140
+#: View\Profiles\metrics.ctp:107;500
+#: View\Profiles\update_profile.ctp:309
+msgid "Numer konta"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:160
+#: View\Profiles\metrics.ctp:116;516
+#: View\Profiles\update_profile.ctp:338
+msgid "NIP"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:166
+#: View\Profiles\metrics.ctp:121;524
+#: View\Profiles\update_profile.ctp:359
+msgid "Urząd skarbowy"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:175
+#: View\Profiles\metrics.ctp:132;601
+#: View\Profiles\update_profile.ctp:501
+msgid "Oddział NFZ"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:179
+#: View\Profiles\metrics.ctp:136;585
+msgid "Prawo do renty / emerytury"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:189
+#: View\Profiles\metrics.ctp:146;593
+#: View\Profiles\update_profile.ctp:480
+msgid "Bezrobotny / student"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:199
+#: View\Profiles\metrics.ctp:156;609
+#: View\Profiles\update_profile.ctp:522
+msgid "Orzeczenie o niepełnosprawności"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:218
+#: View\Profiles\metrics.ctp:170;632
+#: View\Profiles\update_profile.ctp:558
+msgid "Numer telefonu służbowy"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:224
+#: View\Profiles\metrics.ctp:175;640
+#: View\Profiles\update_profile.ctp:579
+msgid "Numer telefonu prywatny"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:233
+#: View\Profiles\metrics.ctp:180;648
+#: View\Profiles\update_profile.ctp:600
+msgid "Numer osoby bliskiej"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:239
+#: View\Profiles\metrics.ctp:185;664
+#: View\Profiles\update_profile.ctp:631
+msgid "Adres email prywatny"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:259
+#: View\Profiles\metrics.ctp:262
+msgid "Adres zamieszkania inny niż adres zameldowania"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:272
+#: View\Profiles\metrics.ctp:191;678
+#: View\Profiles\update_profile.ctp:658
+msgid "Adres zameldowania"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:282;340
+#: View\Profiles\metrics.ctp:201;282;693;795
+#: View\Profiles\update_profile.ctp:686;899
+msgid "Nr domu"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:287;345
+#: View\Profiles\metrics.ctp:206;287;701;803
+#: View\Profiles\update_profile.ctp:707;920
+msgid "Nr lokalu"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:302;361
+#: View\Profiles\metrics.ctp:221;302;725;827
+#: View\Profiles\update_profile.ctp:770;983
+msgid "Gmina"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:307;366
+#: View\Profiles\metrics.ctp:226;307;733;835
+#: View\Profiles\update_profile.ctp:791;1004
+msgid "Powiat"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:312;371
+#: View\Profiles\metrics.ctp:231;312;741;843
+#: View\Profiles\update_profile.ctp:812;1025
+msgid "Województwo"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:330
+#: View\Profiles\metrics.ctp:272;780
+#: View\Profiles\update_profile.ctp:871
+msgid "Adres zamieszkania"
+msgstr ""
+
+#: View\Profiles\edit_hr.ctp:427
+msgid "Kierownik działu"
+msgstr ""
+
+#: View\Profiles\index.ctp:116
+msgid "Użytkownik nie aktywny. Kliknij aby aktywować."
+msgstr ""
+
+#: View\Profiles\index.ctp:136
+msgid "Brak danych o umowie. Kliknij aby dodać."
+msgstr ""
+
+#: View\Profiles\messages.ctp:1
+msgid "Lista powiadomień"
+msgstr ""
+
+#: View\Profiles\messages.ctp:23
+msgid "Otrzymano"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:16
+msgid "Zmiana danych osobowych"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:356
+#: View\Vacations\add.ctp:22
+msgid "Wysłane przez Ciebie zmiany profilu czekają na zatwierdzenie. Proszę o cierpliwość."
+msgstr ""
+
+#: View\Profiles\metrics.ctp:364
+#: View\Profiles\update_profile.ctp:5
+msgid "Dane profilu"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:376
+#: View\Vacations\index.ctp:34
+msgid "Przejdź do edycji"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:439
+msgid "Imiona rodziców"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:476
+#: View\Profiles\update_profile.ctp:246
+msgid "Rodzaj dowodu tożsamości"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:484
+#: View\Profiles\update_profile.ctp:267
+msgid "Seria i numer dowodu tożsamości"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:569
+msgid "Okres zatrudnienia"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:625
+#: View\Profiles\update_profile.ctp:551
+msgid "Dane kontaktowe"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:656
+#: View\Profiles\update_profile.ctp:621
+msgid "Adres email służbowy"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:877
+msgid "Zmiany powyższych danych są możliwe poprzez zgłoszenie ich do sekretariatu"
+msgstr ""
+
+#: View\Profiles\metrics.ctp:880
+#: View\TextDocuments\update.ctp:13;104
+msgid "Wyślij powiadomienie"
+msgstr ""
+
+#: View\Profiles\personal_aim.ctp:22
+msgid "Dodaj swój cel osobisty, aby codziennie sukcesywnie się do niego przybliżać. Dzięki temu nawet ambitne cele stają się realne!"
+msgstr ""
+
+#: View\Profiles\personal_aim.ctp:46
+msgid "Wpisz nazwę swojego celu"
+msgstr ""
+
+#: View\Profiles\personal_aim.ctp:52
+msgid "Podaj początek realizacji"
+msgstr ""
+
+#: View\Profiles\personal_aim.ctp:59
+msgid "Podaj koniec realizacji"
+msgstr ""
+
+#: View\Profiles\personal_aim.ctp:83
+msgid "Dodaj zdjęcie"
+msgstr ""
+
+#: View\Profiles\salaries.ctp:1
+msgid "Tabela płac"
+msgstr ""
+
+#: View\Profiles\update_profile.ctp:64;85;110;131;152;173;194;215;236;257;278;299;320;349;370;391;412;441;470;491;512;533;569;590;611;642;676;697;718;739;760;781;802;823;844;889;910;931;952;973;994;1015;1037;1058
+msgid "Odrzuć zmiany"
+msgstr ""
+
+#: View\Profiles\update_profile.ctp:65;86;111;132;153;174;195;216;237;258;279;300;321;350;371;392;413;442;471;492;513;534;570;591;612;643;677;698;719;740;761;782;803;824;845;890;911;932;953;974;995;1016;1038;1059
+msgid "Akceptuj zmiany"
+msgstr ""
+
+#: View\Profiles\update_profile.ctp:451
+msgid "Ilość urlopu rocznie:"
+msgstr ""
+
+#: View\Profiles\update_profile.ctp:459
+msgid "Prawo do renty / emerytury:"
+msgstr ""
+
+#: View\Profiles\update_profile.ctp:621
+msgid ""
+msgstr ""
+
+#: View\Sections\admin_add_worker.ctp:1
+msgid "Dodaj pracowników"
+msgstr ""
+
+#: View\Sections\admin_edit.ctp:1
+msgid "Edytuj dział"
+msgstr ""
+
+#: View\Sections\admin_index.ctp:1
+msgid "Lista działów"
+msgstr ""
+
+#: View\SocialBooks\index.ctp:3
+msgid "Lista użytkowników FEBbook"
+msgstr ""
+
+#: View\SocialBooks\view.ctp:27
+msgid "EMAIL"
+msgstr ""
+
+#: View\SocialBooks\view.ctp:40
+msgid "Dane"
+msgstr ""
+
+#: View\SocialBooks\view.ctp:44
+msgid "O mnie"
+msgstr ""
+
+#: View\SocialBooks\view.ctp:112
+msgid "Kompetencje"
+msgstr ""
+
+#: View\TextDocuments\create.ctp:29
+#: View\TextDocuments\update.ctp:69
+msgid "Nazwa dokumentu"
+msgstr ""
+
+#: View\TextDocuments\create.ctp:40
+#: View\TextDocuments\update.ctp:91
+msgid "Blokada współdzielenia"
+msgstr ""
+
+#: View\TextDocuments\index.ctp:1
+msgid "Lista dokumentów tekstowych"
+msgstr ""
+
+#: View\TextDocuments\index.ctp:8;61;62
+msgid "Dodaj nowy dokument"
+msgstr ""
+
+#: View\TextDocuments\index.ctp:45
+msgid "Usuń dokument"
+msgstr ""
+
+#: View\TextDocuments\index.ctp:48
+msgid "Czy na pewno chcesz usunąć dokument?"
+msgstr ""
+
+#: View\TextDocuments\index.ctp:90
+msgid "Link do współdzielenia"
+msgstr ""
+
+#: View\TextDocuments\index.ctp:125
+msgid "Edycja zablokowana przez autora"
+msgstr ""
+
+#: View\TextDocuments\update.ctp:23
+msgid "Adresy na które zostanie wysłany link do współdzielenia dokumentu"
+msgstr ""
+
+#: View\TextDocuments\update.ctp:26
+msgid "Email klienta"
+msgstr ""
+
+#: View\TextDocuments\update.ctp:29
+msgid "Wymagany poprawny email"
+msgstr ""
+
+#: View\TextDocuments\update.ctp:32
+msgid "Dodaj adres"
+msgstr ""
+
+#: View\TextDocuments\update.ctp:102
+msgid "Eksportuj do PDF"
+msgstr ""
+
+#: View\TextDocuments\update.ctp:103
+msgid "Eksportuj do DOC"
+msgstr ""
+
+#: View\Vacations\add.ctp:39
+#: View\Vacations\calendar.ctp:35
+#: View\Vacations\edit.ctp:36
+#: View\Vacations\index.ctp:51
+msgid "Historia zatrudnienia"
+msgstr ""
+
+#: View\Vacations\add.ctp:45
+msgid "Urlop w bieżącym roku"
+msgstr ""
+
+#: View\Vacations\add.ctp:48
+#: View\Vacations\calendar.ctp:44
+#: View\Vacations\index.ctp:60
+msgid "Złóż wniosek urlopowy"
+msgstr ""
+
+#: View\Vacations\calendar.ctp:41
+#: View\Vacations\edit.ctp:42
+#: View\Vacations\index.ctp:57
+msgid "Urlopy"
+msgstr ""
+
+#: View\Vacations\calendar.ctp:115
+msgid "Pokaż listę"
+msgstr ""
+
+#: View\Vacations\edit.ctp:45
+msgid "Edytuj wniosek urlopowy"
+msgstr ""
+
+#: View\Vacations\team.ctp:1
+msgid "Nadchodzące urlopy"
+msgstr ""
+
+#: View\Vacations\team.ctp:66;91
+msgid "Frekwencja za ostatnie 6 miesięcy"
+msgstr ""
+
+#: View\Vacations\team.ctp:96
+msgid "FEBbook"
+msgstr ""
+
+#: View\Vacations\work_time_for_all_users.ctp:2
+msgid "Czas pracy pracowników został zsumowany"
+msgstr ""
+
+#: View\WorkTimes\add.ctp:4
+msgid "Add Work Time"
+msgstr ""
+
+#: View\WorkTimes\edit.ctp:3
+msgid "Edit Work Time"
+msgstr ""
+
+#: View\WorkTimes\index.ctp:5
+msgid "Work Times"
+msgstr ""
+

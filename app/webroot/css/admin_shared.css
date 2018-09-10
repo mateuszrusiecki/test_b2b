@@ -1,0 +1,24 @@
+.theme{
+    float: left;
+    width: 400px;
+    padding: 11px;
+    height: 250px;
+}
+.theme.active{
+    padding: 10px;
+    border: 1px solid red;
+}
+.theme img{
+    float: left;
+    max-width: 200px;
+}
+.theme img + .contentInfo,
+.theme a + .contentInfo{
+    float: left;
+    padding-left: 10px;
+    width: 190px;
+}
+.theme .themeLink{
+    color: red;
+    padding: 5px;
+}

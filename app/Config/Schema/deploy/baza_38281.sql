@@ -1,0 +1,2 @@
+ALTER TABLE  `project_contact_peoples` CHANGE  `client_id`  `client_contact_id` INT( 11 ) NOT NULL
+ALTER TABLE  `lead_files` CHANGE  `img`  `file` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL

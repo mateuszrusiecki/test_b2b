@@ -1,0 +1,1 @@
+<p><?php echo __d('public', 'Wersja graficzna została zaakceptowana. Ścieżka do pliku graficznego') ?>: <?php echo $data['path'];?></p>

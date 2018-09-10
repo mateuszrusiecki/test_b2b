@@ -1,0 +1,2 @@
+ALTER TABLE  `profiles` CHANGE  `hourly_rate`  `hourly_rate` BLOB NULL DEFAULT NULL COMMENT  'Stawka godzinowa';
+ALTER TABLE  `client_projects` ADD  `total_time_spent` DECIMAL( 10, 2 ) NULL COMMENT  'ca³kowity czas spêdzony przez pracowników przy pracy nad projektem' AFTER  `total_costs_sum`;

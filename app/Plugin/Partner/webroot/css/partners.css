@@ -1,0 +1,42 @@
+@import url('partners-responsive.css');
+
+#partnerSlider #partnerOverflow{
+    width: 960px;
+    overflow: hidden;
+    position: relative;
+}
+#partnerSlider{
+    width: 960px;
+}
+#partnerSlider #partner{
+    width: 9999px !important;
+}
+#partnerSlider .partner{
+    height: 160px;
+    width: 240px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#partnerSlider .partner .partnerImg{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 10px;
+    text-align: center;
+    width: 220px;
+    overflow: hidden;
+    height: 151px;
+    text-align: center;
+}
+#partnerSlider .partner .partnerImg a{
+    vertical-align: middle;
+}
+#partnerSlider .partner .partnerImg img{
+    display: inline;
+    vertical-align: middle;
+}

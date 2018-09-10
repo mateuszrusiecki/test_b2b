@@ -1,0 +1,1 @@
+ALTER TABLE  `client_projects` CHANGE  `budget`  `total_budget` DECIMAL( 10, 0 ) NULL DEFAULT NULL

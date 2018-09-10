@@ -1,0 +1,1 @@
+<?php echo __d('public', 'lista seo') ?>

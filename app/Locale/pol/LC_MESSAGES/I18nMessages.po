@@ -1,0 +1,39 @@
+//Model I18n Messages 
+
+msgid "Msgid"
+msgstr "Msgid"
+msgid "Msgstr"
+msgstr "Msgstr"
+msgid "User Id"
+msgstr "User Id"
+msgid "Domain"
+msgstr "Domain"
+msgid "Lang"
+msgstr "Lang"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "I18n Messages"
+msgstr "I18n Messages"
+
+msgid "New I18n Message"
+msgstr "Dodaj I18n Message"
+
+msgid "List I18n Messages"
+msgstr "Lista I18n Messages"
+
+msgid "Edit I18n Messages"
+msgstr "Edycja I18n Messages"
+
+msgid "Delete I18n Messages"
+msgstr "Usuń I18n Messages"
+
+msgid "Admin Add I18n Message"
+msgstr "Dodawanie I18n Message"
+
+msgid "Admin Edit I18n Message"
+msgstr "Edycja I18n Message"
+
+msgid "I18n Message Data"
+msgstr "Dane I18n Message"
+

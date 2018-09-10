@@ -1,0 +1,1 @@
+<?php echo '<b>Dziękujemy za korzystanie z subskrypcji. Na podany adres email został wysłany email potwierdzający rezygnację z <span>NEWSLETTERA</span>.</b>'; ?>

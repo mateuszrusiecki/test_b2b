@@ -1,0 +1,31 @@
+<!--<span ng-click="checked()" class="box-checkbox" ng-class="{'checked':done}">✔</span>-->
+<span ng-transclude></span><br/>
+<!--<span title="wystaw fakturę"  ng-click="fv()" ng-if="!invoice" class="">Przekaż fakturę do wystawienia</span>-->
+
+<div class='realization_confirmation' ng-hide='invoice'>
+<!--<div ng-hide="readonly" class='realization_confirmation'>-->
+   
+    <span ng-click='show_confirmaiton = !show_confirmaiton' class='animate-if'>Przekaż fakturę do wystawienia </span>
+    <!--<span ng-show="show_confirmaiton" ng-click='show_confirmaiton = !show_confirmaiton ' class='animate-if'>Oczekiwanie na wystawienie faktury</span>-->
+
+    <a ng-show="show_confirmaiton" 
+       href="javascript:;"
+       class="btn btn-xs green-haze font-white" 
+       ng-click='checked();show_confirmaiton = !show_confirmaiton;invoice=1;'
+       tooltip="">
+        Przekaż
+    </a>
+    
+    <a ng-show="show_confirmaiton" 
+       href="javascript:;"
+       ng-click='show_confirmaiton = !show_confirmaiton '
+       class="btn btn-xs grey-cascade font-white" 
+       tooltip="">
+        Anuluj
+    </a>
+
+</div>
+    
+<span title="oczekiwanie na wystawienie faktury" ng-if="invoice == 1" class="">Oczekiwanie na wystawienie faktury</span>
+<span title="faktura wystawiona"  ng-if="invoice == 2" class="">Faktura wystawiona</span>
+<span title="faktura opłacona"  ng-if="invoice == 3" class="">Faktura opłacona</span>

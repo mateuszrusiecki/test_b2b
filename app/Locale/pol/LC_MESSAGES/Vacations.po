@@ -1,0 +1,41 @@
+//Model Vacations 
+
+msgid "Vacation Type Id"
+msgstr "Vacation Type Id"
+msgid "Date Start"
+msgstr "Date Start"
+msgid "Date End"
+msgstr "Date End"
+msgid "Hour Start"
+msgstr "Hour Start"
+msgid "Hour End"
+msgstr "Hour End"
+msgid "Vacation Status Id"
+msgstr "Vacation Status Id"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Vacations"
+msgstr "Vacations"
+
+msgid "New Vacation"
+msgstr "Dodaj Vacation"
+
+msgid "List Vacations"
+msgstr "Lista Vacations"
+
+msgid "Edit Vacations"
+msgstr "Edycja Vacations"
+
+msgid "Delete Vacations"
+msgstr "Usuń Vacations"
+
+msgid "Admin Add Vacation"
+msgstr "Dodawanie Vacation"
+
+msgid "Admin Edit Vacation"
+msgstr "Edycja Vacation"
+
+msgid "Vacation Data"
+msgstr "Dane Vacation"
+

@@ -1,0 +1,1 @@
+<p><?php echo __d('public', 'Wersja graficzna została zaakceptowana. Scieżka do grafiki') ?>: <?php echo $data['fullImagePath']; ?></p>

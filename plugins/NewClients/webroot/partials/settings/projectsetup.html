@@ -1,0 +1,129 @@
+<div class="portlet light col-xs-12">
+    <div class="portlet-title">
+        <div class="tools caption">
+            <i class=" font-grey-gallery"></i>
+            <!--<a title="" data-original-title="" href="" class="expand_link collapse">
+                <span class="caption-subject font-blue-madison bold uppercase ">Ustawienia projektuu</span>-->
+                <div class="pull-left sb-subtitle">
+                    <a class="caption-subject font-blue-madison bold uppercase " ng-if="routeParams.leadOrProjectMode == 'lead_id'" ng-href="#/projects/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/">powrót do listy projektów</a>
+                    <a class="caption-subject font-blue-madison bold uppercase " ng-if="routeParams.leadOrProjectMode == 'client_project_id'" ng-href="#/projects/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/">powrót do listy projektów</a>
+                    <a class="caption-subject font-blue-madison bold uppercase " ng-if="!routeParams.leadOrProjectMode" href="#/projects/">powrót do listy projektów</a>
+                </div>  
+           <!-- </a> -->
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div class="alert alert-danger alert-dismissable" role="alert" ng-show="errorMessage" style="margin-top: 20px">{{errorMessage}}
+            <button type="button" class="close" aria-hidden="true" ng-click="errorMessage = ''"></button>
+        </div>
+        <div class="alert alert-success alert-dismissable" ng-show="successMessage" style="margin-top: 20px">{{successMessage}}
+            <button type="button" class="close" aria-hidden="true" ng-click="successMessage = ''"></button>
+        </div>
+        <form novalidate role="form" ng-submit="submit()" name="form">
+        <div class="project-template">
+            <div class="clearfix">
+                <div class="pull-right toolbar">
+                    <!--<button class="btn default btn-sm margin-left-5" type="submit" ng-disabled="!form.nazwaProjektu.$dirty && !form.klient.$dirty && !form.koordynator.$dirty">
+                        <span ng-show="newProject">Utwórz projekt</span>
+                        <span ng-hide="newProject">Aktualizuj</span>
+                    </button>-->
+                    <button class="btn btn-warning btn-sm margin-left-5" type="button" ng-show="project.Project.archived == 0" title="Odśwież wszystkie wersje dla projektu" ng-click="refreshVersions(project)">
+                        <i class="fa fa-refresh"></i>
+                    </button>
+                    <button class="btn btn-danger btn-sm margin-left-5" type="button" ng-show="project.Project.archived == 0" title="Archiwizuj projekt" ng-click="archiveProject(project)">
+                        <i class="fa fa-lock"></i>
+                    </button>
+                    <button class="btn btn-warning btn-sm margin-left-5" type="button" ng-show="project.Project.archived == 1" title="Przywróć projekt z archiwum" ng-click="unarchiveProject(project)">
+                        <i class="fa fa-unlock"></i>
+                    </button>
+                    <a ng-if="!routeParams.leadOrProjectMode" ng-show="currentUser.role == 'manager'" href="#/settings" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>     
+                    <a ng-if="routeParams.leadOrProjectMode" ng-show="currentUser.role == 'manager'" href="#/settings/leadProjectMode/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>  
+                    <a ng-if="!routeParams.leadOrProjectMode" href="#/settings/project/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier  margin-left-5">
+                        Dodaj nowy
+                    </a> 
+                    <a ng-if="routeParams.leadOrProjectMode" href="#/settings/project/{{routeParams.leadOrProjectMode}}/{{routeParams.leadOrProjectId}}/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier  margin-left-5">
+                        Dodaj nowy
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="portlet-body">
+                    <div class="clearfix">
+                        <div class="col-lg-2 col-md-3 col-xs-12 margin-top-10 margin-bottom-10">
+                            <label class="hidden-xs">&nbsp;</label>
+                            <input type="text" name="nazwaProjektu" required class="form-control form-control-inline ng-pristine ng-valid ng-touched" placeholder="Nazwa projektu" ng-model="project.Project.title" class="pull-left form-control form-control-inline ng-pristine ng-valid ng-touched">
+                        </div> 
+                        <div ng-show="!clientLead && !clientProject" class="col-lg-2 col-md-3 col-xs-12 margin-top-10 margin-bottom-10">                         
+                            <div class="input-group" style="width: 100%;">
+                                <label>Klient:</label>
+                                <select label="a" class="form-control col-md-3 ng-pristine ng-valid ng-touched" style="width: 100%;" ng-model="client" ng-options="user.Profile.name for user in users" name="klient"></select>
+                            </div> 
+                        </div>                          
+                        <div ng-show="!clientLead && !clientProject" class="col-lg-2 col-md-3 col-xs-12 margin-top-10 margin-bottom-10">
+                            <div class="input-group" style="width: 100%;">
+                                <label>Koordynator:</label> 
+                                <select class="form-control col-md-3 ng-pristine ng-valid ng-touched" style="width: 100%;" name="koordynator" ng-model="manager" ng-options="user.Profile.name for user in managersSelect" ></select>
+                            </div>
+                        </div>
+                        <button style="margin-top: 38px;" class="btn default btn-sm margin-left-5" type="submit" ng-disabled="!form.nazwaProjektu.$dirty && !form.klient.$dirty && !form.koordynator.$dirty">
+                            <span ng-show="newProject">Utwórz projekt</span>
+                            <span ng-hide="newProject">Aktualizuj</span>
+                        </button>
+                        <div ng-if="clientProject">
+                            <!--<input type="hidden" ng-model="client" name="klient" value="{{clientProject.Client.id}}">-->
+                            <ng ng-init="client.User.id = clientProject.Client.id">
+                        </div>
+                        <div ng-if="clientProject">
+                            <!--<input type="hidden" ng-model="manager" name="koordynator" value="{{clientProject.User.id}}">-->
+                            <ng ng-init="manager.User.id = clientProject.User.id">
+                        </div>
+                        <div ng-if="clientLead">
+                            <!--<input type="hidden" ng-model="client" name="klient" value="{{clientLead.Client.id}}">-->
+                            <ng ng-init="client.User.id = clientLead.Client.id">
+                        </div>
+                        <div ng-if="clientLead">
+                            <!--<input type="hidden" ng-model="manager" name="koordynator" value="{{clientLead.User.id}}">-->
+                            <ng ng-init="manager.User.id = clientLead.User.id">
+                        </div>
+                    </div>                    
+                    <div ng-show="!newProject" class="project-properties">
+                        <div class="col-md-12">
+                            <div class="panel panel-primary margin-top-20">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Struktura projektu <b>{{project.Project.title}}</b> <span>b2b.febdev.pl/public_html/plugins/NewClients/storage/{{project.fullData.B2BClient.name | nospace}}/{{project.Project.title}} + struktura katalogów jak utworzona poniżej. Przed FTP należy ładować tylko pliki .jpg</span></h3>
+                                </div>
+                                <div class="panel-body">
+                                    <ul class="list-group category-group">
+                                        <li class="list-group-item category" ng-show="category" ng-repeat="category in project.Category| orderBy:'ordernum'"><b>{{category.title}}</b>
+                                            <span class="pull-right tools" ng-click="categoryPositionChange(category, 1)"><i class="fa fa-arrow-down"></i></span>
+                                            <span class="pull-right tools" ng-click="categoryPositionChange(category, -1)"><i class="fa fa-arrow-up"></i></span>
+                                            <span class="pull-right tools" ng-click="deleteCategory(category)"><i class="fa fa-trash-o"></i></span>
+                                            <span class="pull-right tools" title="Nowy widok" ng-click="editView(null, category)"><i class="fa fa-plus"></i></span>
+                                            <span class="pull-right tools" ng-click="editCategory(category)"><i class="fa fa-edit"></i></span>
+                                            <ul class="list-group view-group" ng-show="category.pView && category.pView.length != 0">
+                                                <li class="list-group-item view" ng-show="view" ng-repeat="view in category.pView| orderBy:'ordernum'">{{view.name}}
+                                                    <span class="pull-right tools" ng-click="viewPositionChange(view, 1)"><i class="fa fa-arrow-down" ></i></span>
+                                                    <span class="pull-right tools" ng-click="viewPositionChange(view, -1)"><i class="fa fa-arrow-up"></i></span>
+                                                    <span class="pull-right tools" ng-click="deleteView(view)"><i class="fa fa-trash-o"></i></span>
+                                                    <span class="pull-right tools" ng-click="editView(view, category)"><i class="fa fa-edit"></i></span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item"><button ng-click="editCategory(null)" class="btn btn-default btn-sm" type="button">Dodaj kategorię</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </form>
+    </div>
+</div>

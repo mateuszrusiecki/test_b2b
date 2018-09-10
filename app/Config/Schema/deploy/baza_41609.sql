@@ -1,0 +1,1 @@
+ALTER TABLE  `text_documents` ADD  `client_project_id` INT NULL AFTER  `lead_id`

@@ -1,0 +1,29 @@
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Desc"
+msgstr "Opis"
+
+msgid "Photo Categories"
+msgstr "Kategorie zdjęć"
+
+msgid "New Photo Category"
+msgstr "Nowa kategoria zdjęć"
+
+msgid "List Photo Categories"
+msgstr "Lista kategorii zdjęć"
+
+msgid "Edit Photo Categories"
+msgstr "Edycja kategorii zdjęcia"
+
+msgid "Delete Photo Categories"
+msgstr "Usuń kategorię zdjęcia"
+
+msgid "Admin Add Photo Category"
+msgstr "Dodawanie kategorii zdjęcia"
+
+msgid "Admin Edit Photo Category"
+msgstr "Edycja kategorii zdjęcia"
+
+msgid "Submit"
+msgstr "Zapisz"

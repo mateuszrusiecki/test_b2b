@@ -1,0 +1,52 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-07-24 13:52+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin\Payments\View\Invoices\admin_pdf.ctp:11
+msgid "Faktura VAT nr "
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:9
+msgid "Płatność jest w trakcie realizacji"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:9
+msgid "Płatność przebiegła pomyślnie"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:13
+msgid "Trwa oczekiwanie na potwierdznie ze strony systemu płatności elektroniczych.\n         Może to potrwać do 48 godzin. <br />\n         (Zwykle transakcja jest finalizowana do 15 min od dokonania płatności)"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:19
+msgid "Jeśli płatność nie zostanie potwierdzona w przeciągu 48h od dokonania płatności, prosimy o przesłanie formularzem\n         kontaktowym zgłoszenia zawierającego datę i godzinę transakcji, oraz dane kontaktowe używane podczas transakcji."
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:24
+msgid "Płatność została potwierdzona przez system płatności elektronicznej. <br />\n         O dalszym przebiegu realizacji zamówienia będziemy informować przez email."
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:32
+msgid "Płatność nie została wykonana"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:35
+msgid "W razie problemów, prosimy o przesłanie formularzem kontaktowym\n         zgłoszenia zawierającego datę i godzinę transakcji, dane kontaktowe używane podczas transakcji, \n         oraz treść poniższego komunikatu."
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:40
+msgid "Informacja systemu płatności:"
+msgstr ""
+

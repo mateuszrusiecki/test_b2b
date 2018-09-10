@@ -1,0 +1,166 @@
+<div class="portlet light col-xs-12">
+    <div class="portlet-title">
+        <div class="tools caption">
+            <i class=" font-grey-gallery"></i>
+            <a title="" data-original-title="" href="" class="expand_link collapse">
+                <span class="caption-subject font-blue-madison bold uppercase ">Projekty graficzne - lista</span>
+            </a>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div class="project-template">
+            <div class="clearfix">
+                <div class="pull-left toolbar">
+                    <span ng-if="clientLeadInfo" class="ml caption-subject font-blue-madison bold uppercase ">{{'Lead ' + clientLeadInfo.ClientLead.name}}</span>
+                    <span ng-if="clientProjectInfo" class="ml caption-subject font-blue-madison bold uppercase ">{{'Projekt ' + clientProjectInfo.ClientProject.name}}</span>
+                </div>
+                <div class="pull-right toolbar">
+                    <a ng-if="!routeParams.mode" ng-show="currentUser.role == 'manager'" href="#/settings" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>
+                    <a ng-if="routeParams.mode" ng-show="currentUser.role == 'manager'" href="#/settings/leadProjectMode/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
+                        Ustawienia
+                    </a>
+                    <a ng-if="!routeParams.mode" href="#/settings/project/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
+                        Dodaj nowy
+                    </a> 
+                    <a ng-if="routeParams.mode" href="#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
+                        Dodaj nowy
+                    </a> 
+                </div>
+            </div>
+            <div class="content margin-top-20">
+                <div class="portlet box yellow bgfeb">
+                    <div class="portlet-title bgfeb">
+                        <div class="caption"><i class="fa fa-list"></i>LISTA PROJEKTÓW</div>
+                        <div class="tools">
+                            <a href="javascript:;" class="collapse">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="clearfix">
+                            <div class="clearfix">
+                                <div class="col-lg-2 col-md-3 col-xs-12 margin-top-10 margin-bottom-10">
+                                    <div class="input-icon right">
+                                        <i class="icon-magnifier"></i>
+                                        <input type="text" class="pull-left form-control form-control-inline ng-pristine ng-valid ng-touched" placeholder="Szukaj" ng-model="query">
+                                        <!--                                        <span class="input-group-addon" style="padding: 0">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                </span>-->
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-5 col-xs-12 margin-top-10 margin-bottom-10">
+                                    <label><span>koordynatorzy:</span></label>
+                                    <div style="display: inline-block; height: 28px">
+                                        <div multi-select
+                                             input-model="managers"
+                                             output-model="managersFilter"
+                                             button-label="name"
+                                             item-label="name"
+                                             tick-property="selected"
+                                             default-label="Nic nie wybrano">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-xs-12 margin-top-10 pull-right text-right margin-bottom-10">
+                                    <div style="padding-top: 5px;">
+                                        <label>
+                                            <input type="checkbox" ng-model="showArchived" ng-true-value="true" ng-false-value="false">
+                                            <span>pokazuj projekty archiwalne</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-scrollable">
+                                <table class="gc table table-striped table-bordered table-advance table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="vertical-middle">#</th>
+                                            <th class="vertical-middle"><i class="fa fa-suitcase"></i> Projekt</th>
+                                            <th class="vertical-middle"><i class="fa fa-users"></i> Kontakt</th>
+                                            <th class="vertical-middle"><i class="fa fa-copy"></i> Wszystkie/<br class="visible-xs" />Akceptacja</th>
+                                            <th class="vertical-middle"><i class="fa fa-eye"></i> Podgląd</th>
+                                            <th class="vertical-middle"><i class="fa fa-cog"></i>  Opcje</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="project in projects| filter: mySearch">
+                                            <td class="vertical-middle">
+                                                {{$index + 1}}
+                                            </td>
+                                            <td class="vertical-middle">
+                                                <span ng-if="project.Client.Profile.name">{{project.Client.Profile.name}} - </span> 
+                                                <span ng-if="!project.Client.Profile.name && project.B2BClient.name !== null">{{project.B2BClient.name}} - </span> 
+                                                <span class="bold">{{project.Project.title}} <span style="color:red;" ng-if="project.Project.archived"> (archiwalny)</span></span>
+                                            </td>
+                                            <td class="vertical-middle">
+                                                <p>Koordynator: <span class="feb bold">{{project.Manager.Profile.name}}</span></p>
+                                                <p>
+                                                    Email do klienta: 
+                                                    <span ng-if="project.Client.email" class="bold"><a href="{{project.clientContact}}">{{project.Client.email}}</a></span>
+                                                    <span ng-if="project.B2BClient.email && !project.Client.email" class="bold"><a href="{{project.B2BClient.email}}">{{project.B2BClient.email}}</a></span>
+                                                </p>
+                                                <p>
+                                                    Telefon do klienta: 
+                                                    <span ng-if="project.Client.Profile.private_phone" class="bold">{{project.Client.Profile.private_phone}}</span>
+                                                    <span ng-if="project.B2BClient.phone && !project.Client.Profile.private_phone" class="bold">{{project.B2BClient.phone}}</span>
+                                                </p>
+                                            </td>
+                                            <td class="vertical-middle">
+                                                {{project.Project.view_count}} / <b>{{project.Project.accepted_view_count}}</b>
+                                            </td>
+                                            <td class="vertical-middle">
+                                                <div class="thumbs-content" style="min-height: 80px;">
+                                                    <div class="thumb" ng-repeat="item in project.pView| limitTo:4"> 
+                                                        <img ng-if="item.thumb_path != null" ng-src="/new_clients/storage/image/path:/{{item.thumb_path}}" style="width: 100%; height: 80px" title="{{item.name}}">
+                                                        <div class="ng-scope" ng-if="item.thumb_path == null" style="padding-top: 27px;"><i class="fa fa-file-image-o" style="font-size: 30px; padding-left:40px;" ></i></div>
+                                                        <!--
+                                                        <a ng-if="!routeParams.mode" href="#/project/{{project.Project.id}}/{{item.id}}" class="thumbnail2">
+                                                            <img ng-src="/new_clients/storage/image/path:/{{item.thumb_path}}" style="width: 100%; height: 80px" title="{{item.name}}">
+                                                        </a>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="vertical-middle">
+                                                <a ng-if="routeParams.mode" href="#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/{{project.Project.id}}">
+                                                    <i tooltip="Edytuj dokument" class="fa fa-pencil-square  large-icon pull-right"></i>
+                                                </a>                                               
+                                                
+                                                <a ng-if="!routeParams.mode" href="#/settings/project/{{project.Project.id}}">
+                                                    <i tooltip="Edytuj dokument" class="fa fa-pencil-square  large-icon pull-right"></i>
+                                                </a>
+                                                
+                                                <a ng-if="routeParams.mode" href="#/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/{{project.Project.id}}">
+                                                    <i tooltip="Szybki podgląd" class="fa fa-eye large-icon pull-right"></i>
+                                                </a>
+                                                
+                                                <a ng-if="!routeParams.mode" href="#/project/{{project.Project.id}}">
+                                                    <i tooltip="Szybki podgląd" class="fa fa-eye large-icon pull-right"></i>
+                                                </a>                                              
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <div class="infos">
+                        <div class="personaldata pull-left">
+                            <p>Koordynator: <span class="feb bold">{{project.Manager.name}}</span></p>
+                            <p>Email do klienta: <span class="bold"> <a href="{{project.clientContact}}">{{project.Client.email}}</a></span></p>
+                            <p>Telefon do klienta: <span class="bold">{{project.Client.Profile.private_phone}}</span> 
+                            </p>
+                        </div>
+                        <div class="buttons pull-right">
+                            <div class="button"><a href="#/projects/{{project.Project.id}}" class="btn red">Pokaż</a></div>
+                            <div class="button"><a href="#/settings/projects/{{project.Project.id}}" class="btn blue">Edytuj</a></div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

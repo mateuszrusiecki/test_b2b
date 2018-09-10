@@ -1,0 +1,29 @@
+//Model Vacation Statuses 
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Vacation Statuses"
+msgstr "Vacation Statuses"
+
+msgid "New Vacation Status"
+msgstr "Dodaj Vacation Status"
+
+msgid "List Vacation Statuses"
+msgstr "Lista Vacation Statuses"
+
+msgid "Edit Vacation Statuses"
+msgstr "Edycja Vacation Statuses"
+
+msgid "Delete Vacation Statuses"
+msgstr "Usuń Vacation Statuses"
+
+msgid "Admin Add Vacation Status"
+msgstr "Dodawanie Vacation Status"
+
+msgid "Admin Edit Vacation Status"
+msgstr "Edycja Vacation Status"
+
+msgid "Vacation Status Data"
+msgstr "Dane Vacation Status"
+

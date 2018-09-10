@@ -1,0 +1,1 @@
+ALTER TABLE  `user_contract_histories` ADD  `parent_id` INT NULL AFTER  `user_id`;

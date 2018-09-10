@@ -1,0 +1,35 @@
+<div class="table-scrollable">
+    <table ng-table class="gc table table-striped table-bordered table-advance table-hover">
+        <thead>
+            <tr>
+                <th><i class="fa fa-suitcase"></i> Projekt</th>
+                <th><i class="fa fa-user"></i> Klient</th>
+                <th><i class="fa fa-flag"></i> Status</th>
+                <th style="text-align: right">
+                    <a href="#/settings/projects/0" style="min-width: 64px" class="btn btn-xs btn-info red"><i class="fa fa-plus"></i> Dodaj</a>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="project in projects">
+                <td>{{ project.Project.title}}</td>
+                <td>{{ project.Client.Profile.name}}</td>
+                <td>
+                    <span>
+                        <i class="fa"
+                           ng-class="{'fa-thumbs-up text-success': project.Project.acceptance_status == 1, 'fa-question': project.Project.acceptance_status == 0, 'fa-thumbs-down text-danger': project.Project.acceptance_status == 2}"></i>
+                    </span>&nbsp;
+                    <span>
+                        <i class="fa fa-fw" ng-class="{'fa-lock': project.Project.archived == 1}"></i>
+                    </span>
+                </td>
+                <td class="text-right">
+                    <a href="#/settings/projects/{{project.Project.id}}" class="btn btn-xs btn-info blue">
+                        <i class="fa fa-edit"></i> Edytuj
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

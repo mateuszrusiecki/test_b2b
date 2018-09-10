@@ -1,0 +1,43 @@
+//Model Crons 
+
+msgid "Active"
+msgstr "Active"
+msgid "N"
+msgstr "N"
+msgid "M"
+msgstr "M"
+msgid "D"
+msgstr "D"
+msgid "H"
+msgstr "H"
+msgid "I"
+msgstr "I"
+msgid "Url"
+msgstr "Url"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Crons"
+msgstr "Crons"
+
+msgid "New Cron"
+msgstr "Dodaj Cron"
+
+msgid "List Crons"
+msgstr "Lista Crons"
+
+msgid "Edit Crons"
+msgstr "Edycja Crons"
+
+msgid "Delete Crons"
+msgstr "Usuń Crons"
+
+msgid "Admin Add Cron"
+msgstr "Dodawanie Cron"
+
+msgid "Admin Edit Cron"
+msgstr "Edycja Cron"
+
+msgid "Cron Data"
+msgstr "Dane Cron"
+

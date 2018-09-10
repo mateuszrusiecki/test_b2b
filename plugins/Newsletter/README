@@ -1,0 +1,21 @@
+Wersja 0.2
+
+Instalacyjne uwagi:
+- Plugin wymaga crona, w głównym katalogu jest pliczek wykorzystywany przez home.pl
+
+Changelog:
+
+TO-DO
+- Status po zakończeniu wysyłki nie jest aktualizowany na poprawny
+
+0.2
+- Przepisanie wysyłki emailu na zasadzie bufora z którego czyta i na podstawie którego wysyłane zostają emaile
+
+0.1
+- dodanie walidacji na email wysylajacy
+- poprawa przeniesienia do pluginu
+- przejscie na 2.0, poprawa naglowkow tabel i tlumaczen
+- wyprowadzenie wiekszosci tekstow jezykowych
+
+
+CakePHP 2.0+

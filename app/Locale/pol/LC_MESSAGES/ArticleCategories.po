@@ -1,0 +1,27 @@
+//Model Article Categories 
+
+
+msgid "Article Categories"
+msgstr "Article Categories"
+
+msgid "New Article Category"
+msgstr "Dodaj Article Category"
+
+msgid "List Article Categories"
+msgstr "Lista Article Categories"
+
+msgid "Edit Article Categories"
+msgstr "Edycja Article Categories"
+
+msgid "Delete Article Categories"
+msgstr "Usuń Article Categories"
+
+msgid "Admin Add Article Category"
+msgstr "Dodawanie Article Category"
+
+msgid "Admin Edit Article Category"
+msgstr "Edycja Article Category"
+
+msgid "Article Category Data"
+msgstr "Dane Article Category"
+

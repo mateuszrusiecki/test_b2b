@@ -1,0 +1,2 @@
+ALTER TABLE `base_projects` CHANGE `coordinator_contact` `coordinator_contact` CHAR( 36 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+ALTER TABLE `base_projects` CHANGE `programmer_contact` `programmer_contact` CHAR( 36 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE  `client_projects` ADD  `end_warranty` DATE NULL AFTER  `auto_project`;

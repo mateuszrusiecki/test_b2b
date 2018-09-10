@@ -1,0 +1,1 @@
+<?php echo '<b>DZIĘKUJEMU ZA ZAPISANIE SIĘ DO SUBSKRYPCJI <span>NEWSLETTERA</span></b>'; ?>

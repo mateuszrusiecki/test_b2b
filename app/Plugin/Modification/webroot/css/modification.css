@@ -1,0 +1,17 @@
+.modifications table td div.add { 
+    color: green;
+}
+
+.modifications table td div.delete { 
+    color: red;
+}
+
+.modifications table td div.softdelete { 
+    color: darkorange;
+}
+
+.modifications table td div.edit { 
+    color: darkorange;
+}
+
+

@@ -1,0 +1,47 @@
+//Model Media Products 
+
+msgid "Amout"
+msgstr "Amout"
+msgid "Disc"
+msgstr "Disc"
+msgid "Disc Overprint"
+msgstr "Disc Overprint"
+msgid "Package Type"
+msgstr "Package Type"
+msgid "Package"
+msgstr "Package"
+msgid "Package Overprint"
+msgstr "Package Overprint"
+msgid "Typography"
+msgstr "Typography"
+msgid "Overprint Type"
+msgstr "Overprint Type"
+msgid "Format"
+msgstr "Format"
+msgid "Confection"
+msgstr "Confection"
+
+msgid "Media Products"
+msgstr "Media Products"
+
+msgid "New Media Product"
+msgstr "Dodaj Media Product"
+
+msgid "List Media Products"
+msgstr "Lista Media Products"
+
+msgid "Edit Media Products"
+msgstr "Edycja Media Products"
+
+msgid "Delete Media Products"
+msgstr "Usuń Media Products"
+
+msgid "Admin Add Media Product"
+msgstr "Dodawanie Media Product"
+
+msgid "Admin Edit Media Product"
+msgstr "Edycja Media Product"
+
+msgid "Media Product Data"
+msgstr "Dane Media Product"
+

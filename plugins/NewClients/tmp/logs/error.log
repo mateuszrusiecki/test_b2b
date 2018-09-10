@@ -1,0 +1,2200 @@
+2014-09-03 14:11:16 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Controller\MainController.php, line 14]
+2014-09-03 14:11:16 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 14, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 14, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:11:18 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:11:18 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:12:17 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Controller\MainController.php, line 14]
+2014-09-03 14:12:17 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 14, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 14, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:12:18 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:12:18 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:12:23 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:12:23 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:12:24 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:12:24 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:13:09 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:13:09 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:13:10 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:13:10 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:13:15 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:13:15 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:13:16 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:13:16 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:13:37 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:13:37 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 14:13:37 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\FEBSRV\HTDOCS\new-clients\app\Model\User.php, line 45]
+2014-09-03 14:13:37 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /login
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\FEBSRV\HTDOC...', 45, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-15 10:11:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_2` FOREIGN KEY (`client_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-15 10:33:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-15 10:33:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-15 15:55:48 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 15:55:48 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:34:24 Error: [Exception] Klient nie istnieje
+Request URL: /api/saveproject
+Stack Trace:
+#0 [internal function]: ApiController->saveproject()
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-22 20:34:37 Error: [Exception] Klient nie istnieje
+Request URL: /api/saveproject
+Stack Trace:
+#0 [internal function]: ApiController->saveproject()
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-22 20:34:37 Error: [Exception] Klient nie istnieje
+Request URL: /api/saveproject
+Stack Trace:
+#0 [internal function]: ApiController->saveproject()
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-22 20:35:39 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:35:40 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:35:51 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:35:51 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:36:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_1` FOREIGN KEY (`manager_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:36:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_1` FOREIGN KEY (`manager_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:48:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_1` FOREIGN KEY (`manager_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:48:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_1` FOREIGN KEY (`manager_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:49:21 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:49:21 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:49:40 Error: Fatal Error (1): Cannot access empty property in [C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php, line 494]
+2014-09-22 20:49:40 Error: [InternalErrorException] Internal Server Error
+Request URL: /api/saveview
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-22 20:51:04 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:51:05 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:52:04 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:52:04 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:52:15 Error: Fatal Error (1): Cannot access empty property in [C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php, line 494]
+2014-09-22 20:52:15 Error: [InternalErrorException] Internal Server Error
+Request URL: /api/saveview
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-22 20:52:19 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:52:20 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:52:27 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:52:27 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:53:38 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:53:39 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:53:51 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:53:51 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:54:21 Error: Fatal Error (1): Cannot access empty property in [C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php, line 494]
+2014-09-22 20:54:21 Error: [InternalErrorException] Internal Server Error
+Request URL: /api/saveview
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494, Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\FEBSRV\HTDOC...', 494, Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-22 20:54:26 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:54:26 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:54:50 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:54:51 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 20:58:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:59:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:59:37 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 20:59:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 21:05:26 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 21:05:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 21:05:55 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 21:16:42 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 21:16:43 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 21:17:18 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 21:17:18 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-22 21:19:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 22:01:58 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_1` FOREIGN KEY (`manager_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 22:06:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 22:06:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 22:11:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 22:11:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 22:12:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`regions`, CONSTRAINT `fk_regions_1` FOREIGN KEY (`user_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveregion/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Region), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(265): Model->save(Array)
+#5 [internal function]: ApiController->saveregion()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 23:00:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mbienia`.`projects`, CONSTRAINT `fk_projects_1` FOREIGN KEY (`manager_id`) REFERENCES `useres` (`id`))
+Request URL: /api/saveproject
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Project), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(387): Model->save(Array)
+#5 [internal function]: ApiController->saveproject()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-22 23:16:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'project_id' cannot be null
+Request URL: /api/savecategory
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Category), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(427): Model->save(Array)
+#5 [internal function]: ApiController->savecategory()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-23 08:14:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'project_id' cannot be null
+Request URL: /api/savecategory
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Category), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(427): Model->save(Array)
+#5 [internal function]: ApiController->savecategory()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-23 08:14:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'project_id' cannot be null
+Request URL: /api/savecategory
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Category), Array, Array)
+#4 C:\FEBSRV\HTDOCS\new-clients\app\Controller\ApiController.php(427): Model->save(Array)
+#5 [internal function]: ApiController->savecategory()
+#6 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-23 17:08:28 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:07:50 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:13:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:13:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:13:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:17:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:17:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 20:17:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 22:43:24 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:20:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:20:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:20:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:24:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:24:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-26 17:24:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-30 21:12:14 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:13:56 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:14:02 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:14:16 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:14:24 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:15:06 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:15:14 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:15:15 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:15:38 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:22:30 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:22:33 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:22:41 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:23:39 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:23:52 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:25:48 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:26:30 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:26:58 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:28:09 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...', Array)
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:32:29 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(15): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:36:27 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(15): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:38:05 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(15): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-30 21:38:18 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage was not found or not readable
+Request URL: /storage/image/path:/
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(15): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image()
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:29:00 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/path:/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:29:12 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/path:/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:29:44 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/path:/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:33:41 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/path:/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:33:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:33:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:33:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:34:07 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/path:/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:34:07 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/api/userdata was not found or not readable
+Request URL: /storage/image/path:/thumbs/api/userdata.json
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', 'api', 'userdata')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:34:22 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:34:22 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/api/userdata was not found or not readable
+Request URL: /storage/image/thumbs/api/userdata.json
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', 'api', 'userdata')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:34:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:34:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:34:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:34:39 Error: [NotFoundException] The requested file C:\FEBSRV\HTDOCS\new-clients\app\C:\FEBSRV\HTDOCS\new-clients\app\storage/thumbs/3.jpg was not found or not readable
+Request URL: /storage/image/path:/thumbs/3.jpg
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\Controller\StorageController.php(16): CakeResponse->file('C:\FEBSRV\HTDOC...')
+#1 [internal function]: StorageController->image('thumbs', '3.jpg')
+#2 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(StorageController), Array)
+#3 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\FEBSRV\HTDOCS\new-clients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(StorageController), Object(CakeRequest))
+#5 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 10:34:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/ng-table.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:34:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 10:34:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 10:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 10:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-route.min.js.map
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-23 03:59:00 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 C:\FEBSRV\HTDOCS\new-clients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-22 15:55:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mbienia\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-22 15:55:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mbienia\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-25 08:08:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mbienia\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-25 08:08:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mbienia\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:58:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mbienia\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:58:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mbienia\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:59:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1044] Access denied for user \'\'@\'localhost\' to database \'mbienia\'',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:59:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1044] Access denied for user \'\'@\'localhost\' to database \'mbienia\'',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:59:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1044] Access denied for user \'\'@\'localhost\' to database \'mbienia\'',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:59:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1044] Access denied for user \'\'@\'localhost\' to database \'mbienia\'',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:59:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1044] Access denied for user \'\'@\'localhost\' to database \'mbienia\'',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 07:59:41 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1044] Access denied for user \'\'@\'localhost\' to database \'mbienia\'',
+  'enabled' => true,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3498): ConnectionManager::getDataSource('default')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#5 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp1.7.7\htdocs\NewClients\app\View\Users\login.ctp(7): FormHelper->create('User', Array)
+#9 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(948): include('C:\xampp1.7.7\h...')
+#10 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp1.7.7\h...', Array)
+#11 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\View\View.php(471): View->_render('C:\xampp1.7.7\h...')
+#12 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-28 08:25:03 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:04 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:04 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:04 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:05 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:07 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:07 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:25:10 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:26:50 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:29:26 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 08:30:19 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:15 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:16 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:16 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:18 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:24 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:27 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionacceptancestatus/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(173): Model->save(Array)
+#5 [internal function]: ApiController->setversionacceptancestatus()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionvisibility/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(146): Model->save(Array)
+#5 [internal function]: ApiController->setversionvisibility()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionvisibility/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(146): Model->save(Array)
+#5 [internal function]: ApiController->setversionvisibility()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:48 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionvisibility/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(146): Model->save(Array)
+#5 [internal function]: ApiController->setversionvisibility()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:43:49 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/setversionvisibility/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `mbienia...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\Database\Mysql.php(411): DboSource->execute('UPDATE `mbienia...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1834): Mysql->update(Object(Version), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(146): Model->save(Array)
+#5 [internal function]: ApiController->setversionvisibility()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 11:44:19 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 13:35:39 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 13:35:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-28 13:35:54 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-29 13:18:03 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-01 14:04:22 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-01 14:04:23 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-01 14:04:23 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-01 14:04:24 Error: [PDOException] SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('mbienia'@'%') does not exist
+Request URL: /api/savecomment/
+Stack Trace:
+#0 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `mb...', Array)
+#2 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `mb...')
+#3 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp1.7.7\htdocs\NewClients\app\Controller\ApiController.php(303): Model->save(Array)
+#5 [internal function]: ApiController->savecomment()
+#6 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#7 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp1.7.7\htdocs\NewClients\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#9 C:\xampp1.7.7\htdocs\NewClients\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

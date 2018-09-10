@@ -1,0 +1,1 @@
+ALTER TABLE `user_groups` CHANGE `name` `name` VARCHAR( 30 ) CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL 

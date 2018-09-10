@@ -1,0 +1,14 @@
+Wersja 0.1
+
+Wymagania:
+- SimpleCMS 2.0+
+- Plugin: Photo w wersji 0.3+
+
+Changelog:
+
+0.1
+Migracja z photo:
+- Wydzielenie z PHOTO
+ALTER TABLE  `photo_categories` ADD  `desc` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL COMMENT  'Opis' AFTER  `name`
+- Dodanie opisu kategorii
+

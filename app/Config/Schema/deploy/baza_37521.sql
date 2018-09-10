@@ -1,0 +1,1 @@
+ALTER TABLE  `profiles` ADD  `vacation_available` SMALLINT( 6 ) NOT NULL AFTER  `vacation_days`

@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+    #partnerSlider,
+    #partnerSlider #partnerOverflow{
+        width: 320px!important;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px) {   
+    #partnerSlider,
+    #partnerSlider #partnerOverflow{
+        width: 480px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    #partnerSlider,
+    #partnerSlider #partnerOverflow{
+        width: 760px!important;
+    }
+}

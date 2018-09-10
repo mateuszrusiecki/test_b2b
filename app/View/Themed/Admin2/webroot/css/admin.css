@@ -1,0 +1,1100 @@
+/* ----------------------------------------------- */
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 65%;
+  color: #003860;
+  background-color: #ebebeb;
+  margin: 0px;
+  padding: 0;
+  min-width: 960px;
+  background: url(../img/admin/bg_repeat.jpg) repeat center -210px #F4F4F4;
+}
+#container{
+    background: url(../img/admin/bg.jpg) repeat-y center -210px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a {
+  text-decoration: none;
+  }
+a img {
+  border:none;
+  }
+ul, li {
+  margin: 0;
+  list-style: none;
+  vertical-align: middle;
+  }
+  
+img {
+  vertical-align: middle;
+  }
+  
+h1, h2, h3, h4 {
+  font-weight:normal;
+  margin-bottom: 20px;
+  }
+table, p{
+    margin: 10px 0;
+}
+pre {
+  padding: 1em;
+  }
+#container #content{
+    padding: 0px 30px;
+    min-height: 500px;
+}
+/*------------------ HEADER -----------------------------------*/
+#header {
+  padding: 10px;
+  }
+
+#logo {
+  padding: 10px;
+  float: left;
+  }
+
+#header h1 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 12px;
+  }
+
+#headerExtraInfo {
+  margin-left: 90px;
+  border: 0px solid #ff0000;
+  }
+
+#loginInfo {
+  font-family: Verdana, Helvetica, sans-serif;
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0px solid #000;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #CF852C;
+  }
+
+#compSel {
+  font-size: 9px;
+  font-weight: bold;
+  }
+
+#menuLogout {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: bold;
+  }
+
+td.actions div,
+td.actions a{
+    display: block;
+    float: left;
+    margin: 5px;
+}
+
+td.actions div{
+}
+
+/* contents part central de sa pagina
+----------------------------------------------- */
+#content {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 11px;
+  color: #58585A;
+  line-height: 180%;
+  }
+
+#content h2 {
+    font-size: 160%;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 4px 0;
+    color: #58585a;
+}
+#content h2 span{
+    border-left: 11px solid #d11804;
+    padding-left: 7px;
+}
+
+/*   Formularis   */
+div.input {
+    clear: both;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/* clearfix for inputs */
+div.input:after {
+    clear: both;
+    height: 0;
+    
+    display: block;
+    visibility: hidden;
+    
+    content: ".";
+}
+div.input {display:inline-block;}
+/* Hide from IE Mac \*/
+div.input {display:block;}
+/* End hide from IE Mac */
+
+/* end clearfix */
+
+
+
+form div.cols_2 {
+  float: left;
+  width: 49%;
+  }
+form div.cols_3 {
+  float: left;
+  width: 33%;
+  }
+form div.cols_4 {
+  float: left;
+  width: 24%;
+  }
+
+form h3 {
+  clear: both;
+  float: none;
+  font-size: 13px;
+  border-bottom: 1px solid #e5ebef;
+  }
+form p {
+  font-size: 11px;
+  }
+form p.puntSepar {
+  font-weight: bold;
+  border-bottom: 1px solid #e5ebef;
+  }
+
+form input.readonly, form select.readonly, form textarea.readonly {
+    background-color:#DDDDDD;
+}
+
+form hr {
+  clear: both;
+  border: 0;
+  height: 3px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ffffff;
+  border-bottom: 1px dashed #e5ebef;
+  }
+form hr.oculta {
+  visibility: hidden;
+  }
+
+form fieldset {
+  border: 1px dashed #d11804;
+  padding: 15px;
+  margin-bottom: 15px;
+  }
+form fieldset.botonera {
+  text-align: right;
+  }html>body form fieldset.botonera {padding-top: 0px;}
+
+form legend {
+  padding: 0px 20px 0px 20px;
+  color: #5C5C5D;
+  font-size: 100%;
+  font-weight: normal;
+  background-color: #EBEBEB;
+  }
+
+form div.formRow {
+  clear: both;
+  margin: 1px 0px 1px 0px;
+  padding: 0px 0px 2px 0px;
+  }
+
+form div label {
+  padding: 4px 0px 0px 0px;
+  display: block;
+  }
+
+form div.checkbox label, form div.radio label, form div.checkbox input, form div.radio input  {
+  display: inline;
+  width: auto;
+  }
+form div.radio fieldset label {
+    display: inline;
+    margin: 0;
+    padding: 0 0 7px 0;
+    line-height: 1.3;
+}
+form div.radio fieldset input {
+    display: inline;
+    margin: 0px 7px 4px 122px;
+}
+
+form div.checkbox input{
+    margin: auto;
+    vertical-align: sub;
+}
+form div.date select {
+    display: inline;
+    float: none;
+    width: auto;
+}
+form div.time select {
+    display: inline;
+    float: none;
+    width: auto;
+}
+
+
+form div label.checkLabel {
+  padding: 0px;
+  }
+
+form div.required label {
+  font-weight: bold;
+  }
+
+form div.required label[for=ProfilePhotoImg] {
+  font-weight: normal;
+  }
+
+form input, 
+form textarea, 
+form number,
+form datetime,
+form select {
+  float: left;
+  margin: 2px;
+  padding: 2px 2px 2px 8px;
+  border: 0px solid silver;
+  background-color: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 11px;
+  width: 305px;
+  }
+form .radio input{
+    float: none;
+}
+
+.datetime select{
+    width: auto;
+    float: none;
+}
+.text label,
+.password label,
+.select label,
+.file label,
+.number label,
+.datetime label,
+.textarea label,
+.date label{
+    float: left;
+    width: 19%;
+    text-align: right;
+    padding-right: 1%;
+}
+.text input,
+.password input{
+    background-color: white;
+    border: 1px inset #aaaaaa;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+.select select{
+    width: 200px;
+}
+.textareaFull label{
+    display: none;
+}
+.textareaFull textarea{
+    width: 99%;
+}
+.checkbox{
+    padding-left: 125px;
+}
+.checkbox label{
+    padding-left: 8px;
+}
+form select.inline {
+  width: auto;
+  display: inline;
+  }
+
+form input.radio {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  }
+
+form input[type=checkbox] {
+  background: none;
+  width: auto;
+  height: auto;
+  display: inline;
+  }
+
+form input[type=hidden] {
+  display: none !important;
+  }
+
+.multiple div.checkbox {
+    padding: 0 10px 3px 0;
+    float: left;
+    width: 30%;
+}
+
+.multiple fieldset {
+    clear: left;
+}
+
+
+.multiple div.checkbox input {
+    padding: 2px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.multiple div.checkbox label {
+    line-height: 1.1;
+    padding: 0;
+    float: none;
+}
+
+
+form div.required input, form div.required  textarea {
+  
+}
+
+form div.submit {
+  text-align: right;
+  padding: 5px 0;
+}
+
+form div.submit input {
+  clear: both;
+  width: auto;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  font: bold 12px/24px arial, sans-serif;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 15px;
+}
+
+table tr.row2 {
+  background-color: #e5ecf3;
+  }
+
+/* tables */
+table {
+  width: 100%;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  border-bottom: 0px solid #999;
+  color:#333;
+  background-color: #fdfdfd;
+  clear:both;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+  white-space: normal;
+  }
+th {
+  background-color: #5C5C5D;
+  border-top: 0px solid #fff;
+  border-left: 0px solid #fff;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-align: left;
+  padding: 1px 4px;
+  color: white;
+  font-weight: normal;
+  }
+th a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  }
+th a:hover {
+  color: #f89828;
+  }
+table tr td {
+  border-right: 1px solid #999;
+  padding:4px 4px;
+  vertical-align:top;
+  text-align: left;
+  border-bottom: 1px solid #999;
+  }
+table tr td a {
+  text-decoration: none;
+  color: #444;
+  font-weight: normal;
+  }
+table tr td a:hover {
+  
+  }
+table tr.altRow td, table tr.altrow td {
+  background-color: #c3c3c3;
+  }
+
+.index table tr:hover td, 
+.index table tr:hover td {
+  background-color: #f2d5ac;
+}
+  
+ table tr.valid td {
+     background: #DFF9E0;
+ }
+ 
+ table tr.not_valid tr:hover td {
+     background: #FFE3DF;
+ }
+.mceEditor  table tr:hover td {
+    background: none;
+}
+dl dt{
+    float: left;
+    padding-right: 10px;
+}
+
+.idColumn {
+  width: 40px;
+  }
+
+.fotoColumn {
+  width: 110px;
+  }
+
+.actionsColumn {
+  width: 110px;
+  }
+
+/* sql log para el desarrollo */
+#cakeSqlLog td {
+  text-align: left;
+  padding: 4px 8px;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+  }
+
+/* notices and errors */
+#flashMessage, 
+.flash-message,
+#authMessage,
+.infobox{
+  position: absolute;  
+  top: -40px;
+  left: 350px;
+  width: 50%;
+  padding: 2px 0px 4px 0px;
+  color: #58585a;
+  font: bold 12px/16px arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center; 
+  background-image:  url('../img/admin/x.png');
+  background-repeat: no-repeat;
+  background-position: 99% 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid #d5d5d5;
+}  
+#ajaxMsg-container{
+    position: relative;
+}         
+#flashMessage.error_message {
+  background-color: #f18e00;
+  color: #fff;            
+  }
+#flashMessage.confirm_message {
+  background-color: #e4fdcc;       
+  }
+   
+.error em {
+}
+
+.notice {
+  background-color: green;
+  }
+.tip {
+  color: #656565;
+  background-color: #ddd;
+  }
+
+/* action links */
+div.actions {
+  float: right;
+  margin-bottom: 5px;
+  }
+div.actions ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+ul.actions {
+  float: right;
+  margin-bottom: 5px;
+  }
+ul.actions li {
+  margin-top: 4px;
+  clear: both;
+  }
+
+/* imagenes por defecto */
+.showImage {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  clear: both;
+  }
+
+a img {border: 0px;}
+
+/* tiny_mce */
+.mceSelectList {width: auto; display: inline;}
+
+/*------------- pagination ------------------------------*/
+#pagination {
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+  text-align: center;
+  }
+
+#paginationTop {
+  clear: both;
+  text-align: left;
+  margin-bottom: 5px;
+  }
+
+#paginationTop .numResults {
+  float: left;
+  }
+
+#paginationTop .navigation {
+  float: right;
+  }
+
+.navigation img {
+  position: relative;
+  margin-bottom: -4px;
+  }
+
+#pagination .label {
+  font-weight: bold;
+  }
+
+#pagination em {
+  font-size: inherit;
+  }
+
+.paging {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+  text-align: center;
+  }
+
+.paging div {
+    display: inline;
+}
+
+.paging .disabled {
+    color: #bbb;
+}
+
+/* clear floats fix  http://positioniseverything.net/easyclearing.html  */
+.clearfix:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+  }
+
+.clearfix {
+  display: inline-table;
+  }
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/*-------------------- footer --------------------------*/
+#footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+  padding-right: 22px;
+  border-top: 1px dashed #D0D0D0;
+  }
+
+
+
+
+.form-error {
+      border: 2px solid #ff0000;
+  }
+
+.error-message {
+    font-weight: bold;
+    color: #ff0000;
+    float: left;
+    padding-left: 5px;
+    width: 260px;
+}
+
+#userInfoBox {
+    padding: 40px 40px 10px;
+    float: right;
+    color: #58585a;
+    font: normal 12px/14px arial, sans-serif;
+    text-align: right;
+}
+#userInfoBox span.orange{
+    color: #d11804;
+}
+#userInfoBox a{
+    color: #58585a;
+}
+#menuDynamicPages li {
+    clear: both;
+}
+  
+#filters {
+    float: left;
+    width: 630px;
+    margin-bottom: 10px;
+}
+
+#filters .input {
+    width: 100px;
+    display: inline !important;
+}
+
+#filters .submit {
+    display: inline !important;
+}
+
+#filters label {
+    display:inline !important;
+}
+
+#filters input, #filters select {
+    display: inline !important;
+    clear: none;
+    width: 100px;
+}
+
+img.thumbnail {
+    margin-top: 5px;
+}
+
+.tagSelected {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.record-removed {
+    color: #C0C0C0;
+}
+
+.score-plus {
+    color: green;
+}
+
+.score-minus {
+    color: red;
+}
+div.form{
+    width: 750px;
+}
+div.halfBox{
+    float: left;
+    width: 50%;
+}
+/* ajax indicator */
+#ajaxIndicator {
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  padding: 2px 0px 4px 0px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: green;
+  text-align: center;
+  display: none;
+}  
+
+.catSelect {
+    width: 200px;
+    clear: none;
+    float: left;
+}     
+
+#googleMap {
+    width: 500px;
+    height: 500px;
+}
+#DirectoryStatsAdminCompaniesBatchForm select{
+    display: inline;
+    width: auto;
+}
+#DirectoryStatsAdminCompaniesBatchForm div.submit{
+    text-align: left;
+}
+/******** BUTTONS *************/
+input[type=submit],
+div.actions ul li a,
+td.actions a,
+.button {
+	font-weight:normal;
+	padding: 4px 8px;
+	background:#d11804;
+	color:#333;
+	border:1px solid #aaac62;
+	text-decoration:none;
+	min-width: 0;
+	color: #fff;
+	border: 1px solid #c51e0c;
+    
+}
+input[type=submit]:hover,
+div.actions ul li a:hover,
+td.actions,
+.button {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+td.actions a:hover,
+input[type=submit]:hover,
+td.actions a:hover,
+.button:hover {
+/*    color: black;*/
+/* odkomentowac w cms2 po naprawieniu ikonek flag w podstronach   
+    background: #f39f26;*/
+    cursor: pointer;
+    background-color: #dc1803;
+    color: #fff;
+    text-decoration: none;
+}
+input[type=submit]:active,
+div.actions ul li a:active,
+td.actions a:active, 
+.button:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#dc1803), to(#C51E0C));
+    background-image: -moz-linear-gradient(top, #dc1803, #C51E0C);
+    background-color: #f01c05;
+    color: #fff;
+}
+input[type=submit] {
+    float: right;
+}
+/*.button {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: #F39F26;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F39F26), to(#CE7A01));
+    background-image: -moz-linear-gradient(top, #F39F26, #CE7A01);
+    border: 1px solid #AAAC62;
+    color: white;
+    font-weight: normal;
+    min-width: 0;
+    padding: 4px 8px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 5px;
+}*/
+
+body .button a{
+
+    background: none;
+    border: none 0;
+    float: left;
+}
+body .button.dodelete a.flag{
+    display: none;
+}
+body .button.dodelete a.flag.active{
+    display: block;
+}
+.actionBlock{
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+
+/**** debug****/
+.cake-debug{
+    background: none repeat scroll 0 0 white;
+    color: black;
+    font: 12px/14px sans-serif;
+}
+
+/**** dashboard ****/
+div.circle_legend {
+    float: left;
+    width:170px;
+    padding-top:30px;
+}
+div.circle_legend ul{
+    padding: 0px;
+}
+div.circle_legend ul li{
+    padding-left: 15px;
+    position:relative;
+    line-height:1.1;
+    margin: 5px 0;
+}
+div.circle_legend ul li div {
+    position: absolute;
+    left: 0;
+    top: 0.22em;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+
+.zdjecieInput img{
+    border: 2px solid #EBEBEB;
+}
+
+.button {
+
+    background: #d11804;
+
+    border: 1px solid #c51e0c;
+    color: white;
+    font-weight: normal;
+    min-width: 0;
+    padding: 4px 8px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 5px;
+}
+div.button{
+    background: none;
+    border: none;
+    color: #757575;
+}
+body .button a{
+    background: none;
+    border: none 0;
+    float: left;
+}
+body .button.dodelete a.flag{
+    display: none;
+}
+body .button.dodelete a.flag.active{
+    display: block;
+}
+.actionBlock{
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+
+#contentCms {
+    position: relative;
+}
+
+#contentCms #help-icon{
+    position: absolute; 
+    right: 0px; 
+}
+
+#help-breadcrumb #breadcrumb {
+    float: left;
+}
+#help-breadcrumb #help-edit-area {
+    float: right;
+}
+
+#breadcrumb .help-not-exist {
+    color: red;
+}
+
+#breadcrumb .help-exist {
+    color: green;
+}
+
+#OpenHelpWindow {
+    float: right;
+    margin-top: 10px; 
+}
+
+
+#datepickerPage td.hasEvent a {
+    border-width: 2px;
+    border-style: dashed;
+    padding: 1px;
+}
+
+#datepickerPage .ui-datepicker-month {
+    cursor: pointer;
+}
+
+/*paginator*/
+.paging {
+    text-align: center;
+    padding: 15px 0;
+}
+.paging span {
+    background-color:transparent;
+    background-repeat:no-repeat ;
+    background-position:top right;
+    color: #fff;
+		display:block; /*opera*/
+		display:inline-block; /*ie*/
+		display:-moz-inline-box; /*ff*/    /*font: bold 12px arial, sans-serif;*/
+    font: normal 13px arial, sans-serif;
+    height: 32px;
+    margin-right: 0px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.paging span a {
+    background-color:transparent;
+    background-repeat:no-repeat ;
+    display: inline-block;
+    line-height: 21px;
+    padding: 3px 0 8px 10px;
+    color: #D11804;
+}
+
+.paging span:hover {
+    color: #fff;
+    outline: none;
+}
+.paging span:hover a {
+    text-decoration: none;
+    color: black;
+}
+.paging span.current{
+    background: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.paging span.disabled{
+    display: none;
+}
+/*end paginator*/
+div.default-hidden {
+    /*    display: none;*/
+}
+
+.template-competition button, .template-player button{
+    display: none;
+}
+.ui-autocomplete-loading { 
+    background: white url('../img/cms/ui-anim_basic_16x16.gif') right center no-repeat; 
+}
+
+.search-filters .input, .search-filters button {
+/*    display: inline;
+    float: left;*/
+}
+
+.search-filters label {
+/*    width: 5%;*/
+}
+
+.filter .input{
+    float: left;
+    clear: right;
+    width: 260px;
+}
+.filter .input button img{
+    max-height: 20px;
+}
+.filter .input label{
+    display: block;
+    width: 100%;
+    float: none;
+    clear: both;
+    text-align: left;
+}
+.filter .input.date input{
+    width: 80px;
+}
+.search-filters .input{
+    width: 33%;
+    float: left;
+    clear: right;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.search-filters .input label{
+    width: auto;
+    vertical-align: middle;
+}
+.search-filters .input input{
+    width: 60%;
+    vertical-align: middle;
+}
+.search-filters .input button{
+    position: relative;
+    height: 20px;
+    margin: 0 3px;
+    min-width: 28px;
+}
+.search-filters  .result-search-button{
+    float: right;
+    margin: 10px;
+}
+
+
+.players .avatar img {
+    border: 3px solid grey;
+}
+.players .avatar {
+    float: left;
+    margin-right: 20px;
+}
+
+.text input.sporting_event_results  {
+    width: 300px;
+}
+#report-entry .L-compare-box {
+    float: left;
+    width: 49%;
+    margin: 3px;
+}
+#report-entry .R-compare-box {
+    float: left;
+    width: 49%;
+    margin: 3px;
+}
+
+#chart_div {
+    margin-bottom: 10px;
+}
+
+.player-results .datepickerNav #widget{
+    padding: 19px;
+}
+
+.player-results .datepickerNav button{
+    margin-top: 25px;
+}

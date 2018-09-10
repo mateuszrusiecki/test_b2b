@@ -1,0 +1,21 @@
+#creator { 
+    width: 970px;
+    height: 600px;
+    position: relative;
+}
+#creatorMenu {
+    float: right;
+}
+#creator .creatorContent {
+    width: 600px;
+}
+#creatorArea {
+    float: left
+}
+#creatorFooter {
+    position: absolute;
+    bottom: 50px;
+}
+#creator .creatorMenuContent {
+    width: 370px;
+}
