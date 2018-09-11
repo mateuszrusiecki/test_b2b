@@ -156,7 +156,7 @@ class ClientProjectsController extends AppController
 
         $settings = $this->Settings->find('first',$params);
         $this->LogMail->project_and_lead_mail_log($settings);
-        die('ffg99');
+
         $projectlogs = $this->ClientProjectLog->getLogListSection($id); //pobieram listę logów
         $projectlogs = $projectlogs ? $projectlogs : array();
         $log_type = $this->ClientProjectLog->log_type;

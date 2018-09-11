@@ -160,6 +160,7 @@ class AppController extends Controller
         }
         $rootMenus = $this->Menu->get_menu('session', $session);
         $this->set(compact('rootMenus'));
+        $this->_setErrorLayout();
     }
 
     /**
@@ -177,6 +178,12 @@ class AppController extends Controller
         $this->set('per', $this->PermissionGroup->find('all'));
 
         $this->render('/Elements/StaticPage/test');
+    }
+
+    function _setErrorLayout() {
+        if ($this->name == 'CakeError') {
+            $this->layout = 'error';
+        }
     }
 
 }

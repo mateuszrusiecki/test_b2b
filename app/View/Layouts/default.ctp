@@ -105,7 +105,7 @@
             'bodyHidden'
             : bodyHidden}">
               <?php echo $this->element('GoogleAnalytics.googleAnalytics');
-              ?>  
+              ?>
 
         <!-- BEGIN HEADER -->
         <div class="page-header navbar navbar-fixed-top" data-position="bottom" data-intro="<?php echo __d('public', 'Zaczynamy od górnego panelu') ?>" data-step="1">
@@ -155,11 +155,11 @@
                                     <a ng-mouseover="setMessagesReaded()" data-close-others="true" data-hover="dropdown" data-toggle="dropdown" class="dropdown-toggle" href="javascript:;">
                                         <i class="icon-bell"></i>
                                         <span ng-bind="messages.length || 0" class="badge badge-default"></span>
-                                    </a>    
+                                    </a>
                                     <ul class="dropdown-menu">
                                         <li class="external">
                                             <h3><strong ng-bind="messages.length || 0"></strong> <?php echo __d('public', 'nowych powiadomień') ?></h3>
-                                            <a href="/profiles/messages">wszystkie</a>                                         
+                                            <a href="/profiles/messages">wszystkie</a>
                                         </li>
                                         <li>
                                             <div style="position: relative; overflow: hidden; width: auto; max-height: 274px;">
@@ -180,7 +180,7 @@
                                                             </span>
                                                         </a>
                                                     </li>
-                                                </ul><div class="slimScrollBar" style="background: none repeat scroll 0% 0% rgb(99, 114, 131); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 121.359px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: none repeat scroll 0% 0% rgb(234, 234, 234); opacity: 0.2; z-index: 90; right: 1px;"></div></div> 
+                                                </ul><div class="slimScrollBar" style="background: none repeat scroll 0% 0% rgb(99, 114, 131); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 121.359px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: none repeat scroll 0% 0% rgb(234, 234, 234); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
                                         </li>
                                     </ul>
                                 </li>
@@ -212,7 +212,7 @@
         <div class="clearfix">
         </div>
 
-        
+
         <div class="page-container">
             <?php
             if (!empty($_SESSION['Auth']['User']['id']))
@@ -247,8 +247,8 @@
                         else
                             $this->Html->addCrumb(__d('public', 'Błąd'));
                         ?>
-                        <?php echo $this->Html->getCrumbs(' <i class="fa fa-circle"></i> ', array('text' => __d('public', 'Strona główna'), 'escape' => false)); ?> 
-                        <?php //echo $this->Html->getCrumbList(array('text' => 'Strona główna', 'escape' => false),' <i class="fa fa-circle"></i> ');   ?> 
+                        <?php echo $this->Html->getCrumbs(' <i class="fa fa-circle"></i> ', array('text' => __d('public', 'Strona główna'), 'escape' => false)); ?>
+                        <?php //echo $this->Html->getCrumbList(array('text' => 'Strona główna', 'escape' => false),' <i class="fa fa-circle"></i> ');   ?>
                     </ul>
                     <?php echo $this->Session->flash(); ?>
                     <?php echo $this->Session->flash('auth'); ?>
@@ -261,9 +261,9 @@
         <div class="page-footer text-center">
             <table class="dotacja">
                 <tr>
-                    <td style="text-align:left;"><img src="/uploaded/ue/poig.png" alt=''/></td>
+                    <td style="text-align:left;"><img src="/uploaded/ue/poig.png" alt='poig' style="max-height: 100px"/></td>
                     <td class="dot_info"> Dotacje na innowacje – inwestujemy w waszą przyszłość <br/><?php echo date('Y') ?> &copy; feb.b2b / Fabryka e-biznesu.</td>
-                    <td style="text-align:right;"><img src="/uploaded/ue/efrr.png" alt=''/></td>
+                    <td style="text-align:right;"><img src="/uploaded/ue/efrr.png" alt='efrr' style="max-height: 100px"/></td>
                 </tr>
             </table>
             <div class="dot_info_div">Dotacje na innowacje – inwestujemy w waszą przyszłość <br/><?php echo date('Y') ?> &copy; feb.b2b / Fabryka e-biznesu.</div>
@@ -272,12 +272,12 @@
                 <i class="icon-arrow-up"></i>
             </div>
         </div>
-        
+
         <div class="facebook">
             <i class="fa fa-info-circle font-red-sunglo font-large info-circle facebook-przycisk"> </i>
             <div class="facebook-ramka"> <a onclick="javascript:introJs().start();" href="javascript:void(0);" class="btn btn-large btn-success samouczek color-white" >Rozpocznij<br/> samouczek</a> </div>
         </div>
-        
+
 
         <?php
 //            echo $this->Html->requestAction(array('plugin' => 'eurocookie', 'controller' => 'eurocookies', 'action' => 'cookie', 'admin' => false));
@@ -360,7 +360,7 @@
 
         <!--[if lt IE 9]>
         <script src="../../assets/global/plugins/respond.min.js"></script>
-        <script src="../../assets/global/plugins/excanvas.min.js"></script> 
+        <script src="../../assets/global/plugins/excanvas.min.js"></script>
         <![endif]-->
 
         <script>
@@ -368,7 +368,7 @@
 
                         Metronic.init(); // init metronic core componets
                         Layout.init(); // init layout
-                        Tasks.initDashboardWidget(); // init tash dashboard widget  
+                        Tasks.initDashboardWidget(); // init tash dashboard widget
                         ComponentsPickers.init();
                         //                ComponentsjQueryUISliders.init();
 
@@ -380,14 +380,14 @@
                         $('.jcarousel-next').jcarouselControl({
                             target: '+=1'
                         });
-                        
+
                         $('div.facebook').mouseenter(function(){
                             $(this).stop(true, false).animate({"left": "0"}, 80);
                         });
                         $('div.facebook').mouseleave(function(){
                             $(this).stop(true, false).animate({"left": "-112px"}, 80);
                         });
-                        
+
                     });</script>
 
         <script type="text/javascript">
