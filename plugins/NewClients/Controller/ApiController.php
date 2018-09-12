@@ -29,22 +29,7 @@ class ApiController extends NewClientsAppController {
         'NewClients.B2BClient',
         'Client',
     );
-    public function isAuthorized($user) {
-        // na razie wszyscy mają dostęp (manager i client)
-        // TODO: przypisanie które akcje dla których ról są dozwolone
-  
-        // 
-        // Po co jest ta akcja? i gdzie jest wywoływana? nigdzie nie moge znaleźć wywołania. Czy to ma sprawdzać dostęd do widoku dokumentu tc czy do listy tc?
-        // Po za tym czy ta funkcja w ogole dziala? jak odkomentuje kod poniżej to mam mase błędów - unexpected token '<' i ReferenceError: exception is not defined
-        // Jakby co to w sesji mamy zmienna przechowujaca uprawnienia zalogowanego usera: $this->Session->read('user_permission);
-        
-//        $managerActions = array('savesuer');
-//        if($user['role']!=='manager') {
-//            $action = $this->request['params']['action'];
-//            if(array_search($action, $managerActions)!==false) {
-//                return true;
-//            }
-//        }
+    public function isAuthorized() {
         return true;
     }
     public function userdata() {

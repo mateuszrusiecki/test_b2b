@@ -64,16 +64,16 @@ class PermissionGroup extends AppModel {
 			'counterQuery' => ''
 		)
 	);
-    
+
     /**
      * Usuwam powiazania z dodanych uprawneń, ale nie usuwam rekordów bezpośrednio w permission,
      * ale usuwam rekordy z RequestersPermission oraz z serializowanych pól zapisanych bezpośrednio w użytkownikach
-     * 
-     * @param type $event
-     * @return boolean 
+     *
+     * @return bool
+     * @throws ErrorException
      */
-    public function afterDelete($event) {
-        if ($event->result) {
+    public function afterDelete() {
+
             $this->Permission->recursive = -1;
             
             //Wyciągam wszystkie permissions z tej grupy
@@ -132,7 +132,7 @@ class PermissionGroup extends AppModel {
                 }
             }
             
-        }
+
         return true;
     }
     

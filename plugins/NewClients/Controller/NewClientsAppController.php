@@ -64,8 +64,7 @@ class NewClientsAppController extends AppController {
         $this->Auth->allow('login');
     }
 
-    public function isAuthorized($user) {
-        
+    public function isAuthorized() {
         return true;
     }
 }
