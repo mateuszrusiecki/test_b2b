@@ -17,7 +17,7 @@
                 <th><i class="fa fa-comment"></i> <?php echo __d('public', 'Komentarz'); ?></th>
                 <th><i class="fa fa-briefcase"></i> <?php echo __d('public', 'Lead') ?></th>
                 <!--<th><i class="fa fa-calendar"></i> <?php //echo $this->Paginator->sort('created');    ?></th>-->
-                <th><i class="fa fa-calendar"></i> <?php echo __d('public', 'Utworzono') ?></th>
+                <th><i class="fa fa-calendar"></i> <?php echo __d('public', 'Zmodyfikowano') ?></th>
                 <th class="actions"><i class="fa fa-cog"></i> <?php echo __('Actions'); ?></th>
             </tr>
         </thead>

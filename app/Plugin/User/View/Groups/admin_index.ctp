@@ -15,7 +15,6 @@
         <!--        <th><?php //echo $this->Paginator->sort(__d('cms', ''Kolejność'), 'order');        ?></th> -->
                 <th><i class="fa fa-suitcase"></i>  <?php echo $this->Paginator->sort(__d('cms', 'Nazwa'), 'name'); ?></th>
                 <th><i class="fa fa-minus"></i>  <?php echo $this->Paginator->sort(__d('cms', 'Alias'), 'alias'); ?></th>
-                <th><i class="fa fa-calendar"></i>  <?php echo $this->Paginator->sort(__d('cms', 'Utworzono'), 'created'); ?></th>
                 <th><i class="fa fa-calendar"></i>  <?php echo $this->Paginator->sort(__d('cms', 'Zmodyfikowano'), 'modified'); ?></th>
                 <th class="actions"><i class="fa fa-cogs"></i>  <?php echo __d('cms', 'Akcje'); ?></th>
             </tr>
@@ -33,7 +32,6 @@
         <!--        <td><?php //echo $group['Group']['order'];         ?>&nbsp;</td> -->
                 <td><?php echo $group['Group']['name']; ?>&nbsp;</td>
                 <td><?php echo $group['Group']['alias']; ?>&nbsp;</td>
-                <td><?php echo $group['Group']['created']; ?>&nbsp;</td>
                 <td><?php echo $group['Group']['modified']; ?>&nbsp;</td>
                 <td class="actions">
                     <?php echo $this->Html->link('<i class="fa fa-close font-large margin-left-5 pull-right" tooltip="Usuń"></i>', array('action' => 'delete', $group['Group']['id']), array('escape' => false), __d('cms', 'Jesteś pewien, że chcesz usunąć grupę "%s"?', $group['Group']['name'])); ?>

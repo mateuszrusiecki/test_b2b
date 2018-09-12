@@ -35,8 +35,8 @@ class HrSettingFixture extends CakeTestFixture {
 			'margin' => '35',
 			'buffer' => '15',
 			'it_rate' => '49',
-			'hostname' => '{mail.febdev.pl:110/pop3/novalidate-cert}INBOX',
-			'username' => 'crm@febdev.pl',
+			'hostname' => '{smtp.gmail.com:110/pop3/novalidate-cert}INBOX',
+			'username' => 'b2b@feb.net.pl',
 			'password' => 'i2aWQsj0'
 		),
 	);

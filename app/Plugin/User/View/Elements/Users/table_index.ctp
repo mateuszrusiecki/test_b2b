@@ -6,7 +6,7 @@
                 <th><i class="fa fa-check"></i> <?php echo $this->Paginator->sort('active', 'Aktywny'); ?></th>
                 <th><i class="fa fa-users"></i> <?php echo __d('public', 'Grupy') ?></th>
                 <th><i class="fa fa-sitemap"></i> <?php echo __d('public', 'Dział') ?></th>
-                <th><i class="fa fa-calendar"></i> <?php echo $this->Paginator->sort('created', 'Utworzono'); ?></th>
+                <th><i class="fa fa-calendar"></i> <?php echo $this->Paginator->sort('created', 'Zmodyfikowano'); ?></th>
                 <th><i class="fa fa-calendar"></i> <?php echo $this->Paginator->sort('modified', 'Ostatnie logowanie'); ?></th>
                 <th class="actions"><i class="fa fa-cogs"></i> <?php echo __d('cms', 'Akcje'); ?></th>
             </tr>

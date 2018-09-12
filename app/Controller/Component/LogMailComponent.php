@@ -17,9 +17,9 @@ class LogMailComponent extends Component {
     function project_and_lead_mail_log($hr_settings = null)
     {
         if(empty($hr_settings)){ //dla CRONA!
-            $hr_settings['Settings']['value'] = '{mail.febdev.pl:110/pop3/novalidate-cert}INBOX';
-            $hr_settings['Settings']['title'] = 'crm@febdev.pl';
-            $hr_settings['Settings']['params'] = 'i2aWQsj0';
+            $hr_settings['Settings']['value'] = '{imap.gmail.com:993/imap/ssl}INBOX';
+            $hr_settings['Settings']['title'] = 'b2b@feb.net.pl';
+            $hr_settings['Settings']['params'] = 'feb123456';
         }
 
         $projectLog = new ClientProjectLog();

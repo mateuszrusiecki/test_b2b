@@ -6,7 +6,7 @@
             <th><?php echo $this->Paginator->sort('Autor', 'name'); ?></th>
             <th><?php echo $this->Paginator->sort('Treść', 'desc'); ?></th>
             <th><?php echo $this->Paginator->sort('Strona', 'page_id'); ?></th>
-            <th><?php echo $this->Paginator->sort('Utworzono', 'created'); ?></th>
+            <th><?php echo $this->Paginator->sort('Zmodyfikowano', 'created'); ?></th>
             <th class="actions"><?php echo __('Opcje'); ?></th>
         </tr>
         <?php
