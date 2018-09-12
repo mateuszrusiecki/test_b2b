@@ -238,7 +238,6 @@ class Client extends AppModel
         $params['recursive'] = -1;
         $client = $this->find('first', $params);
         if(empty($client['Client']['id'])){
-            die('brak klienta');
             return false;
         }
         
@@ -247,7 +246,6 @@ class Client extends AppModel
             $params['recursive'] = -1;
             $user = $this->User->find('first', $params);
             if(empty($user['User']['id'])){
-                die('brak usera');
                 return false;
             } else {
                 $this->User->id = $user['User']['id'];
@@ -283,7 +281,6 @@ class Client extends AppModel
         $params['recursive'] = -1;
         $client = $this->find('first', $params);
         if(empty($client['Client']['id'])){
-            die('brak klienta');
             return false;
         }
         

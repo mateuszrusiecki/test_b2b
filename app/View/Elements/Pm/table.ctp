@@ -58,7 +58,7 @@
 								</tr>
 							</thead>
 							<tbody>
-                                                            <tr ng-cloak ng-repeat="issue in issuesAssignedTo.issues" class="status_{{ issue.tracker.id }} priority_{{ issue.priority.id }}">
+                                <tr ng-cloak ng-repeat="issue in issuesAssignedTo.issues" class="status_{{ issue.tracker.id }} priority_{{ issue.priority.id }}">
 										<td>{{ issue.id }}</td>
 										<td>{{ issue.project.name }}</td>
 										<td>{{ issue.priority.name }}</td>

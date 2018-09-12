@@ -111,7 +111,11 @@
 
 
                         <a ng-hide="clinet_archived" class="btn btn-circle  btn-default" href="#client_archive" title="<?php echo __d('public', 'Archiwizuj klienta'); ?>" data-toggle="modal">
-                            <i class="fa fa-archive red-sunglo"></i>  <?php echo __d('public', 'Archiwizuj klienta'); ?> 
+                            <i class="fa fa-archive red-sunglo"></i>  <?php echo __d('public', 'Archiwizuj klienta'); ?>
+                        </a>
+
+                        <a ng-hide="clinet_archived" class="btn btn-circle  btn-default" href="#client_delete" title="<?php echo __d('public', 'Usuń klienta'); ?>" data-toggle="modal">
+                            <i class="fa fa-trash red-sunglo"></i>  <?php echo __d('public', 'Usuń klienta'); ?>
                         </a>
                         
                     </div>
@@ -211,6 +215,28 @@ endif;
                 <button data-dismiss="modal" class="btn default" type="button"><?php echo __d('public', 'Zamknij'); ?></button>
                 <?php
                 echo $this->Html->link('Potwierdź', array('action' => 'archive_client', $client_details['Client']['id']), array('class' => 'btn blue', 'escape' => false));
+                ?>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div aria-hidden="true" role="client_delete" tabindex="-1" id="client_delete" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-hidden="true" data-dismiss="modal" class="close" type="button"></button>
+                <h4 class="modal-title"><?php echo __d('public', 'Potwierdź usunięcie'); ?></h4>
+            </div>
+            <div class="modal-body">
+                <?php echo __d('public', 'Czy na pewno chcesz usunąć klienta'); ?>: <?php echo $client_details['Client']['name']; ?>?
+            </div>
+            <div class="modal-footer">
+                <button data-dismiss="modal" class="btn default" type="button"><?php echo __d('public', 'Zamknij'); ?></button>
+                <?php
+                echo $this->Html->link('Potwierdź', array('action' => 'delete_client', $client_details['Client']['id']), array('class' => 'btn blue', 'escape' => false));
                 ?>
             </div>
         </div>

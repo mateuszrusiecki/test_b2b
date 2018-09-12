@@ -3,9 +3,8 @@
     <div class="col-md-9 col-xs-12">
         <?php
         // Flash związany z klientem
-        $session_client = $this->Session->flash('client');
-
-        echo $session_client;
+        echo $this->Session->flash('client');
+        echo $this->Session->flash('delete');
         ?>
         <div class="note note-info">
             <h4 class="block"><?php echo __d('public', 'Informacja') ?></h4>

@@ -415,6 +415,18 @@ class ClientsController extends AppController
         $this->redirect($this->referer());
     }
 
+    function delete_client($client_id)
+    {
+        if ($this->Client->delete((int) $client_id))
+        {
+            $this->Session->setFlash('Klient został usuniety!', 'flash/success', array(), 'delete');
+        } else
+        {
+            $this->Session->setFlash('Wystąpił bląd proszę spróbować ponownie.', 'flash/error', array(), 'delete');
+        }
+        $this->redirect(array('action' => 'index'));
+    }
+
     function unarchive_client($client_id)
     {
         if ($this->Client->unarchiveClient((int) $client_id))
