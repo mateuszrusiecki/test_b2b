@@ -31,10 +31,6 @@
             <iframe style="border:1px solid #AAAABB; background-color:white" width="800" height="300" src="<?php echo Router::url(array('admin' => 'admin', 'controller' => 'newsletter_messages', 'action' => 'htmlpreview', $newsletterMessage['NewsletterMessage']['id'])); ?>"></iframe></div>
         <br />
 
-        <div><?php echo __d('cms', 'Utworzono'); ?></div>
-        <div>
-            <?php echo $newsletterMessage['NewsletterMessage']['created']; ?>
-        </div>
         <div><?php echo ($newsletterMessage['NewsletterMessage']['recipients']) ? __d('cms', 'Wysłano') : __d('cms', 'Zmodyfikowano'); ?></div>
         <div>
             <?php echo $newsletterMessage['NewsletterMessage']['modified']; ?>

@@ -14,7 +14,7 @@
         <?php echo $group['Group']['alias']; ?>
         &nbsp;
     </dd>
-    <dt<?php if ($i % 2 == 0) echo $class; ?>><?php echo __d('cms', 'Utworzono'); ?> (<?php echo __d('cms', 'Zmodyfikowano'); ?>)</dt>
+    <dt<?php if ($i % 2 == 0) echo $class; ?>><?php echo __d('cms', 'Zmodyfikowano'); ?> (<?php echo __d('cms', 'Zmodyfikowano'); ?>)</dt>
     <dd<?php if ($i++ % 2 == 0) echo $class; ?>>
         <?php echo $group['Group']['created']; ?> (<?php echo $group['Group']['modified']; ?>)
         &nbsp;
@@ -29,7 +29,6 @@
                     <tr>
                         <th><?php echo __d('cms', 'Id'); ?></th>
                         <th><i class="fa fa-suitcase"></i> <?php echo __d('cms', 'Nazwa'); ?></th>
-                        <th><i class="fa fa-calendar"></i> <?php echo __d('cms', 'Utworzono'); ?></th>
                         <th><i class="fa fa-calendar"></i> <?php echo __d('cms', 'Zmodyfikowano'); ?></th>
                         <th class="actions"><i class="fa fa-cogs"></i>  <?php echo __d('cms', 'Akcje'); ?></th>
                     </tr>
@@ -45,7 +44,6 @@
                     <tr<?php echo $class; ?>>
                         <td><?php echo $permission['id']; ?></td>
                         <td><?php echo $permission['name']; ?></td>
-                        <td><?php echo $permission['created']; ?></td>
                         <td><?php echo $permission['modified']; ?></td>
                         <td class="actions">
                             <?php

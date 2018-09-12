@@ -23,7 +23,6 @@
                 <th><?php echo __d('cms', 'Id'); ?></th>
                 <th><?php echo __d('cms', 'Nazwa'); ?></th>
                 <th><?php echo __d('cms', 'Alias'); ?></th>
-                <th><?php echo __d('cms', 'Utworzono'); ?></th>
                 <th><?php echo __d('cms', 'Zmodyfikowano'); ?></th>
                 <th class="actions"><?php echo __d('cms', 'Akcje'); ?></th>
             </tr>
@@ -39,7 +38,6 @@
                     <td><?php echo $group['id']; ?></td>
                     <td><?php echo $group['name']; ?></td>
                     <td><?php echo $group['alias']; ?></td>
-                    <td><?php echo $group['created']; ?></td>
                     <td><?php echo $group['modified']; ?></td>
                     <td class="actions">
                         <?php echo $this->Html->link(__d('cms', 'Szczegóły %s', 'grupy'), array('controller' => 'groups', 'action' => 'view', $group['id'])); ?>
@@ -56,7 +54,6 @@
         <tr>
             <th><?php echo __d('cms', 'Id'); ?></th>
             <th><?php echo __d('cms', 'Nazwa'); ?></th>
-            <th><?php echo __d('cms', 'Utworzono'); ?></th>
             <th><?php echo __d('cms', 'Zmodyfikowano'); ?></th>
             <th class="actions"><?php echo __d('cms', 'Akcje'); ?></th>
         </tr>
@@ -71,7 +68,6 @@
             <tr<?php echo $class; ?>>
                 <td><?php echo $permission['id']; ?></td>
                 <td><?php echo $permission['name']; ?></td>
-                <td><?php echo $permission['created']; ?></td>
                 <td><?php echo $permission['modified']; ?></td>
                 <td class="actions">
                     <?php
