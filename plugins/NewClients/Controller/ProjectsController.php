@@ -99,6 +99,7 @@ class ProjectsController extends NewClientsAppController {
             }
             $files = $versionProvider->scanForImages($viewDir);
             if(!$files) continue;
+            //debug($files);
             $number = count($view['Version']) + 1;
             foreach($files as $file => $mtime) {
                 // patrzamy czy obrazek jest w wersjach
@@ -121,6 +122,7 @@ class ProjectsController extends NewClientsAppController {
                     'mtime'=> $mtime,
                 ));
                 $this->Version->create();
+                //debug($version);
                 $result = $this->Version->save($version);
                 if($result) {
                     $number++;
@@ -140,8 +142,9 @@ class ProjectsController extends NewClientsAppController {
                     
                     $this->pView->id = $view['pView']['id'];
                     $this->pView->saveField('thumb_path', $wwwThumb);
+                    $this->pView->saveField('image_path', $fileWwwPath);
                     
-                    $out[] = $n;
+                    $out[] = $version;
                 }
             }
         }

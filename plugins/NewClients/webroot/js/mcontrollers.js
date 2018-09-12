@@ -95,25 +95,27 @@ febApp.controller('ProjectListCtrl', [
 
         UserService.managers().then(function(data) {
             angular.forEach(data, function(value, key) {
-                var newUser = {};
-                newUser.id = value.User.id;
-                newUser.name = value.Profile.name;
-                newUser.selected = false;
-                if(newUser.id == $rootScope.currentUser.id) {
-                    if($scope.managersFilterLS.length == 0) {
+                if(typeof value.User !== 'undefined') {
+                  var newUser = {};
+                  newUser.id = value.User.id;
+                  newUser.name = value.Profile.name;
+                  newUser.selected = false;
+                  if (newUser.id == $rootScope.currentUser.id) {
+                    if ($scope.managersFilterLS.length == 0) {
+                      newUser.selected = true;
+                    }
+                  }
+                  if ($scope.managersFilterLS.length > 0) {
+                    for (var i in $scope.managersFilterLS) {
+                      if (newUser.id == $scope.managersFilterLS[i].id) {
                         newUser.selected = true;
+                        //console.log('SEL');
+                        break;
+                      }
                     }
+                  }
+                  $scope.managers.push(newUser);
                 }
-                if($scope.managersFilterLS.length > 0) {
-                    for(var i in $scope.managersFilterLS) {
-                        if(newUser.id == $scope.managersFilterLS[i].id) {
-                            newUser.selected = true;
-                            //console.log('SEL');
-                            break;
-                        }
-                    }
-                }
-                $scope.managers.push(newUser);
             })
         });
         $rootScope.allPanelsVisible = false;
