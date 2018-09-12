@@ -40,10 +40,9 @@ app.controller('TextDocumentsCtrl', function($scope, $http, $location) {
         $scope.clickedDocumentIndex = index;
     };
     
-    $scope.deleteDocument = function() {      
-        
+    $scope.deleteDocument = function() {
         $http.post('/text_documents/delete', {id : $scope.clickedDocumentId});
-        $scope.textdocuments.splice($scope.clickedDocumentIndex, 1);
+        $scope.textdocuments.textdocuments.splice($scope.clickedDocumentIndex, 1);
     };
     
     /**

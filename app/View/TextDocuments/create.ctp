@@ -36,14 +36,14 @@
                     'type' => 'hidden',
                     'value' => '{{full_share_link}}',
                 ));
-                
-                echo $this->Metronic->input('share_block', array(
-                    'label' => __d('public','Blokada współdzielenia'),
-                    'value' => isset($textdocument['TextDocument']['share_block']) ? $textdocument['TextDocument']['share_block'] : 0,
-                    'type' => 'checkbox'
-                ));       
+//                echo $this->Metronic->input('share_block', array(
+//                    'label' => __d('public','Blokada współdzielenia'),
+//                    'value' => isset($textdocument['TextDocument']['share_block']) ? $textdocument['TextDocument']['share_block'] : 0,
+//                    'type' => 'checkbox'
+//                ));
             ?>
-            <iframe id="etherpad" name='embed_readwrite' style="width: 100%; height: 600px;"></iframe>
+<!--            <iframe id="etherpad" name='embed_readwrite' style="width: 100%; height: 600px;"></iframe>-->
+            <textarea  id="etherpad" name="data[TextDocument][content]" style="width: 100%; height: 600px;"></textarea>
         
         </div>
         

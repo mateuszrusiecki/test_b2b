@@ -87,17 +87,18 @@
                         'value' => $lead_id,
                     ));
                 }
-               
-                if($textdocument['TextDocument']['user_id'] == $this->Session->read('Auth.User.id')){
-                    echo $this->Metronic->input('share_block', array(
-                        'label' => __d('public','Blokada współdzielenia'),
-                        'checked' => (isset($textdocument['TextDocument']['share_block']) && $textdocument['TextDocument']['share_block'] == true) ? 'checked' : '',
-                        'type' => 'checkbox'
-                    ));       
-                }
+
+//                if($textdocument['TextDocument']['user_id'] == $this->Session->read('Auth.User.id')){
+//                    echo $this->Metronic->input('share_block', array(
+//                        'label' => __d('public','Blokada współdzielenia'),
+//                        'checked' => (isset($textdocument['TextDocument']['share_block']) && $textdocument['TextDocument']['share_block'] == true) ? 'checked' : '',
+//                        'type' => 'checkbox'
+//                    ));
+//                }
             ?>
-            
-            <iframe id="etherpad" name='embed_readwrite' style="width: 100%; height: 600px;"></iframe>
+
+            <textarea  id="etherpad" name="data[TextDocument][content]" style="width: 100%; height: 600px;"><?php echo $textdocument['TextDocument']['content'];?></textarea>
+<!--            <iframe id="etherpad" name='embed_readwrite' style="width: 100%; height: 600px;"></iframe>-->
       
         </div>        
 
