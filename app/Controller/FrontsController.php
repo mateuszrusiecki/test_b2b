@@ -691,6 +691,9 @@ class FrontsController extends AppController {
             //debug($tables);
             foreach ($tables as $table){
                 $sql='';
+                $table_name = $table['TABLE_NAMES'][key($table['TABLE_NAMES'])];
+                $table_shema = str_replace('Tables_in_', '', key($table['TABLE_NAMES']));
+
                 if(isset($table['TABLE_NAMES']['Tables_in_febdev_b2b-test'])){
                     $table_name = $table['TABLE_NAMES']['Tables_in_febdev_b2b-test'];
                     $table_shema = 'febdev_b2b-test';
