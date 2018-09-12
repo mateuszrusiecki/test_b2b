@@ -680,8 +680,11 @@ class FrontsController extends AppController {
         
         if ($this->request->is('post')){
             $current = date('Y-m-d_H-i');
-            unlink(WWW_ROOT . DS .'backup' . DS . 'febb2b.database.backup.sql');
-            $file = new File(WWW_ROOT . DS .'backup' . DS . 'febb2b.database.backup.sql');
+            $filePath = WWW_ROOT . DS .'backup' . DS . 'febb2b.database.backup.sql';
+            if(file_exists($filePath)) {
+                unlink($filePath);
+            }
+            $file = new File($filePath);
             
             $this->loadModel('Client');
             $tables = $this->Client->query('show tables');
@@ -699,6 +702,10 @@ class FrontsController extends AppController {
                 if(isset($table['TABLE_NAMES']['Tables_in_febdev_b2b'])){
                     $table_name = $table['TABLE_NAMES']['Tables_in_febdev_b2b'];
                     $table_shema = 'febdev_b2b';
+                }
+                if(isset($table['TABLE_NAMES']['Tables_in_febb2b'])){
+                    $table_name = $table['TABLE_NAMES']['Tables_in_febb2b'];
+                    $table_shema = 'febb2b';
                 }
                 
                 $single_table_create_script = $this->Client->query('show create table '.$table_name); //zapisuje polecenie stworzenia struktury w sql do zmiennej
