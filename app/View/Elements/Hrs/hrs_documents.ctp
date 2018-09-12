@@ -100,6 +100,11 @@ if (!empty($sections))
                         <td class="hidden-xs">{{projectFile.ProjectFile.created}}</td>
                         <td>{{projectFile.Profile.firstname}} {{projectFile.Profile.surname}}</td>
                         <td class="action"   >
+
+                            <a href="/project_files/delete_file/{{projectFile.ProjectFile.id}}" class="pointer" onclick="return confirm('Czy napewno chcesz usunąć?')">
+                                <i class="fa fa-trash large-icon pull-right font-red" tooltip="<?php echo __d('public', 'Usuń dokument') ?>"></i>
+                            </a>
+
                             <a ng-if="user_permission != 'client'" ng-click="fileEdit(projectFile.ProjectFile)" class="pointer">
                                 <i class="fa fa-pencil-square  large-icon pull-right" tooltip="<?php echo __d('public', 'Edytuj dokument') ?>"></i> 
                             </a>  
@@ -119,7 +124,7 @@ if (!empty($sections))
                                 href="/client_projects/<?php echo (empty($sections))?'view_client':'view'; ?>/{{projectFile.ProjectFile.client_project_id}}"
                                 class=""
                                 >
-                                <i class="fa fa-link large-icon pull-right" tooltip="<?php echo __d('public', 'Link do projektu') ?>"></i> 
+                                <i class="fa fa-link large-icon pull-right" tooltip="<?php echo __d('public', 'Link do projektu') ?>"></i>
                             </a> 
                         </td>
                     </tr>  

@@ -20,7 +20,7 @@ class ProjectFilesController extends AppController
     function beforeFilter()
     {
         parent::beforeFilter();
-        $this->Auth->allow(array('get_files','project_file_access_for_client'));
+        $this->Auth->allow(array('get_files','project_file_access_for_client', 'delete_file'));
     }
 
     public function get_files($client_project_id = null)
@@ -192,6 +192,18 @@ class ProjectFilesController extends AppController
         }
         $this->set('return', $return);
         $this->set('_serialize', 'return');
+    }
+
+    public function delete_file($file_id)
+    {
+        if ($this->ProjectFile->delete((int) $file_id))
+        {
+            $this->Session->setFlash('Plik został usuniety!', 'flash/success', array(), 'delete');
+        } else
+        {
+            $this->Session->setFlash('Wystąpił bląd proszę spróbować ponownie.', 'flash/error', array(), 'delete');
+        }
+        $this->redirect($this->referer());
     }
 	
 	

@@ -150,8 +150,8 @@ class ProjectFile extends AppModel
         $acceptance_report = $this->find('count', $params);
         if (empty($acceptance_report) || $acceptance_report == 1)
         {
-            $this->ClientProject->id = $client_project_id;
-            $this->ClientProject->saveField('acceptance_report', 0, false);
+            //$this->ClientProject->id = $client_project_id;
+            //$this->ClientProject->saveField('acceptance_report', 0, false);
         }
     }
 
