@@ -826,6 +826,11 @@ class ClientProject extends AppModel
                 'Client.id = ClientProject.client_id',
             )
         );
+
+        $params['conditions'] = array(
+            'ClientProject.active = 1',
+        );
+
         $projectList = $this->find('all', $params);
         $delayeds = $this->getDelayedProjectMilestones();
         $delayeds = Set::combine($delayeds, '{n}.ClientProject.id', '{n}.ClientProjectShedules.id');
