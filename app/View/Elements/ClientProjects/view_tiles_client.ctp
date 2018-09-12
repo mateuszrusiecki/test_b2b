@@ -44,7 +44,7 @@
                     <?php
                     echo $section['ClientProjectBudget']['activity_name'];
                     if (!empty($section['ClientProjectBudget']['pm'])) { ?> 
-                        (<a class="color-white"  href="http://pm.feb.net.pl/issues/<?php echo $section['ClientProjectBudget']['pm'] ?>"><?php echo $section['ClientProjectBudget']['pm'] ?></a>)
+                        (<a class="color-white"  href="<?php echo Configure::read('App.PMUrl') ?>/issues/<?php echo $section['ClientProjectBudget']['pm'] ?>"><?php echo $section['ClientProjectBudget']['pm'] ?></a>)
                     <?php } ?>
                     <br>
                 <?php } ?>

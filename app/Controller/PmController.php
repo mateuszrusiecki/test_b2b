@@ -158,7 +158,7 @@ class PmController extends AppController
 
 			if ($user['pm_user'] && $user['pm_password']) {
 				//$pm = new Redmine\Client('http://pm.feb.net.pl', 'm.rusiecki','Startowe13');
-				$pm = new Redmine\Client('http://pm.feb.net.pl', $user['pm_user'], $user['pm_password']);
+				$pm = new Redmine\Client(Configure::read('App.PMUrl'), $user['pm_user'], $user['pm_password']);
 				$issues = $pm->api('issue')->all(array('limit' => 10)); //wszystkie dostępne
 
 				$pm_user_id = $pm->api('user')->getCurrentUser();

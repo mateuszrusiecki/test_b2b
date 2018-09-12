@@ -65,7 +65,7 @@
 										<td ng-class="{exceeded: (issue.due_date < <?php echo date('Y-m-d') ?>)}"><span ng-if="issue.due_date">{{ issue.due_date }}</span>
 											<span ng-if="!issue.due_date">-</span>
 										</td>
-										<td><a href="http://pm.feb.net.pl/issues/{{ issue.id }}" target="blank">{{ issue.subject }}</a></td>
+										<td><a href="<?php echo Configure::read('App.PMUrl') ?>/issues/{{ issue.id }}" target="blank">{{ issue.subject }}</a></td>
 										<td>{{ issue.author.name }}</td>
 								</tr>
 							</tbody>
@@ -99,7 +99,7 @@
 										<td ng-class="{exceeded: (issue.due_date < <?php echo date('Y-m-d') ?>)}"><span ng-if="issue.due_date">{{ issue.due_date }}</span>
 											<span ng-if="!issue.due_date">-</span>
 										</td>
-										<td><a href="http://pm.feb.net.pl/issues/{{ issue.id }}" target="blank">{{ issue.subject }}</a></td>
+										<td><a href="<?php echo Configure::read('App.PMUrl') ?>/issues/{{ issue.id }}" target="blank">{{ issue.subject }}</a></td>
 								</tr>
 							</tbody>
 						</table>

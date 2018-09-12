@@ -14,6 +14,7 @@ App.FebDaneReszow: >
 App.themed: 
 App.WebSenderEmail: d.czyz@feb.net.pl
 App.WebSenderName: FEB.B2B
+App.PMUrl: https://pm.feb.net.pl:8444
 Facebook.appId: 190127107724245
 Facebook.LikeBox: http://www.facebook.com/pages/Klub-Polska/102105043187662
 Facebook.on: 0

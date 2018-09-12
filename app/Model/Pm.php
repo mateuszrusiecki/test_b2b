@@ -71,7 +71,7 @@ class Pm extends AppModel
             return false;
         }
 
-        return new Redmine\Client('https://pm.feb.net.pl:8444', $login, $password);
+        return new Redmine\Client(Configure::read('App.PMUrl'), $login, $password);
     }
 
     /**

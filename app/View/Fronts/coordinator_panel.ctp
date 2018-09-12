@@ -59,7 +59,7 @@
                         2015-04-30
                     </td>
                     <td>
-                        <a target="blank" href="http://pm.feb.net.pl/issues/16718"> feb_b2b :: widok sekretariatu (Lista urlopów i wnioski urlopowe oczekujące na rozpatrzenie. )</a>
+                        <a target="blank" href="<?php echo Configure::read('App.PMUrl') ?>/issues/16718"> feb_b2b :: widok sekretariatu (Lista urlopów i wnioski urlopowe oczekujące na rozpatrzenie. )</a>
                     </td>
                     <td>
                         Mateusz Rusiecki
@@ -99,7 +99,7 @@
                         2015-04-30
                     </td>
                     <td>
-                        <a target="blank" href="http://pm.feb.net.pl/issues/16718"> feb_b2b :: widok sekretariatu (Lista urlopów i wnioski urlopowe oczekujące na rozpatrzenie. )</a>
+                        <a target="blank" href="<?php echo Configure::read('App.PMUrl') ?>/issues/16718"> feb_b2b :: widok sekretariatu (Lista urlopów i wnioski urlopowe oczekujące na rozpatrzenie. )</a>
                     </td>
                 </tr>
             </tbody>

@@ -95,7 +95,7 @@
                                                                     else
                                                                         echo " - ";
                                                                     ?></td>
-                                                            <td><a href="http://pm.feb.net.pl/issues/<?php echo $issue['id'] ?>" target="blank"><?php echo $issue['subject'] ?></a></td>
+                                                            <td><a href="<?php echo Configure::read('App.PMUrl') ?>/issues/<?php echo $issue['id'] ?>" target="blank"><?php echo $issue['subject'] ?></a></td>
                                                             <td><?php echo $issue['author']['name'] ?></td>
                                                         </tr>
                                                     <?php endforeach; ?>
@@ -145,7 +145,7 @@
                                                                     else
                                                                         echo " - ";
                                                                     ?></td>
-                                                            <td><a href="http://pm.feb.net.pl/issues/<?php echo $issue['id'] ?>" target="blank"><?php echo $issue['subject'] ?></a></td>
+                                                            <td><a href="<?php echo Configure::read('App.PMUrl') ?>/issues/<?php echo $issue['id'] ?>" target="blank"><?php echo $issue['subject'] ?></a></td>
                                                         </tr>
                                                     <?php endforeach; ?>
                                                 </tbody>
