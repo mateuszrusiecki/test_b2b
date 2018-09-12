@@ -87,7 +87,7 @@ class FrontsController extends AppController {
 
     public function m_it() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -103,7 +103,7 @@ class FrontsController extends AppController {
 
     public function m_kreacja() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -120,7 +120,7 @@ class FrontsController extends AppController {
     public function m_marketing() {
         
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -136,7 +136,7 @@ class FrontsController extends AppController {
 
     public function m_secretariat() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -300,7 +300,7 @@ class FrontsController extends AppController {
 
     public function m_seo() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -316,7 +316,7 @@ class FrontsController extends AppController {
 
     public function m_slubowisko() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -332,7 +332,7 @@ class FrontsController extends AppController {
 
     public function m_technical() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -395,7 +395,7 @@ class FrontsController extends AppController {
 
     public function superAdmins() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Pulpit użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -411,7 +411,7 @@ class FrontsController extends AppController {
 
     public function w_it() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -427,7 +427,7 @@ class FrontsController extends AppController {
 
     public function w_kreacja() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -443,7 +443,7 @@ class FrontsController extends AppController {
 
     public function w_marketing() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -459,7 +459,7 @@ class FrontsController extends AppController {
 
     public function w_secretariat() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -490,7 +490,7 @@ class FrontsController extends AppController {
 
     public function w_seo() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -506,7 +506,7 @@ class FrontsController extends AppController {
 
     public function w_slubowisko() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -522,7 +522,7 @@ class FrontsController extends AppController {
 
     public function w_technical() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
@@ -538,7 +538,7 @@ class FrontsController extends AppController {
 
     public function w_trader() {
         $title = 'Panel';
-        $subtitle = 'Panel handlowca';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
