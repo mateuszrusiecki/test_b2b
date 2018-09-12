@@ -43,7 +43,7 @@ class EmailConfig {
 
 	public $default = array(
 		'transport' => 'Mail',
-		'from' => 'm.rusiecki@febdev.pl'
+		'from' => 'b2b@feb.net.pl'
 	);
 
     public $public = array(
@@ -54,12 +54,12 @@ class EmailConfig {
     
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('m.rusiecki@febdev.pl' => 'Test Mail name sender'),    
-		'host' => 'mail.febdev.pl',
-		'port' => 25,
+		'from' => array('b2b@feb.net.pl' => 'Test Mail name sender'),    
+		'host' => 'smtp.gmail.com',
+		'port' => 587,
 		'timeout' => 30,
-		'username' => 'crm@febdev.pl',
-		'password' => 'i2aWQsj0',
+		'username' => 'b2b@feb.net.pl',
+		'password' => 'feb123456',
 		//'client' => null
 	);
 

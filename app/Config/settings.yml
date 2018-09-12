@@ -6,7 +6,7 @@ App.AdminEmail: d.czyz@feb.net.pl
 App.AppName: FEB.B2B
 App.ContactEmail: d.czyz@feb.net.pl
 App.ContactName: Damian
-App.CrmMailSettings: '{mail.febdev.pl:110/pop3/novalidate-cert}INBOX'
+App.CrmMailSettings: '{pop.gmail.com:995/pop3/novalidate-cert}INBOX'
 App.defaultLanguage: pol
 App.FebDaneReszow: >
     Fabryka e-biznesu sp. z o.o. ul. Trembeckiego 11A 35-234
