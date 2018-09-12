@@ -263,7 +263,7 @@
                 <tr>
                     <td style="text-align:left;"><img src="/uploaded/ue/poig.png" alt='poig' style="max-height: 100px"/></td>
                     <td class="dot_info"> Dotacje na innowacje – inwestujemy w waszą przyszłość <br/><?php echo date('Y') ?> &copy; feb.b2b / Fabryka e-biznesu.</td>
-                    <td style="text-align:right;"><img src="/uploaded/ue/efrr.png" alt='efrr' style="max-height: 100px"/></td>
+                    <td style="text-align:right;"><img src="/uploaded/ue/efrr.png" alt='efrr' style="max-height: 70px"/></td>
                 </tr>
             </table>
             <div class="dot_info_div">Dotacje na innowacje – inwestujemy w waszą przyszłość <br/><?php echo date('Y') ?> &copy; feb.b2b / Fabryka e-biznesu.</div>

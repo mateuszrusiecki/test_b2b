@@ -51,7 +51,7 @@
             <table class="dotacja">
                 <tr>
                     <td><img src="/uploaded/ue/poig.png" alt='poig' style="max-height: 100px" /></td>
-                    <td><img src="/uploaded/ue/efrr.png" alt='efrr' style="max-height: 100px"/></td>
+                    <td><img src="/uploaded/ue/efrr.png" alt='efrr' style="max-height: 70px"/></td>
                 </tr>
             </table>
             Dotacje na innowacje – inwestujemy w waszą przyszłość <br/>
