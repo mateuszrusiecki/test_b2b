@@ -318,7 +318,7 @@ class FebImage {
     }
 
     static function image($source = null, $target = null) {
-        self::$res = (new Asido)->image($source, $target);
+        self::$res = Asido::image($source, $target);
         return self::$res;
     }
 
@@ -327,7 +327,7 @@ class FebImage {
     }
 
     static function resize($width, $height, $x = null, $y = null, $w = null, $h = null, $mode = ASIDO_RESIZE_PROPORTIONAL) {
-        return (new Asido)->resize(self::$res, $width, $height, $x, $y, $w, $h, $mode);
+        return Asido::resize(self::$res, $width, $height, $x, $y, $w, $h, $mode);
     }
 
     static function width($width) {

@@ -395,7 +395,7 @@ class FrontsController extends AppController {
 
     public function superAdmins() {
         $title = 'Panel';
-        $subtitle = 'Pulpit użytkownika';
+        $subtitle = 'Panel użytkownika';
         $session = $this->Session->read();
         $user_id = $session['Auth']['User']['id'];
 
