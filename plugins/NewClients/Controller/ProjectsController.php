@@ -59,7 +59,7 @@ class ProjectsController extends NewClientsAppController {
 
         $dirManager->processActions();
     }
-    
+
 
     /*
      * Przegląda katalogi projektów w poszukiwaniu
@@ -82,6 +82,26 @@ class ProjectsController extends NewClientsAppController {
         $views = $this->pView->find('all', $options);
         $out = $this->doRefresh($views);
         $this->response->body(json_encode($out));
+    }
+
+    /*
+     * Przegląda katalogi projektów w poszukiwaniu
+     * nowych wersji widoków.
+     */
+    public function refreshAllRedirect() {
+        $projects = $this->Project->find('all');
+        foreach($projects as $project) {
+            $this->_recreateProjectDirTree($project['Project']['id']);
+        }
+
+        $options = array(
+            'recursive' => 1,
+        );
+        $views = $this->pView->find('all', $options);
+        $this->doRefresh($views);
+
+        $this->Session->setFlash('Odświeżono.', 'flash/success', array(), 'contact');
+        $this->redirect('/new_clients/main#/projects/');
     }
 
 

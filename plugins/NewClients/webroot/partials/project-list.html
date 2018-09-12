@@ -15,6 +15,10 @@
                     <span ng-if="clientProjectInfo" class="ml caption-subject font-blue-madison bold uppercase ">{{'Projekt ' + clientProjectInfo.ClientProject.name}}</span>
                 </div>
                 <div class="pull-right toolbar">
+                    <a href="/new_clients/projects/refreshAllRedirect" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
+                        Skanuj pliki graficzne
+                    </a>
+
                     <a ng-if="!routeParams.mode" ng-show="currentUser.role == 'manager'" href="#/settings" class="btn btn-sm blue btn-sm margin-bottom pull-right poitnier margin-left-5">
                         Ustawienia
                     </a>
@@ -26,7 +30,8 @@
                     </a> 
                     <a ng-if="routeParams.mode" href="#/settings/project/{{routeParams.mode}}/{{routeParams.leadOrProjectId}}/0" ng-show="currentUser.role == 'manager'" class="btn btn-sm green-haze btn-sm margin-bottom pull-right poitnier">
                         Dodaj nowy
-                    </a> 
+                    </a>
+
                 </div>
             </div>
             <div class="content margin-top-20">
@@ -112,7 +117,7 @@
                                             </td>
                                             <td class="vertical-middle">
                                                 <div class="thumbs-content" style="min-height: 80px;">
-                                                    <div class="thumb" ng-repeat="item in project.pView| limitTo:4"> 
+                                                    <div class="thumb" ng-repeat="item in project.pView| limitTo:4">
                                                         <img ng-if="item.thumb_path != null" ng-src="/new_clients/storage/image/path:/{{item.thumb_path}}" style="width: 100%; height: 80px" title="{{item.name}}">
                                                         <div class="ng-scope" ng-if="item.thumb_path == null" style="padding-top: 27px;"><i class="fa fa-file-image-o" style="font-size: 30px; padding-left:40px;" ></i></div>
                                                         <!--
